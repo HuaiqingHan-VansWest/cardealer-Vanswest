@@ -1,0 +1,15 @@
+<?php
+/**
+ *Feature Box 02
+ *
+ * @package Cardealer
+ */
+
+return array(
+	'name'              => esc_html__( 'Feature Box 02', 'cardealer' ),
+	'template_category' => esc_html__( 'Feature Box', 'cardealer' ),
+	'disabled'          => true, // Disable it to not show in the default tab.
+	'content'           => '<<<CONTENT
+<p>[vc_section][vc_row][vc_column width="1/3"][vc_row_inner equal_height="yes" css=".vc_custom_1486617375589{margin-right: 0px !important;margin-left: 0px !important;}"][vc_column_inner css=".vc_custom_1493443150329{margin-bottom: 20px !important;border-top-width: 4px !important;padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 155px !important;padding-left: 30px !important;background-image: url(https://sampledata.potenzaglobalsolutions.com/cardealer/wp-content/uploads/2017/01/08.jpg?id=6595) !important;border-top-color: #db2d2e !important;border-top-style: solid !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-beetle" style="style-8" title="Buy a Car" description="We sell perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" css=".vc_custom_1486618162226{margin-top: 30px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3"][vc_row_inner equal_height="yes" css=".vc_custom_1486617410081{margin-right: 0px !important;margin-left: 0px !important;}"][vc_column_inner css=".vc_custom_1493443179378{margin-bottom: 20px !important;border-top-width: 4px !important;padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 155px !important;padding-left: 30px !important;background-image: url(https://sampledata.potenzaglobalsolutions.com/cardealer/wp-content/uploads/2017/01/08.jpg?id=6595) !important;border-top-color: #db2d2e !important;border-top-style: solid !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-price-tag" style="style-8" title="Sell My Car" description="You can sell sed ut unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" css=".vc_custom_1486618296730{margin-top: 30px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3"][vc_row_inner equal_height="yes" css=".vc_custom_1486617522285{margin-right: 0px !important;margin-left: 0px !important;}"][vc_column_inner css=".vc_custom_1493443198799{margin-bottom: 20px !important;border-top-width: 4px !important;padding-top: 30px !important;padding-right: 30px !important;padding-bottom: 155px !important;padding-left: 30px !important;background-image: url(https://sampledata.potenzaglobalsolutions.com/cardealer/wp-content/uploads/2017/01/08.jpg?id=6595) !important;border-top-color: #db2d2e !important;border-top-style: solid !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-reparation" style="style-8" title="Get Service" description="We provide sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium" css=".vc_custom_1486618339781{margin-top: 30px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][/vc_section]</p>
+CONTENT',
+);

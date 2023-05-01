@@ -1,0 +1,27 @@
+<?php
+/**
+ *Feature Box 03
+ *
+ * @package Cardealer
+ */
+
+return array(
+	'name'              => esc_html__( 'Feature Box 03', 'cardealer' ),
+	'template_category' => esc_html__( 'Feature Box', 'cardealer' ),
+	'disabled'          => true, // Disable it to not show in the default tab.
+	'content'           => '<<<CONTENT
+<p>[vc_row full_width="stretch_row_content_no_spaces"][vc_column width="1/3" css=".vc_custom_1493449725423{background-image: url(http://sample-data.potenzaglobal.com/cardealer/uploads/2017/01/15-1.jpg?id=6534) !important;}"][vc_raw_html css=".vc_custom_1486646803104{padding-top: 25px !important;padding-right: 30px !important;padding-left: 30px !important;}"]JTNDZGl2JTIwY2xhc3MlM0QlMjJjb250ZW50LWJveC00JTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDZGl2JTIwY2xhc3MlM0QlMjJpbmZvJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDaDUlMjBjbGFzcyUzRCUyMnRleHQtd2hpdGUlMjIlM0VBbGwlMjBicmFuZHMlM0MlMkZoNSUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUzQ3AlMjBjbGFzcyUzRCUyMnRleHQtd2hpdGUlMjIlM0VXZSUyMGhhdmUlMjBhbGwlMjBicmFuZHMlMjBjYXIlMjBzaXQlMjBhbWV0JTIwY29uc2VjdGV0dXIlMjBhZGlwaXNjaW5nJTIwZWxpdCUyMHNlZCUyMGRvJTIwdGVtcG9yJTIwaW5jaWRpZHVudCUyMHV0JTIwbGFib3JlLiUyMCUzQyUyRnAlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0MlMkZkaXYlM0UlMjAlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NkaXYlMjBjbGFzcyUzRCUyMmxpbmslMjIlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NhJTIwY2xhc3MlM0QlMjJidXR0b24lMjIlMjBocmVmJTNEJTIyJTIzJTIyJTNFJTNDc3BhbiUzRVZpZXclMjBJbnZlbnRvcnklM0MlMkZzcGFuJTNFJTIwJTNDaSUyMGNsYXNzJTNEJTIyZmElMjBmYS1hbmdsZS1kb3VibGUtcmlnaHQlMjIlM0UlM0MlMkZpJTNFJTNDJTJGYSUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRQ==[/vc_raw_html][cd_space desktop="110" tablet="100" portrait="100" mobile="80" mobile_portrait="60"][/vc_column][vc_column width="1/3" css=".vc_custom_1493449746368{background-image: url(http://sample-data.potenzaglobal.com/cardealer/uploads/2017/01/15-1.jpg?id=6534) !important;}"][vc_raw_html css=".vc_custom_1486646977515{padding-top: 25px !important;padding-right: 30px !important;padding-left: 30px !important;}"]JTNDZGl2JTIwY2xhc3MlM0QlMjJjb250ZW50LWJveC00JTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDZGl2JTIwY2xhc3MlM0QlMjJpbmZvJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDaDUlMjBjbGFzcyUzRCUyMnRleHQtd2hpdGUlMjIlM0VEZWFsZXJzaGlwJTNDJTJGaDUlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NwJTIwY2xhc3MlM0QlMjJ0ZXh0LXdoaXRlJTIyJTNFTGV0JTI3cyUyMGxvcmVtJTIwaXBzdW0lMjBkb2xvciUyMHNpdCUyMGFtZXQlMjBhZGlwaXNjaW5nJTIwZWxpdCUyMHNlZCUyMGRvJTIwZWl1c21vZCUyMHRlbXBvciUyMGluY2lkaWR1bnQlMjB1dCUyMGxhYm9yZS4lM0MlMkZwJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDJTJGZGl2JTNFJTIwJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDZGl2JTIwY2xhc3MlM0QlMjJsaW5rJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDYSUyMGNsYXNzJTNEJTIyYnV0dG9uJTIyJTIwaHJlZiUzRCUyMiUyMyUyMiUzRSUzQ3NwYW4lM0VWaWV3JTIwSW52ZW50b3J5JTNDJTJGc3BhbiUzRSUyMCUzQ2klMjBjbGFzcyUzRCUyMmZhJTIwZmEtYW5nbGUtZG91YmxlLXJpZ2h0JTIyJTNFJTNDJTJGaSUzRSUzQyUyRmElM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0MlMkZkaXYlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlM0MlMkZkaXYlM0U=[/vc_raw_html][cd_space desktop="110" tablet="100" portrait="100" mobile="80" mobile_portrait="60"][/vc_column][vc_column width="1/3" css=".vc_custom_1493449764560{background-image: url(http://sample-data.potenzaglobal.com/cardealer/uploads/2017/01/15-1.jpg?id=6534) !important;}"][vc_raw_html css=".vc_custom_1495521987144{padding-top: 25px !important;padding-right: 30px !important;padding-left: 30px !important;}"]JTNDZGl2JTIwY2xhc3MlM0QlMjJjb250ZW50LWJveC00JTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDZGl2JTIwY2xhc3MlM0QlMjJpbmZvJTIyJTNFJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTNDaDUlMjBjbGFzcyUzRCUyMnRleHQtd2hpdGUlMjIlM0VBZmZvcmRhYmxlJTNDJTJGaDUlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NwJTIwY2xhc3MlM0QlMjJ0ZXh0LXdoaXRlJTIyJTNFV2l0aCUyMEFmZm9yZGFibGUlMjBwcmljZSUyMGxvcmVtJTIwaXBzdW0lMjBkb2xvciUyMHNpdCUyMGFtZXQlMjBjb25zZWN0ZXR1ciUyMGVsaXQlMjBzZWQlMjBkbyUyMGVpdXNtb2QlMjB0ZW1wb3IlMjBpbmNpZGlkdW50LiUzQyUyRnAlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0MlMkZkaXYlM0UlMjAlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NkaXYlMjBjbGFzcyUzRCUyMmxpbmslMjIlM0UlMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlM0NhJTIwY2xhc3MlM0QlMjJidXR0b24lMjIlMjBocmVmJTNEJTIyJTIzJTIyJTNFJTNDc3BhbiUzRVZpZXclMjBJbnZlbnRvcnklM0MlMkZzcGFuJTNFJTIwJTNDaSUyMGNsYXNzJTNEJTIyZmElMjBmYS1hbmdsZS1kb3VibGUtcmlnaHQlMjIlM0UlM0MlMkZpJTNFJTNDJTJGYSUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRSUwQSUyMCUyMCUyMCUyMCUyMCUyMCUzQyUyRmRpdiUzRQ==[/vc_raw_html][cd_space desktop="110" tablet="100" portrait="100" mobile="80" mobile_portrait="60"][/vc_column][/vc_row]</p>
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENT',
+);

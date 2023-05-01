@@ -1,0 +1,47 @@
+.pgs-library-modal #elementor-template-library-templates-container {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.pgs-library-templates {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: space-between;
+	/* Your container needs a fixed height, and it needs to be taller than your tallest column. */
+	height: 450px;
+}
+.pgs-library-template {
+	width: 32%;
+}
+/*
+.pgs-library-template::before {
+	counter-increment: pgs-library-templates;
+	content: counter(pgs-library-templates);
+}
+*/
+/* Re-order pgs-library-templates into 3 rows */
+.pgs-library-template:nth-child(3n+1) { order: 1; }
+.pgs-library-template:nth-child(3n+2) { order: 2; }
+.pgs-library-template:nth-child(3n)   { order: 3; }
+
+/* Force new columns */
+.pgs-library-templates::before,
+.pgs-library-templates::after {
+	content: "";
+	flex-basis: 100%;
+	width: 0;
+	order: 2;
+}
+
+.elementor-template-library-template-remote .elementor-template-library-template-insert {
+	width: 65px;
+	padding-right: 10px;
+}
+.elementor-template-library-template-remote .elementor-template-library-template-insert .eicon-file-download {
+	margin-right: 0px;
+}
+.pgs-library-modal .elementor-template-library-template-remote .elementor-template-library-template-name {
+	display: block !important;
+	text-align: right;
+	width: calc( 100% - 40px );
+}

@@ -1,0 +1,231 @@
+/*===============================================*/
+/* Contact Form 7 - Shortcode */
+/*===============================================*/
+.wpcf7-form .wpcf7-form-control-wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+.wpcf7-form p {
+    position: relative;
+}
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="url"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="number"],
+.wpcf7-form input[type="date"],
+.wpcf7-form select,
+.wpcf7-form textarea {
+    background: #f6f6f6;
+    border: 1px solid transparent;
+    resize: vertical;
+    margin-bottom: 0px !important;
+    width: 100%;
+    padding: 12px 18px;
+    color: #626262;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.wpcf7-form input[type="text"]:focus,
+.wpcf7-form input[type="email"]:focus,
+.wpcf7-form input[type="url"]:focus,
+.wpcf7-form input[type="tel"]:focus,
+.wpcf7-form input[type="number"]:focus,
+.wpcf7-form input[type="date"]:focus,
+.wpcf7-form select:focus,
+.wpcf7-form textarea:focus {
+    background: transparent;
+    border-color: #db2d2e;
+    outline: none !important;
+}
+.wpcf7-form select {
+    color: inherit;
+}
+.wpcf7-form input[type="file"]{
+    background: #f6f6f6;
+    padding: 14px;
+    height: 51px;
+    width: 100%;
+}
+.wpcf7-form .wpcf7-form-control-wrap[class*='quiz-'] label{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.wpcf7-form .wpcf7-form-control-wrap .wpcf7-quiz-label {
+    margin-right: 15px;
+}
+.wpcf7-form .form-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.wpcf7-form .wpcf7-checkbox,
+.wpcf7-form .wpcf7-radio {
+    min-height: 51px;
+    display: inline-flex;
+    align-items: center;
+}
+.wpcf7-form .wpcf7-checkbox .wpcf7-list-item:first-child,
+.wpcf7-form .wpcf7-radio .wpcf7-list-item:first-child,
+.wpcf7-form .wpcf7-acceptance .wpcf7-list-item:first-child {
+    margin-left: 0;
+}
+.wpcf7-form .wpcf7-acceptance {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+}
+.wpcf7-form .wpcf7-acceptance input {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Contact Form Button */
+.wpcf7-form input[type="submit"] {
+    clear: both;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    background: #db2d2e;
+    color: #ffffff;
+    display: inline-block;
+    text-transform: capitalize;
+    vertical-align: middle;
+    padding: 8px 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.wpcf7-form input[type="submit"]:hover,
+.wpcf7-form input[type="submit"]:focus,
+.wpcf7-form input[type="submit"]:active {
+    color: #ffffff;
+}
+.wpcf7-form input[type="submit"]:hover {
+    background: #323232;
+}
+.wpcf7-form .btn-full input[type="submit"],
+.wpcf7-form input[type="submit"].btn-full {
+    width: 100%;
+}
+
+/*----------------------*/
+/* Form Validation */
+/*----------------------*/
+.wpcf7-form .wpcf7-not-valid-tip {
+    display: none;
+}
+.wpcf7-form input[type="text"].wpcf7-not-valid,
+.wpcf7-form input[type="email"].wpcf7-not-valid,
+.wpcf7-form input[type="url"].wpcf7-not-valid,
+.wpcf7-form input[type="tel"].wpcf7-not-valid,
+.wpcf7-form input[type="number"].wpcf7-not-valid,
+.wpcf7-form input[type="date"].wpcf7-not-valid,
+.wpcf7-form .wpcf7-not-valid {
+    background: rgba(248, 89, 89, 0.1);
+    border: 1px solid rgba(248, 89, 89, 0.5);
+    color: #db2d2e !important;
+}
+div.wpcf7 .ajax-loader {
+    position: relative;
+    bottom: 0;
+    top: 8px;
+    left: 15px;
+    margin-left: 0;
+}
+div.wpcf7 .btn-full .ajax-loader,
+div.wpcf7 .btn-full + .ajax-loader {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+div.wpcf7 .ajax-loader.is-active {
+    position: relative;
+}
+.wpcf7 form div.wpcf7-response-output {
+    margin: 0;
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+
+/*----------------------*/
+/* Appointment Form */
+/*----------------------*/
+.wpcf7-form .contact-form.appointment-form .form-group {
+    margin-bottom: 50px;
+}
+.wpcf7-form .contact-form.appointment-form input[type="text"],
+.wpcf7-form .contact-form.appointment-form input[type="email"],
+.wpcf7-form .contact-form.appointment-form textarea {
+    background: transparent;
+    border:0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 0;
+}
+.wpcf7-form .contact-form.appointment-form input[type="text"]:focus,
+.wpcf7-form .contact-form.appointment-form input[type="email"]:focus,
+.wpcf7-form .contact-form.appointment-form textarea:focus {
+    border-bottom: 3px solid rgba(255, 255, 255, 1);
+}
+.wpcf7-form .contact-form.appointment-form .form-group .form-control::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.wpcf7-form .contact-form.appointment-form .form-group .form-control::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.wpcf7-form .contact-form.appointment-form .form-group .form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.wpcf7-form .contact-form.appointment-form input[type="submit"] {
+    width: auto;
+    display: inline-block;
+}
+.row-background-dark .contact-form.appointment-form .button:hover {
+    color: #ffffff;
+}
+
+/*------------------------*/
+/* Appointment Form Light */
+/*------------------------*/
+.wpcf7-form .contact-form.appointment-form.appointment-form-light .form-group {
+    margin-bottom: 20px;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light input[type="text"],
+.wpcf7-form .contact-form.appointment-form.appointment-form-light input[type="email"],
+.wpcf7-form .contact-form.appointment-form.appointment-form-light textarea {
+    background: transparent;
+    background: #f6f6f6;
+    border:1px solid #f6f6f6;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 18px;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light input[type="text"]:focus,
+.wpcf7-form .contact-form.appointment-form.appointment-form-light input[type="email"]:focus,
+.wpcf7-form .contact-form.appointment-form.appointment-form-light textarea:focus {
+    border: 1px solid #1551a1;
+    background: #ffffff;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light .form-group .form-control::-moz-placeholder {
+    color: #323232;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light .form-group .form-control::-ms-input-placeholder {
+    color: #323232;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light .form-group .form-control::-webkit-input-placeholder {
+    color: #323232;
+}
+.wpcf7-form .contact-form.appointment-form.appointment-form-light input[type="submit"] {
+    width: auto;
+    display: inline-block;
+}

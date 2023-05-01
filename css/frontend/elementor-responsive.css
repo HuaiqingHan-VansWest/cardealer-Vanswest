@@ -1,0 +1,606 @@
+
+/*=========================================================*/
+/* Max 1400 - View */
+/*=========================================================*/
+@media (max-width: 1400px) {
+
+
+}
+
+/*=========================================================*/
+/* Max 1272 - View */
+/*=========================================================*/
+@media (max-width: 1272px) {
+
+	/*========================================*/
+	/* Counter - Shortcode */
+	/*========================================*/
+	.counter.counter-style-1.counter-light ul li {
+		padding: 20px 30px;
+	}
+
+}
+
+/*=========================================================*/
+/* Max 1200 - View */
+/*=========================================================*/
+@media (max-width:1200px) {
+
+    /*========================================*/
+    /* Blog - Shortcode */
+    /*========================================*/
+    .blog-2 .blog-admin-main{
+        padding-left: 0;
+    }
+    .blog-2 .blog-admin-main .blog-admin{
+        padding-left: 20px;
+    }
+    .blog-2 .blog-admin-main .blog-meta > ul{
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog-2 .blog-admin-main .blog-meta > ul li:first-child {
+        border-left: none;
+    }
+
+    /*========================================*/
+    /* Dealer List - Shortcode */
+    /*========================================*/
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first {width: 66.6666%;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-second {width: 33.3333%;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-third {width: 50%;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first + .cdfs-dealers-search-tools-second {margin-bottom: 20px;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first.is-empty {display: none;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first.is-empty + .cdfs-dealers-search-tools-second {margin-bottom: 0px;}
+}
+
+/*=========================================================*/
+/* Max 1025 - View */
+/*=========================================================*/
+@media (max-width:1025px) {
+
+	.section-title {
+        margin-bottom: 40px;
+    }
+
+}
+
+/*=========================================================*/
+/* Max 992 - View */
+/*=========================================================*/
+@media (max-width:992px) {
+
+	/*========================================*/
+	/* Counter - Shortcode */
+	/*========================================*/
+	.counter .counter-block {
+		margin-bottom: 30px;
+	}
+	.counter.counter-style-1.counter-light ul {
+		display: inline-block;
+		width: 100%;
+		background: #ffffff;
+	}
+
+	/*========================================*/
+	/* Potenza Custom Menu - Shortcode */
+	/*========================================*/
+	.potenza-custom-menu.horizontal {
+		display: none;
+	}
+
+    /*========================================*/
+    /* Timeline - Shortcode */
+    /*========================================*/
+    .timeline:before {
+        left: 25px;
+    }
+    .timeline > li > .timeline-badge {
+        left: 25px;
+    }
+    .timeline > li > .timeline-panel {
+        width: 100%;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel:before {
+        left: -15px;
+    }
+    .timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    .timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline > li:not(.timeline-inverted) {
+        padding-right: 0px;
+        padding-left: 90px;
+    }
+
+    /*========================================*/
+    /* Newsletter - Shortcode */
+    /*========================================*/
+    .news-letter-main {
+        display: block;
+    }
+
+    /*========================================*/
+    /* Quick Link - Shortcode */
+    /*========================================*/
+    .q-link h6 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /*========================================*/
+    /* Blog - Shortcode */
+    /*========================================*/
+    .blog-1 img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .blog-1 .blog-content {
+        padding-left: 0px;
+    }
+    .blog-2 {
+        margin-bottom: 30px;
+    }
+    .masonry-item .blog-2 {
+        margin-bottom: 0px;
+    }
+
+    /*========================================*/
+    /* Team - Shortcode */
+    /*========================================*/
+    .team-2 .team-info {
+        min-height: 200px;
+    }
+
+    /*========================================*/
+    /* Testimonial - Shortcode */
+    /*========================================*/
+    .testimonial-2 .testimonial-center {
+        width: 100%;
+    }
+    .testimonial-5 .testimonial-content {
+        padding: 0;
+    }
+
+    /*========================================*/
+    /* Potenza Vehicles Search - Shortcode */
+    /*========================================*/
+    .slider-content.vehicle-search-section .search-tab .cardealer-tabcontent {
+        padding-top: 60px;
+    }
+
+    /*========================================*/
+    /* Potenza Vehicles by Type - Shortcode */
+    /*========================================*/
+    .search-logo h6 {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .search-logo ul.tabs {
+        float: none;
+    }
+
+    /*========================================*/
+    /* Potenza Tab Vertical Multi Tab - Shortcode */
+    /*========================================*/
+    .tab-vertical.tabs-left .left-tabs-block {
+        width: 27%;
+    }
+    .tab-vertical.tabs-left .tab-content {
+        width: 70%;
+    }
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item {
+        width: 48%;
+    }
+}
+
+/*=========================================================*/
+/* Max 767 - View */
+/*=========================================================*/
+@media (max-width: 767px) {
+
+    /*========================================*/
+    /* Section Title - Shortcode */
+    /*========================================*/
+    .section-title.text-center .separator + p {
+        padding: 0 15px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    /*========================================*/
+    /* Quick Link - Shortcode */
+    /*========================================*/
+    .q-link i {
+        font-size: 16px;
+        height: 50px;
+        line-height: 50px;
+        width: 50px;
+        margin-bottom: 0px;
+    }
+    .q-link h6 {
+        display: none;
+    }
+
+    /*========================================*/
+    /* Blog - Shortcode */
+    /*========================================*/
+    .masonry-item .blog-2 {
+        margin-bottom: 50px;
+    }
+    .blog-2 .blog-admin-main .blog-meta.pull-right {
+        display: initial;
+        float: right !important;
+        border-top: 0px solid #e3e3e3;
+    }
+    .blog-2 .cardealer-share-has-inline-links .cardealer-share-inline-links .single-share-box {display: none;}
+
+    /*========================================*/
+    /* Testimonial - Shortcode */
+    /*========================================*/
+    .testimonial-1 .testimonial-block .testimonial-image img {
+        width: 100%;
+    }
+    .testimonial-3 .testimonial-content{
+        padding-top: 50px;
+    }
+    .testimonial-3 .owl-carousel .owl-item img {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: -35px;
+        position: relative;
+        z-index: 9;
+    }
+    .testimonial-4 .testimonial-block p {
+        padding: 0px;
+    }
+
+    /*========================================*/
+    /* Feature Box - Shortcode */
+    /*========================================*/
+    .feature-box-2.box-hover {
+        margin-bottom: 30px;
+    }
+    .inner-service .feature-box-2 {
+        border: 0px;
+        padding: 20px 30px;
+    }
+    .feature-box.right-align {
+        text-align: left;
+    }
+    .feature-box.style-10 img {
+        width: 100%;
+    }
+
+    /*===============================================*/
+    /* Potenza Vehicles Conditions Tabs - Shortcode */
+    /*===============================================*/
+    .cars_condition_carousel-wrapper .cardealer-tabs h6 {
+        display: block;
+        text-align: center;
+    }
+    .cars_condition_carousel-wrapper .cardealer-tabs .tabs {
+        float: none !important;
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    /*========================================*/
+    /* Potenza Vehicles Search - Shortcode */
+    /*========================================*/
+    .slider-content.vehicle-search-section .search-tab h6 {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    /*========================================*/
+    /* Potenza Custom Filters - Shortcode */
+    /*========================================*/
+    .search-block.search-logo {
+        text-align: center;
+        padding: 15px;
+    }
+    .search-block.search-logo .sort-filters-box > div {
+        width: 100%;
+        float: none;
+    }
+    .search-logo ul.tabs {
+        text-align: center;
+    }
+
+    /*========================================*/
+    /* Potenza Tab Vertical Multi Tab - Shortcode */
+    /*========================================*/
+    .tab-vertical.tabs-left .left-tabs-block {
+        width: 100%;
+        margin-right: 0;
+    }
+    .tab-vertical.tabs-left .tab-content {
+        width: 100%;
+    }
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item {
+        width: 49%;
+    }
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item:nth-child(3n) {
+        margin-right: 2%;
+    }
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item:nth-child(even) {
+        margin-right: 0;
+    }
+
+    /*========================================*/
+    /* Counter - Shortcode */
+    /*========================================*/
+    .counter.counter-style-2.right,
+    .counter.counter-style-3.right {
+        flex-direction: inherit;
+    }
+    .counter.icon.right .icon {
+        padding-left: 0;
+        padding-right: 20px;
+    }
+    .counter.icon.right .content {
+        text-align: left;
+    }
+
+    /*========================================*/
+    /* Play Video - Shortcode */
+    /*========================================*/
+    .play-video.top .video-info {
+        margin-top: 30px;
+    }
+    .play-video .video-info a {
+        width: 70px;
+        height: 70px;
+    }
+    .play-video .video-info a i {
+        width: 50px;
+        height: 50px;
+        line-height: 52px;
+    }
+    .play-video .play-video-bg {
+        padding: 100px 0 190px;
+    }
+
+    /*===============================================*/
+    /* Dealer List - Shortcode */
+    /*===============================================*/
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-filters {
+        margin-bottom: 25px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-field label {
+        display: none;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-field {
+        margin-bottom: 15px;
+    }
+
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list thead {
+        display: none;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody tr {
+        display: block;
+        border-bottom: 2px solid #f2f2f2;
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody tr:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody td {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-bottom: none;
+        padding: 0;
+        margin-bottom: 15px;
+        min-height: 30px;
+        position: relative;
+        padding-left: 180px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 0;
+        min-width: 180px;
+        text-transform: uppercase;
+        color: #323232;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list .cdfs-dealers-list-column-location {
+        max-width: inherit;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list .cdfs-dealers-list-column-location .search-distance {
+        width: 100%;
+    }
+
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools > .row {
+        display: block;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first {
+        display: block;
+        width: 100%;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-first .cdfs-dealers-search-field {
+        margin-bottom: 15px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-second {
+        width: 100%;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-tools-third {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+}
+
+/*=========================================================*/
+/* Max 600 - View */
+/*=========================================================*/
+@media (max-width: 600px) {
+    /*========================================*/
+    /* Potenza Vehicles Search - Shortcode */
+    /*========================================*/
+    .slider-content.vehicle-search-section .search-tab .cardealer-tabcontent form > [class^="col-"] {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+/*=========================================================*/
+/* Max 479 - View */
+/*=========================================================*/
+@media (max-width: 479px) {
+
+	/*========================================*/
+    /* Counter - Shortcode */
+    /*========================================*/
+    .counter.counter-style-1.counter-light ul li {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .counter.counter-style-1.counter-light ul li:nth-child(1),
+    .counter.counter-style-1.counter-light ul li:nth-child(2) {
+        border: 0px;
+    }
+    .counter.counter-style-1.counter-light .icon {
+        display: block;
+        text-align: center;
+    }
+    .counter.counter-style-1.counter-light .info {
+        display: block;
+        text-align: center;
+    }
+
+    /*========================================*/
+    /* Quick Links - Shortcode */
+    /*========================================*/
+    .q-link {
+        flex: none;
+        width: 33.3333%;
+        min-width: 33.3333%;
+        padding: 20px 10px;
+        float: left;
+    }
+    .q-link.box-hover:hover {
+        padding-bottom: 20px;
+    }
+
+    /*========================================*/
+    /* Blog - Shortcode */
+    /*========================================*/
+    .blog-2 .blog-admin-main {
+        padding-left: 0;
+    }
+    .blog-2 .blog-admin-main .blog-meta.pull-right {
+        display: block;
+        float: none !important;
+        border-top: 1px solid #e3e3e3;
+    }
+    .blog-2 .blog-admin-main .blog-admin {
+        padding-left: 20px;
+    }
+    .blog-2 .blog-admin-main .blog-meta > ul {
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .blog-2 .blog-content .blog-meta ul li {
+        text-align: left;
+        width: 49.3333%;
+    }
+    .blog-2 .blog-admin-main .blog-meta > ul li:first-child {
+        border-left: none;
+    }
+    .blog-2 .blog-content .blog-meta ul li.share {
+        text-align: right;
+    }
+
+    /*========================================*/
+    /* Testimonial - Shortcode */
+    /*========================================*/
+    .testimonial-2 .testimonial-content {
+        padding: 30px 20px;
+    }
+
+    /*========================================*/
+    /* Potenza Custom Filters - Shortcode */
+    /*========================================*/
+    .search .search-block {
+        padding: 25px 20px 25px;
+    }
+
+    /*========================================*/
+    /* Play Video - Shortcode */
+    /*========================================*/
+    .slick_sider.video-slider .slick-prev,
+    .slick_sider.video-slider .slick-next {
+        width: 25px;
+        height: 25px;
+    }
+    .slick_sider.video-slider .slick-prev:before,
+    .slick_sider.video-slider .slick-next:before {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .slick_sider.video-slider:hover .slick-slider .slick-prev {
+        left: 15px;
+    }
+    .slick_sider.video-slider:hover .slick-slider .slick-next {
+        right: 15px;
+    }
+
+    /*========================================*/
+    /* Potenza Tab Vertical Multi Tab - Shortcode */
+    /*========================================*/
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item {
+        width: 100%;
+        margin-right: 0;
+    }
+    .tab-vertical.tabs-left .tab-content .tab-pane .grid-item:nth-child(3n) {
+        margin-right: 0%;
+    }
+
+    /*===============================================*/
+    /* Dealer List - Shortcode */
+    /*===============================================*/
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody td {
+        display: block;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-list-wrapper .cdfs-dealers-list tbody td:before {
+        display: block;
+        position: relative;
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form {padding: 25px;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-search input {padding: 9px 30px;}
+    .cdfs-dealers-wrapper .cdfs-dealers-search-form .cdfs-dealers-search-tools .cdfs-dealers-search-reset input {padding: 8px 25px;}
+
+    /*===============================================*/
+	/* Mailchimp - Shortcode */
+	/*===============================================*/
+	.cdhl-mailchimp .mc4wp-form > .mc4wp-form-fields > p > label {white-space: inherit;	flex-wrap: wrap;}
+	.cdhl-mailchimp .mc4wp-form > .mc4wp-form-fields input {width: 100%;}
+	.cdhl-mailchimp .mc4wp-form > .mc4wp-form-fields > p > label > input {margin-top: 10px;}
+
+}

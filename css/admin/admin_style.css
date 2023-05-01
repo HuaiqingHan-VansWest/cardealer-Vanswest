@@ -1,0 +1,2216 @@
+/*
+ * Toolbar & Menu
+ * */
+#wp-toolbar .cd_toolbar_btn img {
+  height: 15px;
+  margin-right: 2px;
+  margin-top: 9px;
+  position: relative;
+}
+
+.acf_field_name-banner_image_bg.acf-field > .acf-input > .acf-radio-list > li input,
+.acf-field.acf-field-radio.acf-image-radio > .acf-input > .acf-radio-list > li input {
+  display: none;
+}
+
+.acf_field_name-banner_image_bg.acf-field > .acf-input > .acf-radio-list > li img,
+.acf-field.acf-field-radio.acf-image-radio > .acf-input > .acf-radio-list > li img {
+  border: 4px solid #d9d9d9;
+  max-height: 75px;
+}
+
+.acf_field_name-banner_image_bg.acf-field > .acf-input > .acf-radio-list > li img:hover,
+.acf-field.acf-field-radio.acf-image-radio > .acf-input > .acf-radio-list > li img:hover {
+  border-color: #FF0000;
+}
+
+.acf_field_name-banner_image_bg.acf-field > .acf-input > .acf-radio-list > li .selected img,
+.acf-field.acf-field-radio.acf-image-radio > .acf-input > .acf-radio-list > li .selected img {
+  border-color: #0073aa;
+}
+
+.radio_btn_title {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+}
+
+/*
+ * Hide Menu Type
+ * */
+body.nav-menus-php .acf-field[data-name="content_type"] {
+  display: none;
+}
+
+/*
+ * Welcoem Screen
+ */
+.cardealer-welcome {
+  font-size: 15px;
+  margin: 25px 40px 0 0;
+  /* max-width: 1050px; */
+  position: relative;
+  padding-right: 115px;
+}
+
+.cardealer-welcome p, .cardealer-welcome ol, .cardealer-welcome ul, .cardealer-welcome code, .cardealer-welcome .code, .cardealer-welcome kbd {
+  font-size: 15px;
+}
+
+.cardealer-welcome pre {
+  overflow: auto;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  padding: 15px;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.cardealer-welcome .notice, .cardealer-welcome .woocommerce-message {
+  display: none;
+}
+
+.cardealer-welcome h1, .cardealer-welcome h2, .cardealer-welcome h3, .cardealer-welcome h4, .cardealer-welcome h5, .cardealer-welcome h6 {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.cardealer-welcome h1 {
+  font-size: 2em;
+}
+
+.cardealer-welcome h3 {
+  font-size: 1.15em;
+}
+
+.cardealer-welcome blockquote {
+  border-left: 4px solid #d1d1d1;
+  margin: 1em 1em 1em 0;
+  padding-left: 15px;
+}
+
+.cardealer-welcome h1 {
+  color: #32373c;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.cardealer-welcome .cardealer-welcome-about, .cardealer-welcome .cardealer-welcome-content {
+  color: #555d66;
+  margin: 1em 0;
+}
+
+.cardealer-welcome .cardealer-welcome-about {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+.cardealer-welcome .cardealer-welcome-content .important {
+  color: #f00;
+}
+
+.cardealer-welcome .wp-badge {
+  /* background-image: url("../images/admin/welcome-logo.png"); */
+  color: #32373c;
+  height: 120px;
+  line-height: 120px;
+  overflow: hidden;
+  padding-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.cardealer-welcome .cardealer-welcome-badge.cardealer-welcome-badge-without-logo .wp-badge {
+  color: #fff;
+}
+
+.cardealer-welcome-badge .cardealer-welcome-badge-version {
+  background-color: #0073aa;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 125px;
+  width: 140px;
+}
+
+/********************************************************************************************
+ *
+ * TGM Plugin Activation
+ *
+ ********************************************************************************************/
+#tgmpa-plugins .tgmpa-type-required > th, #tgmpa-plugins .tgmpa-type-required > td {
+  background-color: #fef7f1;
+}
+
+/********************************************************************************************
+ *
+ * Redux
+ *
+ ********************************************************************************************/
+/* Header OLD CSS */
+/*.redux-container #redux-header {
+	background: rgba(0, 0, 0, 0) url("../images/options-header.png") no-repeat scroll 0 0 / cover !important;
+	padding: 30px 50px;
+	border-bottom: none;
+	position: relative;
+}
+.redux-container #redux-header:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+}
+.redux-container #redux-header .display_header {
+	position: relative;
+	z-index: 1;
+}*/
+/* Header New CSS */
+.redux-container #redux-header {
+  background: rgba(0, 0, 0, 0) url("../../images/options-header.png") no-repeat scroll 0 0/cover !important;
+  padding: 30px 35px;
+  border-bottom: none;
+  position: relative;
+}
+
+.redux-container #redux-header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.redux-container #redux-header .display_header {
+  position: relative;
+  z-index: 1;
+  margin: 20px 0;
+}
+
+.redux-container #redux-header .display_header h2 {
+  background-image: url("../../images/logo-light.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  width: 170px;
+  height: 30px;
+}
+
+.redux-container #redux-header .display_header h2 span {
+  margin-left: 5px;
+}
+
+/* Redux Fix*/
+.redux-field-container .ui-button-text-only .ui-button-text {
+  padding: 0;
+}
+
+/* Redux About Section */
+.redux-group-tab.theme_about_section > h2 {
+  border-bottom: 1px solid #ccc;
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.redux-group-tab.theme_changelog_section > h2 {
+  display: none;
+}
+
+.redux-group-tab.theme_about_section .redux-field-container ul,
+.redux-group-tab.theme_changelog_section .redux-field-container ul {
+  list-style: unset;
+  margin-left: 15px;
+}
+
+/* Hide Section Expander */
+#redux-form-wrapper .expand_options {
+  display: none;
+}
+
+.redux-container .redux-main .field-desc .field-desc-important {
+  background-color: #fbeba4;
+  border: 1px solid #d7c281;
+  color: #958234;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-repeater .pgs-repeater-field-type-text {
+  width: 100%;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-raw .ace-wrapper {
+  position: static;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-raw .raw_pre {
+  min-height: 50px;
+}
+
+/********************************************************************************************
+ *
+ * Mega Menu
+ *
+ ********************************************************************************************/
+#cd_megamenu_wrapper .postbox {
+  border: medium none;
+  box-shadow: none;
+}
+
+#cd_megamenu_wrapper .handlediv.button-link, #cd_megamenu_wrapper .hndle.ui-sortable-handle {
+  display: none;
+}
+
+#cd_megamenu_wrapper .postbox > .inside {
+  margin: 0;
+  padding: 0;
+}
+
+#cd_megamenu_wrapper .setting-section-title {
+  padding: 0;
+}
+
+.menu-item-settings > .acf-fields > h3 {
+  display: none;
+}
+
+.menu-item-settings .acf-field .acf-label {
+  margin: 0;
+}
+
+.menu-item-settings .acf-field .acf-label label {
+  font-size: 11px;
+}
+
+body > .acf-hidden {
+  display: none !important;
+}
+
+.acf-field.acf-field-true-false.acf_field_name-disable_link {
+  display: none;
+}
+
+/*
+*********** Welcome to CarDealer sample data desing ******************
+*********************** Installation Wizard  *************************
+*/
+.cardealer-admin-theme-page .cardealer-about-text-wrap h1 {
+  /* font-size: 34px; line-height: 34px; margin-bottom: 20px;*/
+}
+
+.cardealer-admin-theme-page .cardealer-about-text.about-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.cardealer-admin-theme-page .nav-tab-wrapper, .cardealer-admin-theme-page .wrap h2.nav-tab-wrapper, .cardealer-admin-theme-page h1.nav-tab-wrapper {
+  border-bottom: none;
+  background: #323232;
+  padding-top: 0;
+  margin-top: 20px;
+}
+
+.cardealer-admin-theme-page .nav-tab {
+  border: none;
+  background: #323232;
+  color: #ffffff;
+  margin-left: 0;
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: 26px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.cardealer-admin-theme-page .nav-tab:hover, .cardealer-admin-theme-page .nav-tab:focus {
+  background: #DB2E2D;
+  color: #ffffff;
+  border: none;
+}
+
+.cardealer-admin-theme-page .nav-tab-active, .cardealer-admin-theme-page .nav-tab-active:focus, .cardealer-admin-theme-page .nav-tab-active:focus:active, .cardealer-admin-theme-page .nav-tab-active:hover {
+  background: #DB2E2D;
+  color: #ffffff;
+  border: none;
+}
+
+.cardealer-admin-theme-page .nav-tab-wrapper, .cardealer-admin-theme-page.wrap h2.nav-tab-wrapper, .cardealer-admin-theme-page h1.nav-tab-wrapper {
+  padding-top: 0;
+}
+
+.cardealer-admin-theme-page .support-bg {
+  background: #ffffff;
+  padding: 30px;
+}
+
+.cardealer-admin-theme-page p.about-description {
+  font-size: 16px;
+  margin: 0px 0 20px;
+}
+
+.cardealer-admin-theme-page .wp-core-ui .button-group.button-large .button, .cardealer-admin-theme-page .wp-core-ui .button.button-large {
+  margin-bottom: 30px;
+  height: 60px;
+  line-height: 17px;
+  padding: 20px 32px;
+  font-size: 20px;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 0;
+  border: none;
+  background: #db2e2d;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.cardealer-admin-theme-page .wp-core-ui .button-group.button-large:hover .button, .cardealer-admin-theme-page .wp-core-ui .button.button-large:hover {
+  background: #323232;
+}
+
+.cardealer-admin-theme-page .cardealer-welcome {
+  margin-right: 0 !important;
+}
+
+.cardealer-admin-theme-page .cardealer-welcome-badge-version {
+  background: #db2e2d !important;
+}
+
+.cardealer-admin-theme-page .cardealer-welcome .cardealer-welcome-badge .wp-badge {
+  height: 90px;
+  width: 100px;
+  top: -22px;
+}
+
+.cardealer-admin-theme-page .cardealer-welcome .cardealer-welcome-badge .wp-badge img {
+  height: 80px !important;
+}
+
+.cardealer-admin-theme-page .cardealer-welcome .cardealer-welcome-badge .cardealer-welcome-badge-version {
+  top: 53px;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  background: #db2e2d;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-row {
+  display: flex;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half {
+  width: 33.33%;
+  float: left;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half.ticket {
+  background: #eeff41;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half.documentation {
+  background: #a0f8bc;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half.video {
+  background: #19ffff;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half-inner {
+  padding: 30px 50px;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half-inner h3 {
+  font-size: 26px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half-inner img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half-inner a {
+  background: #323232;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 14px;
+  margin-top: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.cardealer-admin-theme-page .cardealer-admin-one-half-inner a:hover {
+  background: #db2e2d;
+}
+
+.wp-admin #wpbody .cardealer-admin-theme-page.cardealer-admin-plugins-screen .tgmpa.wrap h1 {
+  display: none !important;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-plugins-screen .tablenav.top {
+  display: none;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-plugins-screen .subsubsub {
+  margin-top: 0;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-plugins-screen .wrap {
+  margin-right: 0;
+  background: #ffffff;
+  margin-top: 0;
+  padding: 30px;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-plugins-screen .tgmpa.wrap {
+  margin: 0;
+}
+
+.cardealer-theme-panel-tgmpa-wrap .tgmpa > h2 {
+  display: none;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen .widefat td:first-child {
+  font-weight: bold;
+  width: 180px;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen .widefat td mark {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen .help_tip {
+  position: relative;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen a.help_tip::before {
+  content: attr(data-tip);
+  font-size: 13px;
+  position: absolute;
+  z-index: 999;
+  white-space: inherit;
+  bottom: 9999px;
+  left: 50%;
+  background: #000;
+  color: #e0e0e0;
+  padding: 0px 7px;
+  line-height: 24px;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+  max-width: 700px;
+  width: max-content;
+  width: -moz-max-content;
+  width: -o-max-content;
+  width: -ms-max-content;
+  width: -webkit-max-content;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen a.help_tip:hover::before {
+  opacity: 1;
+  bottom: -35px;
+}
+
+.cardealer-admin-theme-page.cardealer-admin-status-screen table.widefat {
+  margin: 20px 0;
+}
+
+.cardealer-admin-theme-page .ratings-content {
+  text-align: center;
+  padding: 30px 50px 30px;
+  background: #ffffff;
+}
+
+.cardealer-admin-theme-page .ratings-content p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cardealer-admin-theme-page .ratings-content p a {
+  color: #db2e2d;
+}
+
+.cardealer-admin-theme-page .ratings-content img {
+  margin-top: 50px;
+}
+
+.cardealer-admin-theme-page .cardealer-panel-tab-content {
+  padding: 30px;
+  background: #ffffff;
+}
+
+.cardealer-admin-theme-page .cardealer-panel-tab-content p {
+  font-size: 14px;
+}
+
+.cardealer-admin-theme-page .cardealer-panel-tab-content p.submit {
+  padding-bottom: 0;
+}
+
+.cardealer-admin-theme-page .cardealer-panel-tab-content .cardealer-more-feature-heading {
+  margin-top: 0;
+}
+
+.cardealer-theme-panel-install-plugin-note {
+  padding: 30px 30px 0;
+  background-color: #fff;
+}
+
+.cardealer-theme-panel-install-plugin-note p {
+  margin: 0;
+  border: 1px solid #c3c4c7;
+  padding: 15px;
+  border-left-width: 4px;
+  border-left-color: #d63638;
+  font-size: 16px;
+}
+
+.notice.cardealer-theme-plugin-note p {
+  font-size: 16px;
+}
+
+@media (max-width: 1100px) {
+  .cardealer-admin-theme-page .cardealer-admin-one-half-inner h3 {
+    font-size: 20px;
+  }
+  .cardealer-admin-theme-page .ratings-content img {
+    width: 100%;
+  }
+  .cardealer-admin-theme-page.cardealer-admin-status-screen a.help_tip::before {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .cardealer-admin-theme-page .cardealer-admin-row {
+    display: block;
+  }
+  .cardealer-admin-theme-page .cardealer-admin-one-half {
+    width: 100%;
+  }
+}
+
+/*New Token css*/
+.cdhl-admin-theme-page .support-bg #cardealer_activate_theme {
+  position: relative;
+}
+
+.cdhl-admin-theme-page .support-bg #cardealer_activate_theme input {
+  width: 70%;
+  padding-left: 10px;
+  background: #f1f1f1;
+  border-color: #f1f1f1;
+  box-shadow: none;
+  height: 46px;
+  transition: all 0.5s ease-in-out;
+}
+
+.cdhl-admin-theme-page .support-bg #cardealer_activate_theme input:focus {
+  border-color: #DB2E2D;
+  background: #ffffff;
+}
+
+.cdhl-admin-theme-page .support-bg #cardealer_activate_theme .submit input {
+  background: #323232;
+  border-color: #323232;
+  color: #ffffff;
+  text-shadow: none;
+  box-shadow: none;
+  width: inherit;
+  height: inherit;
+  border-radius: 0px;
+  padding: 10px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.cdhl-admin-theme-page .support-bg #cardealer_activate_theme .submit input:hover {
+  background: #DB2E2D;
+  border-color: #DB2E2D;
+  color: #ffffff;
+}
+
+.cdhl-admin-theme-page .support-bg .submit {
+  padding-top: 0;
+}
+
+.cdhl-admin-theme-page .support-bg .dashicons {
+  height: 46px;
+  line-height: 46px;
+  position: absolute;
+  left: 70%;
+  background: #db2e2d;
+  color: #ffff;
+  width: 46px;
+  margin-top: 1px;
+}
+
+.cdhl-admin-theme-page .support-bg .dashicons.dashicons-yes {
+  height: 46px;
+  line-height: 46px;
+  position: absolute;
+  right: -39px;
+  background: green;
+  color: #ffff;
+  width: 46px;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-info {
+  background: rgba(23, 162, 184, 0.2);
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cdhl-admin-theme-page .support-bg h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-admin-important-notice,
+.redux-section-desc .cdhl-admin-important-notice {
+  background: rgba(23, 162, 184, 0.2);
+  color: #17a2b8;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-admin-important-error {
+  background: rgba(219, 46, 45, 0.2);
+  color: #db2e2d;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-admin-important-success {
+  background: rgba(40, 167, 69, 0.2);
+  color: #28a745;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cdhl-admin-theme-page .support-bg ul {
+  position: relative;
+  margin-top: 10px;
+}
+
+.cdhl-admin-theme-page .support-bg ul li {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 24px;
+  color: #656565;
+  padding-left: 50px;
+}
+
+.cdhl-admin-theme-page .support-bg ul li span {
+  border: 2px solid #f1f1f1;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  left: 0;
+}
+
+.cdhl-admin-theme-page .support-bg {
+  display: block;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-theme-panel-left {
+  width: 38%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 2%;
+}
+
+.cdhl-admin-theme-page .support-bg .cdhl-theme-panel-right {
+  width: 58%;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .cdhl-admin-theme-page .support-bg .cdhl-theme-panel-left {
+    width: 100%;
+  }
+  .cdhl-admin-theme-page .support-bg .cdhl-theme-panel-right {
+    width: 100%;
+  }
+}
+
+/*New Token css*/
+.cardealer-admin-theme-page .support-bg #cardealer_activate_theme {
+  position: relative;
+}
+
+.cardealer-admin-theme-page .support-bg #cardealer_activate_theme input {
+  width: 70%;
+  padding-left: 10px;
+  background: #f1f1f1;
+  border-color: #f1f1f1;
+  box-shadow: none;
+  height: 46px;
+  transition: all 0.5s ease-in-out;
+}
+
+.cardealer-admin-theme-page .support-bg #cardealer_activate_theme input:focus {
+  border-color: #DB2E2D;
+  background: #ffffff;
+}
+
+.cardealer-admin-theme-page .support-bg #cardealer_activate_theme .submit input {
+  background: #323232;
+  border-color: #323232;
+  color: #ffffff;
+  text-shadow: none;
+  box-shadow: none;
+  width: inherit;
+  height: inherit;
+  border-radius: 0px;
+  padding: 10px 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.cardealer-admin-theme-page .support-bg #cardealer_activate_theme .submit input:hover {
+  background: #DB2E2D;
+  border-color: #DB2E2D;
+  color: #ffffff;
+}
+
+.cardealer-admin-theme-page .support-bg .submit {
+  padding-top: 0;
+}
+
+.cardealer-admin-theme-page .support-bg .dashicons {
+  height: 46px;
+  line-height: 46px;
+  position: absolute;
+  left: 70%;
+  background: #db2e2d;
+  color: #ffff;
+  width: 46px;
+  margin-top: 1px;
+}
+
+.cardealer-admin-theme-page .support-bg .dashicons.dashicons-yes {
+  height: 46px;
+  line-height: 46px;
+  position: absolute;
+  right: -39px;
+  background: green;
+  color: #ffff;
+  width: 46px;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-info {
+  background: rgba(23, 162, 184, 0.2);
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cardealer-admin-theme-page .support-bg h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-admin-important-notice,
+.redux-section-desc .cardealer-admin-important-notice {
+  background: rgba(23, 162, 184, 0.2);
+  color: #17a2b8;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-admin-important-error {
+  background: rgba(219, 46, 45, 0.2);
+  color: #db2e2d;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-admin-important-success {
+  background: rgba(40, 167, 69, 0.2);
+  color: #28a745;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.cardealer-admin-theme-page .support-bg ul {
+  position: relative;
+  margin-top: 10px;
+}
+
+.cardealer-admin-theme-page .support-bg ul li {
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 24px;
+  color: #656565;
+  padding-left: 50px;
+}
+
+.cardealer-admin-theme-page .support-bg ul li span {
+  border: 2px solid #f1f1f1;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  left: 0;
+}
+
+.cardealer-admin-theme-page .support-bg {
+  display: block;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-theme-panel-left {
+  width: 38%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 2%;
+}
+
+.cardealer-admin-theme-page .support-bg .cardealer-theme-panel-right {
+  width: 58%;
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .cardealer-admin-theme-page .support-bg .cardealer-theme-panel-left {
+    width: 100%;
+  }
+  .cardealer-admin-theme-page .support-bg .cardealer-theme-panel-right {
+    width: 100%;
+  }
+}
+
+/*********************** Installation Wizard End *************************/
+.redux-container #redux-header .display_header .redux-dev-mode-notice-container {
+  top: 38px;
+  left: 260px;
+  right: auto;
+}
+
+.redux-container #redux-header .display_header span.redux-dev-mode-notice {
+  background: none;
+}
+
+#redux-header .cardealer-option-search {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+  position: relative;
+}
+
+#redux-header .cardealer-option-search:before {
+  content: "\f002";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  right: 5px;
+  top: 13px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#redux-header .cardealer-option-search #cardealer-option-search-input {
+  height: 45px;
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  box-shadow: none;
+  font-size: 16px;
+}
+
+#redux-header .cardealer-option-search input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#redux-header .cardealer-option-search input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#redux-header .cardealer-option-search input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#redux-header .cardealer-option-search input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.ui-autocomplete.cardealer-reduxoptions-result {
+  box-shadow: none;
+  width: 319px !important;
+  max-height: 550px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-top: -2px;
+  -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.ui-autocomplete.cardealer-reduxoptions-result > li {
+  border: none;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 10px;
+  padding-left: 50px;
+  position: relative;
+  color: #555555;
+  margin: 0;
+}
+
+.ui-autocomplete.cardealer-reduxoptions-result > li .settting-path {
+  font-size: 12px;
+  color: #777777;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+.ui-autocomplete.cardealer-reduxoptions-result > li > i {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+  font-size: 16px;
+}
+
+.ui-autocomplete.cardealer-reduxoptions-result > li:hover, .ui-autocomplete.cardealer-reduxoptions-result > li.ui-state-focus {
+  background: #f5f5f5;
+}
+
+.redux-group-tab .form-table tbody > tr {
+  border-left: 0px solid #04d39f;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.redux-group-tab .form-table tbody > tr > th {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.redux-group-tab .form-table tbody > tr.redux-current-options {
+  border-left: 3px solid #04d39f;
+}
+
+.redux-group-tab .form-table tbody > tr.redux-current-options > th {
+  padding-left: 15px !important;
+}
+
+.redux-group-tab.theme_changelog_section .redux_field_th {
+  font-size: 1.3em !important;
+}
+
+/*-------------------------------------------*/
+/* Cardealer Debug Tab lists */
+/*-------------------------------------------*/
+.cardealer-admin-wrap .cardealer-debug-tab-container {
+  display: flex;
+  background: #ffffff;
+  margin-top: 20px;
+  border: 1px solid #ccd0d4;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-lists {
+  width: 250px;
+  min-height: 350px;
+  flex: none;
+  background: #F9F9F9;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 1px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-lists:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  border-right: #DFDFDF solid 1px;
+  background: #F9F9F9;
+  z-index: -1;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content {
+  width: 100%;
+  padding: 25px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-lists .cardealer-debug-tab {
+  margin-bottom: -1px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-lists .cardealer-debug-tab a {
+  color: #757575;
+  display: block;
+  border: 1px solid #ededed;
+  border-right: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  padding: 15px 20px;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-lists .cardealer-debug-tab a.activelink {
+  background: #ffffff;
+  color: #323232;
+  margin-right: -1px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content label {
+  vertical-align: middle;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=date],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=datetime-local],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=datetime],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=email],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=month],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=number],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=password],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=search],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=tel],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=text],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=time],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=url],
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=week] {
+  width: 100%;
+  padding: 6px 15px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content p.description {
+  margin: 5px 0 15px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-pdf-generator-wrap select {
+  padding: 6px 15px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-pdf-generator-wrap .select2-container .select2-selection--single,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-pdf-generator-wrap .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-pdf-generator-wrap .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 40px;
+}
+
+.cardealer-debug-pdf-generator-field {
+  margin-bottom: 10px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content input[type=submit],
+.cardealer-debug-tab-container .cardealer-debug-tab-content .debug-user-mailchimp {
+  cursor: pointer;
+  background: #007cba;
+  border: 1px solid #007cba;
+  font-size: 13px;
+  padding: 7px 26px;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content #cd-map-canvas {
+  margin-top: 20px;
+  width: 100% !important;
+  height: 380px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-mailchimp-content-notice {
+  margin-bottom: 15px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content {
+  position: relative;
+  height: 100%;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content.loading:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  right: -25px;
+  top: -25px;
+  bottom: -25px;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url("../images/loader_img/cd_loader.svg");
+  background-position: center center;
+  background-attachment: inherit;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+
+/* Notice Message */
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-map-content-notice,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-vinquery-content-notice,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-mailchimp-content-notice {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  border-left-color: #ffb900;
+}
+
+/* Validation Message */
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content-response,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-vinquery-debug-content-response,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-mailchimp-debug-content-response,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-response {
+  line-height: 26px;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 3px;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content-response p,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-vinquery-debug-content-response p,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-mailchimp-debug-content-response p,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-response p {
+  margin: 5px 0;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content-response.failed,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-vinquery-debug-content-response.failed,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-mailchimp-debug-content-response.failed,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-response.failed {
+  background: #ffcdcc;
+}
+
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-content-response.success,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-vinquery-debug-content-response.success,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-mailchimp-debug-content-response.success,
+.cardealer-debug-tab-container .cardealer-debug-tab-content .cardealer-debug-response.success {
+  background: #caf9ce;
+}
+
+.wp-core-ui .button-primary:focus {
+  box-shadow: none;
+}
+
+.redux-main .redux-group-tab .select2-container--default .select2-selection--multiple {
+  min-height: 70px;
+}
+
+.redux-main .redux-group-tab .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  padding-left: 25px;
+}
+
+/********************************************************************************************
+ * New Theme Option CSS
+ *******************************************************************************************/
+.redux-container .redux-main h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #212121;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.redux-container .redux-group-tab h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 20px 20px;
+  border-left: 4px solid #256cc3;
+}
+
+.redux-container .redux-main .redux_field_th {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 25px 15px 0;
+}
+
+.redux-container .redux-main .redux_field_th .description {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.redux-container .redux-notice-field {
+  margin-bottom: 15px;
+}
+
+/*--------------------------*/
+/* Left Side Expand */
+/*--------------------------*/
+.redux-container .redux-main.expand {
+  background: #ffffff;
+}
+
+.redux-container .redux-main.expand #redux-sticky {
+  margin-bottom: 20px;
+}
+
+.redux-container .redux-main.expand .redux-group-tab {
+  background: #f0f4f8;
+}
+
+.redux-container .redux-main.expand .form-table tr.fold {
+  display: flex !important;
+}
+
+.redux-container .redux-main.expand .form-table > tbody > tr > th {
+  min-width: 318px;
+  width: 318px;
+}
+
+.redux-container .redux-main.expand .form-table > tbody > tr > td {
+  width: 100%;
+}
+
+.redux-container .redux-main.expand .redux-group-tab.section-fold {
+  background-color: #b9d3ec;
+}
+
+.redux-container .redux-main.expand .redux-group-tab.section-fold h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+/*--------------------------*/
+/* Left Side Menu */
+/*--------------------------*/
+.redux-container,
+.redux-container .redux-sidebar .redux-group-menu {
+  background-color: #ffffff;
+  background-image: inherit;
+}
+
+.redux-container .redux-sidebar .redux-group-menu {
+  padding: 25px 0;
+}
+
+.redux-container .redux-sidebar .redux-group-menu > li {
+  margin: 0 25px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #334E68 !important;
+  padding: 10px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a > i {
+  font-size: 12px;
+  top: 14px;
+  left: 10px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a img {
+  left: 8px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a .extraIconSubsections {
+  right: 8px;
+}
+
+.redux-sidebar .redux-group-tab-link-a span.group_title {
+  padding-left: 25px;
+  font-weight: 500;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li a:hover {
+  width: auto;
+  box-shadow: none;
+  border-radius: 3px;
+  background: #f0f4f8 !important;
+  color: #334E68 !important;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.active a:hover,
+.redux-container .redux-sidebar .redux-group-menu li.hasSubSections.activeChild a {
+  width: auto;
+  background: #256cc3 !important;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li.hasSubSections.activeChild > a {
+  border-radius: 3px 3px 0 0;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection {
+  background: #d5e8ff;
+  padding: 0;
+  border-radius: 0 0 3px 3px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection i,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a i {
+  color: inherit !important;
+}
+
+.redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li.hasIcon a span.group_title,
+.redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li.hasIcon a span.group_title {
+  padding-left: 20px !important;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a {
+  background-color: inherit !important;
+  color: #334E68 !important;
+  border-radius: 0;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li .subsection li.redux-group-tab-link-li .redux-group-tab-link-a,
+.redux-container .redux-sidebar .redux-group-menu li .subsection .redux-group-tab-link-li .redux-group-tab-link-a:hover,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a {
+  background-color: inherit !important;
+  color: #48607b !important;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections .subsection li.active a,
+.redux-container .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a:hover,
+.redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a:hover {
+  background: #aed2ff !important;
+  color: #48607b !important;
+}
+
+body .redux-container .redux-sidebar .redux-group-menu li.hasSubSections.redux-group-tab-link-li:hover a i,
+body .redux-container .redux-sidebar .redux-group-menu li.hasSubSections.redux-group-tab-link-li a:hover i {
+  color: #48607b !important;
+}
+
+body .redux-container .redux-sidebar .redux-group-menu li.hasSubSections.activeChild:hover > a > i,
+body .redux-container .redux-sidebar .redux-group-menu li.hasSubSections.activeChild > a:hover > i {
+  color: #ffffff !important;
+}
+
+.redux-container .redux-sidebar .redux-group-menu li.hasSubSections .subsection li a i {
+  background-color: inherit !important;
+  top: 11px;
+}
+
+/*--------------------------*/
+/* Right Side Content */
+/*--------------------------*/
+.redux-container .redux-main {
+  background: #f0f4f8;
+}
+
+.redux-main .form-table-section-indented {
+  width: 100%;
+  margin-left: 0% !important;
+}
+
+.redux-main .form-table.form-table-section-indented > tbody > tr > th .redux_field_th {
+  padding-left: 50px;
+}
+
+.redux-container .redux-main .form-table tr.fold {
+  display: block !important;
+}
+
+.redux-container .redux-main .form-table tr.fold.cardealer_hide_it {
+  display: none !important;
+}
+
+.redux-container .redux-main .form-table tr.fold.hide,
+.redux-container .redux-main .form-table tr.fold.hide > th,
+.redux-container .redux-main .form-table tr.fold.hide > td {
+  display: none !important;
+}
+
+.redux-container .redux-main .form-table > tbody > tr {
+  border-bottom: 0px solid #e7e7e7;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.redux-container .redux-main .form-table > tbody > tr > th {
+  min-width: 350px;
+}
+
+.redux-container .redux-main .form-table > tbody > tr > td {
+  background: #ffffff;
+  padding: 0 20px;
+  border-radius: 3px;
+  /* box-shadow: 0 3px 17px rgb(0 0 0 / 3%); */
+  box-shadow: 0 3px 17px rgba(0, 0, 0, 0.03);
+}
+
+.redux-container .redux-main .form-table > tbody > tr > td .redux-field-container.redux-container-info {
+  padding: 0 !important;
+}
+
+@media (max-width: 1405px) {
+  .redux-container .redux-main .form-table > tbody > tr > td .redux-field-container {
+    padding: 20px 0 !important;
+  }
+}
+
+.redux-container .redux-main .form-table tr.cardealer-vehicle-mileage-breakdown-wrapper td {
+  width: calc( 100% - 30px);
+  display: block;
+}
+
+.redux-container .redux-main input,
+.redux-container .redux-main textarea {
+  padding: 10px 15px;
+  background: #ffffff;
+  border: 1px solid #bcccdc;
+  border-radius: 3px;
+  /* box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 8%); */
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.redux-container .redux-main .select2-container--default .select2-selection--single {
+  padding: 5px;
+  height: 41px;
+  background: #ffffff;
+  border: 1px solid #bcccdc;
+  border-radius: 3px;
+  /*box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 8%);*/
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.redux-container .redux-main .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 40px;
+  right: 5px;
+}
+
+.redux-container .redux-main fieldset.redux-sorter-container,
+.redux-container .redux-main fieldset.redux-sorter-container .ui-sortable {
+  margin-bottom: 20px;
+}
+
+.redux-group-tab .redux-container-select .select2-container .select2-search--inline {
+  float: none;
+  display: inline-block;
+  padding-left: 7px;
+}
+
+/* Radio Horizontal =============*/
+.redux-container .redux-main .form-table > tbody > tr.cardealer-redux-field-radio-horizontal .data-full li {
+  width: auto;
+  float: left;
+  margin-left: 15px;
+}
+
+.redux-container .redux-main .form-table > tbody > tr.cardealer-redux-field-radio-horizontal .data-full li:first-child {
+  margin-left: 0;
+}
+
+/* Notice =============*/
+.redux-container .redux-group-tab .redux-info-field {
+  display: flex;
+  padding: 5px 15px;
+}
+
+.redux-container .redux-info-field.redux-warning {
+  background-color: #fff6ca;
+  border-color: #e8d8a6;
+  color: #958234;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice > td {
+  padding: 0px;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice > td .redux-field-container {
+  min-height: 20px;
+  padding: 20px;
+  /* margin: 10px 0; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice.cardealer-options-notice-normal > td .redux-field-container {
+  background-color: #eee;
+  border-color: #ccc;
+  color: #666;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice.cardealer-options-notice-warning > td .redux-field-container {
+  background-color: #fbeba4;
+  border-color: #d7c281;
+  color: #958234;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice.cardealer-options-notice-success > td .redux-field-container {
+  background-color: #c4ee91;
+  border-color: #71af5d;
+  color: #4d7615;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice.cardealer-options-notice-critical > td .redux-field-container {
+  background-color: #fba1a3;
+  border-color: #b84f5b;
+  color: #981225;
+}
+
+.redux-container .redux-main .form-table > tbody > .cardealer-options-notice.cardealer-options-notice-info > td .redux-field-container {
+  background-color: #d3e4f4;
+  border-color: #a9b6c2;
+  color: #5c80a1;
+}
+
+/*
+.cardealer-options-notice {
+	display: flex;
+	padding: 5px 15px;
+}
+*/
+/* Sortable =============*/
+.redux-container .redux-container-sortable .redux-sortable li {
+  padding: 13px 15px;
+  margin-bottom: 8px !important;
+  background: #f4f9ff;
+  border-color: #94b3da;
+  border-radius: 3px;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li.invisible {
+  background: transparent;
+  visibility: visible;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li .checkbox-container {
+  width: auto;
+  display: flex;
+  align-content: center;
+  position: relative;
+  padding-right: 30px;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li span,
+.redux-container .redux-container-sortable .redux-sortable li i,
+.redux-container .redux-container-sortable .redux-sortable li label {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li .checkbox-container label {
+  margin-left: 15px !important;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li .checkbox-container .drag {
+  float: none;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li i.visibility {
+  color: #3b7ac9;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li.invisible strong {
+  color: #757575;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li strong span {
+  color: #969696;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.redux-container .redux-container-sortable .redux-sortable.cdfs-disable-draggable li span.compact {
+  display: none;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li strong i {
+  font-size: 18px;
+  margin-right: 8px !important;
+}
+
+.redux-container .redux-container-sortable .redux-sortable li strong img {
+  width: 20px !important;
+  vertical-align: bottom;
+  margin-right: 8px;
+}
+
+.redux-container .redux-main .redux-field-info.cardealer-redux-dummy-section {
+  border-left: 0px;
+  border-bottom: 3px solid #ccc;
+}
+
+.redux-container .redux-main .redux-field-info.cardealer-redux-dummy-section p {
+  font-size: 15px;
+}
+
+.redux-container .redux-main .redux-field-info.cardealer-redux-dummy-section.level1 {
+  border-bottom-color: #0085c6;
+}
+
+.redux-container .redux-main .redux-field-info.cardealer-redux-dummy-section.level1 p {
+  font-size: 18px;
+}
+
+/* Accordion  =============*/
+.redux-container-repeater .redux-repeater-accordion-repeater {
+  margin-bottom: 8px;
+}
+
+.redux-container-repeater .redux-repeater-accordion-repeater h3.ui-accordion-header {
+  margin-left: 0;
+  height: 45px;
+  line-height: 45px;
+  background: #f4f9ff !important;
+  border-color: #94b3da !important;
+  border-radius: 3px;
+}
+
+.redux-container-repeater .redux-repeater-accordion-repeater h3.ui-accordion-header .redux-repeater-header {
+  font-size: 14px;
+  float: left;
+  margin-left: 15px;
+}
+
+.redux-container-repeater .redux-repeater-accordion-repeater .ui-accordion-content {
+  border-color: #94b3da;
+}
+
+/* Social Profiles  =============*/
+.redux-container .redux-main .redux-field-container.redux-container-social_profiles .redux-social-profiles-container > ul > li {
+  height: 110px !important;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-social_profiles .redux-social-profiles-container.hide-text-color-selector .redux-social-item-container .redux-social-profiles-text-color {
+  display: none;
+}
+
+.redux-container .redux-main .redux-field-container.redux-container-social_profiles .redux-social-profiles-container.hide-background-color-selector .redux-social-item-container .redux-social-profiles-background-color {
+  display: none;
+}
+
+/* Image Select =============*/
+.redux-main .redux-typography-container .select_wrapper,
+.redux-main .redux-typography-container .input_wrapper {
+  height: auto;
+}
+
+.redux-container-image_select ul.redux-image-select {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 15px;
+}
+
+.redux-container .redux-main .input-append .add-on,
+.redux-container .redux-main .input-prepend .add-on {
+  padding: 3px 10px;
+  line-height: 32px;
+  background: #1d2327;
+  color: white;
+}
+
+.redux-container .redux-main .mini,
+.redux-container .redux-main input[type=text].mini {
+  min-height: 40px;
+}
+
+/* Color Picker =============*/
+.redux-container .redux-main .wp-picker-container .wp-color-result,
+body .redux-container .redux-main .wp-picker-container .wp-color-result {
+  height: 37px !important;
+  box-shadow: none;
+}
+
+.redux-container .redux-main .wp-core-ui .button,
+.redux-container .redux-main .wp-core-ui .button-secondary,
+.redux-container .redux-main .wp-core-ui .button-secondary:hover,
+.redux-container .redux-main .wp-core-ui .button.hover,
+.redux-container .redux-main .wp-core-ui .button:hover {
+  border-color: #c5c5c5;
+}
+
+.wp-picker-container .wp-color-result.button {
+  padding-left: 37px;
+}
+
+.redux-container .redux-main .wp-color-result-text {
+  background: #ffffff;
+  padding: 0 17px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 13px;
+  color: #334E68;
+  font-weight: 500;
+}
+
+.redux-container .redux-group-tab .wp-picker-input-wrap .wp-color-picker {
+  padding: 0 10px;
+  min-height: 37px;
+  width: 90px !important;
+  font-size: 14px;
+  text-align: center;
+}
+
+.redux-container .redux-group-tab .wp-picker-input-wrap .button {
+  height: 37px;
+  font-size: 13px;
+  padding: 0 15px;
+  margin-left: 8px;
+  color: #ffffff;
+  background: #212121;
+  border: none;
+}
+
+.redux-color-rgba-container .sp-replacer {
+  background: #ffffff;
+  border: 1px solid #c3c4c7;
+  box-shadow: none;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+.redux-color-rgba-container .sp-replacer .sp-preview {
+  width: 30px;
+  height: 26px;
+}
+
+.redux-color-rgba-container .sp-replacer .sp-dd {
+  padding: 5px 6px;
+  padding-left: 40px;
+  text-align: center;
+  font-size: 13px;
+  color: #334E68;
+  font-weight: 500;
+  float: none;
+  min-width: 85px;
+  height: auto;
+}
+
+/* Button =============*/
+.redux-container .ui-button,
+.redux-container .control-section-redux .ui-button,
+.redux-container .control-panel-redux .ui-button,
+.redux-container .redux-metabox .ui-button {
+  border-radius: 3px !important;
+  margin-right: 5px !important;
+  padding: 0px 30px 0px !important;
+  height: 42px;
+  line-height: 42px;
+  background: #f0f4f8;
+  box-shadow: none !important;
+}
+
+.redux-main .upload_button_div .button {
+  padding: 3px 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  background: #256cc3;
+  border: 1px solid #256cc3;
+  color: #ffffff;
+}
+
+.redux-main .upload_button_div .button.media_upload_button:before,
+.redux-main .upload_button_div .redux-background-upload:before {
+  content: "\f093";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  padding-right: 7px;
+}
+
+.redux-main .upload_button_div .button.remove-image,
+.redux-main .upload_button_div .redux-remove-background {
+  background: #f0f4f8;
+  color: #ef521d;
+  border: 1px solid #cccccc;
+}
+
+/* Show/Hide On/Off Button =============*/
+.redux-container-switch .cb-enable,
+.redux-container-switch .cb-disable {
+  padding: 5px 20px;
+}
+
+.redux-container-switch .cb-enable span,
+.redux-container-switch .cb-disable span {
+  font-weight: 500;
+}
+
+.redux-container-spinner .ui-widget .ui-spinner-button .ui-icon,
+.redux-container-switch .cb-enable.selected,
+.redux-field-container .ui-buttonset .ui-state-active {
+  background-color: #256cc3 !important;
+  background-image: inherit !important;
+  box-shadow: none !important;
+}
+
+.redux-container-switch .cb-disable,
+.redux-container-switch .switch-options label {
+  background: #f0f4f8 !important;
+  background-image: inherit !important;
+}
+
+.redux-container-switch .cb-disable.selected {
+  background-image: -webkit-linear-gradient(top, #5a6871, #1d2327) !important;
+}
+
+.redux-container .ui-buttonset .ui-state-active .ui-icon {
+  display: none;
+}
+
+.redux-main #car_dealer_options-redux_import_export .button-secondary,
+.redux-main #car_dealer_options-redux_import_export .button-primary,
+.redux-main #car_dealer_options-pgs_cd_api_test_api .pgs-cardealer-api-panel .button-primary,
+.redux-main #car_dealer_options-pgs_cd_api_credentials_code .pgs-cardealer-api-form-groups input.button-primary {
+  padding: 0px 30px 0px;
+  height: 42px;
+  line-height: 40px;
+  color: #333333;
+  font-size: 13px;
+  border: 1px solid #cccccc;
+  background: #f0f4f8;
+  border-radius: 3px;
+}
+
+.redux-main #redux-import-action .button-primary,
+.redux-main #car_dealer_options-redux_import_export #redux-export-code-dl,
+.redux-main #car_dealer_options-pgs_cd_api_test_api .pgs-cardealer-api-panel .button-primary,
+.redux-main #car_dealer_options-pgs_cd_api_credentials_code .pgs-cardealer-api-form-groups input.button-primary {
+  background-color: #256cc3 !important;
+  background-image: inherit !important;
+  color: #ffffff;
+  border-color: #256cc3;
+}
+
+/* Range Slider =============*/
+.redux-container .redux-main .noUi-connect {
+  background-color: #256cc3 !important;
+  background-image: inherit !important;
+}
+
+.redux-container .redux-main .noUi-horizontal {
+  height: 12px;
+}
+
+.redux-container .redux-main .noUi-horizontal .noUi-handle {
+  width: 25px;
+  height: 25px;
+  top: -8px;
+  border-radius: 50px;
+}
+
+.redux-container .redux-main .noUi-horizontal .noUi-handle::before,
+.redux-container .redux-main .noUi-horizontal .noUi-handle::after {
+  content: normal;
+}
+
+/* Action Bar =============*/
+.redux-container .redux-main #redux-sticky #info_bar {
+  height: 40px;
+  border-left: 1px solid #e8e8e8;
+}
+
+.redux-container .redux-main #redux-sticky #info_bar .expand_options {
+  margin-top: 10px;
+}
+
+.redux-container .redux-main #redux-footer #redux-share {
+  margin-top: 5px;
+}
+
+.redux-container .redux-main .redux-action_bar .button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: #dde5ec;
+  color: #757575;
+  border: none;
+  margin: 0;
+  margin-left: 10px !important;
+  font-size: 13px;
+  padding: 11px 25px;
+  border-radius: 3px !important;
+}
+
+.redux-container .redux-main .redux-action_bar .button.button-primary {
+  background-color: #39b549 !important;
+  color: #ffffff !important;
+}
+
+/* Ajax Loading =============*/
+.redux-container .redux-main #redux_ajax_overlay {
+  opacity: 1;
+  background: rgbs(0, 0, 0, 0.5);
+}
+
+.redux-container .redux-main .redux-action_bar .spinner {
+  margin-top: 12px;
+}
+
+/* Additional Pages Importer =============*/
+.redux-container .redux-group-tab .cd-sample-page-cover {
+  display: inline-block;
+  width: 100%;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-preview {
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 3px 30px rgbs(0, 0, 0, 0.05);
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  width: 30.6%;
+  margin-right: 4%;
+  float: left;
+  border-radius: 3px;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector {
+  display: inline-block;
+  width: 310px;
+  float: left;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .select2-container--default {
+  width: auto !important;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .select2-container--default .select2-selection--single {
+  height: 45px;
+  line-height: 45px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 0px 15px;
+  color: #323232;
+  border-radius: 4px;
+  box-shadow: none;
+  width: 200px;
+  margin-right: 5px;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 43px;
+  padding-left: 0;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 43px;
+  width: 30px;
+  right: 6px;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .import-this-sample-page,
+.redux-group-tab .cd-sample-page-cover .cd-page-preview a {
+  padding: 9px 30px;
+  line-height: 25px;
+  margin: 0;
+  color: #ffffff;
+  text-decoration: none;
+  background: #256cc3;
+  border: 1px solid #005177;
+  box-shadow: none;
+  border-radius: 3px;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-preview img {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-preview:hover img {
+  opacity: 0.5;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-preview a {
+  padding: 10px 25px;
+  line-height: 24px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-preview:hover a {
+  top: 50%;
+  opacity: 1;
+}
+
+.redux-group-tab .cd-sample-page-cover .cd-page-selector .cd-options-info.info-red {
+  background: #e74c3c;
+  border: none;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  line-height: 22px;
+  border-radius: 3px;
+}
+
+.redux-container .redux-group-tab.cd_sample_data .form-table tr td {
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+.redux-container .redux-group-tab.cd_sample_data .form-table #car_dealer_options-cd_sample_data_import {
+  padding: 20px 20px;
+}
+
+/*--------------------------*/
+/* Responsive CSS */
+/*--------------------------*/
+@media screen and (max-width: 1400px) {
+  .redux-container .redux-sidebar {
+    width: 230px;
+  }
+  .redux-container .redux-main {
+    margin-left: 230px;
+  }
+  .redux-container .redux-main .form-table > tbody > tr > th {
+    min-width: 280px;
+  }
+}
+
+/*-------------------------- Redux - Car Dealer Templates Notice --------------------------*/
+.redux-container #info-cardealer_multiple_builder_notice {
+  margin-top: -15px;
+}
+
+.redux-container #info-cardealer_multiple_builder_notice .redux-info-desc {
+  color: #1d2327;
+  font-size: 1.3em;
+}
+
+.redux-container #info-cardealer_multiple_builder_notice .notices-ul {
+  font-size: 15px;
+  padding-left: 15px;
+  list-style: disc;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.redux-container .pgs-redux-notice-google-maps-location-section-notice .redux-section-desc {
+  font-size: 15px;
+  color: #000;
+  border: 1px solid #ff8f8f;
+  padding: 15px;
+}
+
+.redux-container .pgs-redux-notice-google-maps-location-section-notice .redux-section-desc ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+
+.redux-container .pgs-redux-notice-google-maps-location-section-notice .redux-section-desc ul:last-child {
+  margin-bottom: 0;
+}
+
+.vc_description {
+  white-space: pre-line;
+}
+
+.post-type-cars .ui-tooltip.ui-tooltip-featured-vehicle {
+  background-color: #606060;
+}
+
+.post-type-cars .ui-tooltip.ui-tooltip-featured-vehicle.ui-tooltip-featured-vehicle-by-seller {
+  background-color: #911111;
+}
+
+.post-type-cars .ui-tooltip.ui-tooltip-featured-vehicle .ui-tooltip-content {
+  color: #fff;
+}

@@ -1,0 +1,15 @@
+<?php
+/**
+ * About Feature With Image
+ *
+ * @package Cardealer
+ */
+
+return array(
+	'name'              => esc_html__( 'About Feature With Image', 'cardealer' ),
+	'template_category' => esc_html__( 'About Us', 'cardealer' ),
+	'disabled'          => true, // Disable it to not show in the default tab.
+	'content'           => '<<<CONTENT
+[vc_row][vc_column el_class="custom-block-3" offset="vc_col-lg-6 vc_col-md-12"][vc_raw_html css=".vc_custom_1505202934037{margin-bottom: 40px !important;}"]JTNDZGl2JTIwY2xhc3MlM0QlMjJ0aXRsZSUyMiUzRSUzQ2gzJTNFYWJvdXQlMjBDYXIlMjBkZWFsZXIlM0MlMkZoMyUzRSUzQyUyRmRpdiUzRSUwQSUzQ2RpdiUyMGNsYXNzJTNEJTIyY29udGVudCUyMiUzRSUwQSUzQ2gyJTIwY2xhc3MlM0QlMjJ0ZXh0LXJlZCUyMiUzRTEwJTNDJTJGaDIlM0UlMEElM0NzdHJvbmclM0VFdmVyeXRoaW5nJTIweW91JTIwbmVlZCUyMHRvJTIwYnVpbGQlMjBhbiUyMGFtYXppbmclMjBkZWFsZXJzaGlwJTIwYXV0b21vdGl2ZSUyMHJlc3BvbnNpdmUlMjB3ZWJzaXRlLiUyMCUzQyUyRnN0cm9uZyUzRSUwQSUwQSUzQ3AlM0VJbmNyZWRpYmxlJTIwcHJlbWl1bSUyMFdvcmRQcmVzcyUyMHRoZW1lJTIwd2l0aCUyMHBvd2VyZnVsJTIwY3VzdG9taXphdGlvbiUyMHRvb2xzJTIwdGhhdCUyMGhlbHBzJTIweW91JTIwYnVpbGRpbmclMjB5b3VyJTIwc3R1bm5pbmclMjB2ZWhpY2xlcyUyMGRlYWxlciUyMHdlYnNpdGUuJTIwJTNDYiUzRUFtYXppbmclMjBkZWFsZXJzaGlwJTIwd2Vic2l0ZSUzQyUyRmIlM0UlMjAlMjBkZXZlbG9wZWQlMjBlc3BlY2lhbGx5JTIwZm9yJTIwY2FyJTIwc2VsbGVycyUyQyUyMGRlYWxlcnMlMjBvciUyMGF1dG8lMjBtb3RvciUyMHJldGFpbGVycy4lM0MlMkZwJTNFJTBBJTNDcCUzRVdlJTIwZXhlY3V0ZWQlMjB0aGUlMjBtb3N0JTIwZW50aWNpbmclMkMlMjBmbGV4aWJsZSUyMGFuZCUyMG1vZGVybiUyMG11bHRpLXB1cnBvc2UlMjBDYXIlMjBEZWFsZXIlMjB0aGVtZSUyMGZvciUyMHJhbmdlJTIwb2YlMjBidXNpbmVzcyUyMGluJTIwYXV0b21vdGl2ZSUyMHdvcmxkJTIwZnJvbSUyMGNhciUyMGRlYWxlcnMlMkMlMjBjYXIlMjByZXNlbGxlcnMlMjB0byUyMG1lY2hhbmljJTIwd29ya3Nob3AlMjBhbmQlMjBhdXRvJTIwbW90b3IlMjByZXRhaWxlcnMuJTNDJTJGcCUzRSUwQSUwQSUzQyUyRmRpdiUzRQ==[/vc_raw_html][vc_row_inner][vc_column_inner width="1/2"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-beetle" hover_style="true" style="style-7" title="All brands" description="More than 100 brands" css=".vc_custom_1549433713663{margin-bottom: 40px !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-key" hover_style="true" style="style-7" title="Dealership" description="Single or multiple" css=".vc_custom_1494594695315{margin-bottom: 40px !important;}"][/vc_column_inner][vc_column_inner width="1/2"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-interface-1" hover_style="true" style="style-7" title="Free Support" description="Premium and 24/7" css=".vc_custom_1494594664800{margin-bottom: 40px !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-wallet" hover_style="true" style="style-7" title="Affordable" description="Best suitable price" css=".vc_custom_1494594732817{margin-bottom: 40px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column offset="vc_col-lg-6 vc_col-md-12"][vc_single_image source="external_link" alignment="center" custom_src="http://sample-data.potenzaglobal.com/cardealer/elementor-demo/placeholder_490x500.jpg"][/vc_column][/vc_row]
+CONTENT',
+);

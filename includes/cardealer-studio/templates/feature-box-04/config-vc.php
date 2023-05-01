@@ -1,0 +1,28 @@
+<?php
+/**
+ *Feature Box 04
+ *
+ * @package Cardealer
+ */
+
+return array(
+	'name'              => esc_html__( 'Feature Box 04', 'cardealer' ),
+	'template_category' => esc_html__( 'Feature Box', 'cardealer' ),
+	'disabled'          => true, // Disable it to not show in the default tab.
+	'content'           => '<<<CONTENT
+<p>[vc_row full_width="stretch_row" equal_height="yes" css=".vc_custom_1526285297842{padding-top: 80px !important;padding-bottom: 40px !important;background-color: #f6f6f6 !important;}"][vc_column][vc_row_inner][vc_column_inner width="1/3" css=".vc_custom_1526300881376{margin-bottom: 40px !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-key" style="style-5" title="SELL MY CAR" description="Make more money when you sell your car yourself." css=".vc_custom_1526285317675{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-radius: 5px !important;}"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1526300885816{margin-bottom: 40px !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-inspection" style="style-5" title="TRADE MY CAR" description="Get an Instant Cash Offer and trade in or sell your..." css=".vc_custom_1529061178008{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-radius: 5px !important;}"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1526300891167{margin-bottom: 40px !important;}"][cd_feature_box icon_type="flaticon" icon_flaticon="glyph-icon flaticon-medal" style="style-5" title="VALUE MY CAR" description="Find out what your car is worth to an individual buyer or dealer." css=".vc_custom_1526294369937{padding-top: 20px !important;padding-right: 20px !important;padding-bottom: 20px !important;padding-left: 20px !important;background-color: #ffffff !important;border-radius: 5px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENT',
+);

@@ -1,0 +1,469 @@
+{
+	"version": "0.4",
+	"title": "About with Feature Box",
+	"type": "page",
+	"content": [
+			{
+	      "id": "6d67efd5",
+	      "settings": {
+	        "background_background": "classic",
+	        "margin_tablet": {
+	          "unit": "px",
+	          "top": "",
+	          "right": "0",
+	          "bottom": "",
+	          "left": "0",
+	          "isLinked": "1"
+	        },
+	        "margin_mobile": {
+	          "unit": "px",
+	          "top": "40",
+	          "right": "0",
+	          "bottom": "0",
+	          "left": "0",
+	          "isLinked": ""
+	        },
+	        "stretch_section": "section-stretched",
+	        "padding_tablet": {
+	          "unit": "px",
+	          "top": "0",
+	          "right": "15",
+	          "bottom": "0",
+	          "left": "15",
+	          "isLinked": ""
+	        },
+	        "padding": {
+	          "unit": "px",
+	          "top": "100",
+	          "right": "0",
+	          "bottom": "0",
+	          "left": "0",
+	          "isLinked": false
+	        }
+	      },
+	      "elements": [
+	        {
+	          "id": "19722cbb",
+	          "settings": {
+	            "_column_size": "100",
+	            "padding": {
+	              "unit": "px",
+	              "top": "0",
+	              "right": "0",
+	              "bottom": "0",
+	              "left": "0",
+	              "isLinked": ""
+	            }
+	          },
+	          "elements": [
+	            {
+	              "id": "5f87e23a",
+	              "settings": {
+	                "section_title": "Car Dealer",
+	                "section_sub_title": "Welcome to our website",
+	                "show_content": "true",
+	                "content": "Car Dealer is the most enticing, creative, modern and multipurpose auto dealer <em><strong>Premium WordPress Theme.</strong></em> Suitable for any car dealer websites, business or corporate websites. The Theme has been Created especially for automotive dealers, car resellers, car service stations, mechanic workshop and auto motor retailers.",
+	                "_padding": {
+	                  "unit": "px",
+	                  "top": "0",
+	                  "right": "15",
+	                  "bottom": "0",
+	                  "left": "15",
+	                  "isLinked": ""
+	                },
+	                "typography_typography": "custom",
+	                "typography_font_size": {
+	                  "unit": "px",
+	                  "size": "40",
+	                  "sizes": []
+	                },
+	                "typography_font_size_tablet": {
+	                  "unit": "px",
+	                  "size": "35",
+	                  "sizes": []
+	                },
+	                "typography_font_size_mobile": {
+	                  "unit": "px",
+	                  "size": "30",
+	                  "sizes": []
+	                },
+	                "typography_line_height": {
+	                  "unit": "px",
+	                  "size": "50",
+	                  "sizes": []
+	                },
+	                "typography_line_height_tablet": {
+	                  "unit": "px",
+	                  "size": "45",
+	                  "sizes": []
+	                },
+	                "typography_line_height_mobile": {
+	                  "unit": "px",
+	                  "size": "40",
+	                  "sizes": []
+	                }
+	              },
+	              "elements": [],
+	              "isInner": false,
+	              "widgetType": "cdhl_section-title",
+	              "elType": "widget"
+	            },
+	            {
+	              "id": "53c42b59",
+	              "settings": {
+	                "structure": "40"
+	              },
+	              "elements": [
+	                {
+	                  "id": "180e8a92",
+	                  "settings": {
+	                    "_column_size": "25",
+	                    "padding": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "15",
+	                      "bottom": "0",
+	                      "left": "15",
+	                      "isLinked": ""
+	                    },
+	                    "margin": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "0",
+	                      "bottom": "40",
+	                      "left": "0",
+	                      "isLinked": ""
+	                    },
+	                    "_inline_size_tablet": "50"
+	                  },
+	                  "elements": [
+	                    {
+	                      "id": "15fd4cf4",
+	                      "settings": {
+	                        "border": "true",
+	                        "title": "All brands",
+	                        "description": "Galley simply dummy text lorem Ipsum is of the printin k a of type and",
+	                        "icon": {
+	                          "value": " glyph-icon flaticon-beetle",
+	                          "library": "flaticon"
+	                        }
+	                      },
+	                      "elements": [],
+	                      "isInner": false,
+	                      "widgetType": "cdhl_feature-box",
+	                      "elType": "widget"
+	                    }
+	                  ],
+	                  "isInner": "1",
+	                  "elType": "column"
+	                },
+	                {
+	                  "id": "38b6e1a5",
+	                  "settings": {
+	                    "_column_size": "25",
+	                    "padding": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "15",
+	                      "bottom": "0",
+	                      "left": "15",
+	                      "isLinked": ""
+	                    },
+	                    "margin": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "0",
+	                      "bottom": "40",
+	                      "left": "0",
+	                      "isLinked": ""
+	                    },
+	                    "_inline_size_tablet": "50"
+	                  },
+	                  "elements": [
+	                    {
+	                      "id": "46d1e762",
+	                      "settings": {
+	                        "border": "true",
+	                        "title": "Free Support",
+	                        "description": "Text of the printin lorem ipsum the is simply k a type text and galley of",
+	                        "icon": {
+	                          "value": " glyph-icon flaticon-interface-1",
+	                          "library": "flaticon"
+	                        }
+	                      },
+	                      "elements": [],
+	                      "isInner": false,
+	                      "widgetType": "cdhl_feature-box",
+	                      "elType": "widget"
+	                    }
+	                  ],
+	                  "isInner": "1",
+	                  "elType": "column"
+	                },
+	                {
+	                  "id": "3a426fb2",
+	                  "settings": {
+	                    "_column_size": "25",
+	                    "padding": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "15",
+	                      "bottom": "0",
+	                      "left": "15",
+	                      "isLinked": ""
+	                    },
+	                    "margin": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "0",
+	                      "bottom": "40",
+	                      "left": "0",
+	                      "isLinked": ""
+	                    },
+	                    "_inline_size_tablet": "50"
+	                  },
+	                  "elements": [
+	                    {
+	                      "id": "c49279b",
+	                      "settings": {
+	                        "border": "true",
+	                        "title": "Dealership",
+	                        "description": "Printin k a of type and lorem Ipsum is simply dummy text of the galley",
+	                        "icon": {
+	                          "value": " glyph-icon flaticon-key",
+	                          "library": "flaticon"
+	                        }
+	                      },
+	                      "elements": [],
+	                      "isInner": false,
+	                      "widgetType": "cdhl_feature-box",
+	                      "elType": "widget"
+	                    }
+	                  ],
+	                  "isInner": "1",
+	                  "elType": "column"
+	                },
+	                {
+	                  "id": "39c3e2e6",
+	                  "settings": {
+	                    "_column_size": "25",
+	                    "padding": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "15",
+	                      "bottom": "0",
+	                      "left": "15",
+	                      "isLinked": ""
+	                    },
+	                    "margin": {
+	                      "unit": "px",
+	                      "top": "0",
+	                      "right": "0",
+	                      "bottom": "40",
+	                      "left": "0",
+	                      "isLinked": ""
+	                    },
+	                    "_inline_size_tablet": "50"
+	                  },
+	                  "elements": [
+	                    {
+	                      "id": "4d81bc5c",
+	                      "settings": {
+	                        "border": "true",
+	                        "title": "affordable",
+	                        "description": "The printin k a galley Lorem Ipsum is type and simply dummy text of",
+	                        "icon": {
+	                          "value": " glyph-icon flaticon-wallet",
+	                          "library": "flaticon"
+	                        }
+	                      },
+	                      "elements": [],
+	                      "isInner": false,
+	                      "widgetType": "cdhl_feature-box",
+	                      "elType": "widget"
+	                    }
+	                  ],
+	                  "isInner": "1",
+	                  "elType": "column"
+	                }
+	              ],
+	              "isInner": "1",
+	              "elType": "section"
+	            }
+	          ],
+	          "isInner": "",
+	          "elType": "column"
+	        }
+	      ],
+	      "isInner": "",
+	      "elType": "section"
+	    },
+	    {
+	      "id": "65928197",
+	      "settings": {
+	        "layout": "full_width",
+	        "stretch_section": "section-stretched",
+	        "structure": "30"
+	      },
+	      "elements": [
+	        {
+	          "id": "3a240aac",
+	          "settings": {
+	            "_column_size": "33",
+	            "background_background": "classic",
+	            "background_image": {
+	              "url": "http://sample-data.potenzaglobal.com/cardealer/elementor-demo/placeholder_800x430-left.jpg",
+	              "id": "10850"
+	            },
+	            "background_position": "bottom left",
+	            "background_repeat": "no-repeat",
+	            "background_size": "contain",
+	            "background_slideshow_loop": "",
+	            "padding": {
+	              "unit": "px",
+	              "top": "0",
+	              "right": "0",
+	              "bottom": "0",
+	              "left": "0",
+	              "isLinked": "1"
+	            },
+	            "_inline_size_tablet": "100",
+	            "hide_tablet": "hidden-tablet",
+	            "hide_mobile": "hidden-phone",
+	            "css_classes": "object-left-bottom"
+	          },
+	          "elements": [],
+	          "isInner": "",
+	          "elType": "column"
+	        },
+	        {
+	          "id": "45dc535",
+	          "settings": {
+	            "_column_size": "33",
+	            "padding": {
+	              "unit": "px",
+	              "top": "81",
+	              "right": "0",
+	              "bottom": "91",
+	              "left": "0",
+	              "isLinked": ""
+	            },
+	            "_inline_size_tablet": "100",
+	            "padding_tablet": {
+	              "unit": "px",
+	              "top": "20",
+	              "right": "0",
+	              "bottom": "40",
+	              "left": "0",
+	              "isLinked": ""
+	            }
+	          },
+	          "elements": [
+	            {
+	              "id": "4d6ea5fe",
+	              "settings": {
+	                "image": {
+	                  "url": "http://sample-data.potenzaglobal.com/cardealer/elementor-demo/placeholder_430x450.jpg",
+	                  "id": "10754"
+	                },
+	                "image_size": "custom",
+	                "image_custom_dimension": {
+	                  "width": "80",
+	                  "height": "80"
+	                },
+	                "image_border_radius": {
+	                  "unit": "%",
+	                  "top": "50",
+	                  "right": "50",
+	                  "bottom": "50",
+	                  "left": "50",
+	                  "isLinked": "1"
+	                }
+	              },
+	              "elements": [],
+	              "isInner": false,
+	              "widgetType": "image",
+	              "elType": "widget"
+	            },
+	            {
+	              "id": "fb9e7df",
+	              "settings": {
+	                "editor": "<p>Have any question ?</p>",
+	                "align": "center",
+	                "text_color": "#999999",
+	                "__globals__": {
+	                  "typography_typography": ""
+	                },
+	                "typography_typography": "custom",
+	                "typography_font_family": "Roboto",
+	                "typography_font_weight": "400"
+	              },
+	              "elements": [],
+	              "isInner": false,
+	              "widgetType": "text-editor",
+	              "elType": "widget"
+	            },
+	            {
+	              "id": "61ae958e",
+	              "settings": {
+	                "title": "(+9) 123 456 7890",
+	                "align": "center",
+	                "title_color": "#DB2D2E",
+	                "typography_typography": "custom",
+	                "typography_font_size": {
+	                  "unit": "px",
+	                  "size": "36",
+	                  "sizes": []
+	                },
+	                "typography_line_height": {
+	                  "unit": "px",
+	                  "size": "46",
+	                  "sizes": []
+	                },
+	                "typography_font_weight": "500"
+	              },
+	              "elements": [],
+	              "isInner": false,
+	              "widgetType": "heading",
+	              "elType": "widget"
+	            }
+	          ],
+	          "isInner": "",
+	          "elType": "column"
+	        },
+	        {
+	          "id": "10ccbad7",
+	          "settings": {
+	            "_column_size": "33",
+	            "background_background": "classic",
+	            "background_image": {
+	              "url": "http://sample-data.potenzaglobal.com/cardealer/elementor-demo/placeholder_800x430-right.jpg",
+	              "id": "10864"
+	            },
+	            "background_position": "bottom right",
+	            "background_repeat": "no-repeat",
+	            "background_size": "contain",
+	            "background_slideshow_loop": "",
+	            "padding": {
+	              "unit": "px",
+	              "top": "0",
+	              "right": "0",
+	              "bottom": "0",
+	              "left": "0",
+	              "isLinked": ""
+	            },
+	            "_inline_size_tablet": "100",
+	            "hide_tablet": "hidden-tablet",
+	            "hide_mobile": "hidden-phone",
+	            "css_classes": "object-right-bottom"
+	          },
+	          "elements": [],
+	          "isInner": "",
+	          "elType": "column"
+	        }
+	      ],
+	      "isInner": "",
+	      "elType": "section"
+	    }
+	]
+}

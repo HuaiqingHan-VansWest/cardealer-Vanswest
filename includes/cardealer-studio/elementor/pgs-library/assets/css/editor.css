@@ -1,0 +1,30 @@
+.pgs-library-modal #elementor-template-library-templates-container {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.elementor-template-library-template-remote .elementor-template-library-template-insert .eicon-file-download {
+	margin-right: 5px;
+}
+
+#pgs-library-template-library-modal .pgs-library-template.elementor-template-library-template .elementor-template-library-template-footer {
+	transform: none;
+}
+#pgs-library-template-library-modal .pgs-library-template.elementor-template-library-template .elementor-template-library-template-footer .elementor-template-library-template-name {
+	display: inherit;
+}
+
+#pgs-library-template-library-modal .pgs-library-template.elementor-template-library-template:not(:hover) .elementor-template-library-favorite,
+#pgs-library-template-library-modal .pgs-library-template.elementor-template-library-template:not(:hover) .elementor-template-library-template-action,
+#pgs-library-template-library-modal .pgs-library-template.elementor-template-library-template:hover .elementor-template-library-template-name {
+	display: none;
+}
+
+.pgs-library-modal .elementor-template-library-template.pgs-library-template.cat-hidden,
+.pgs-library-modal .elementor-template-library-template.pgs-library-template.search-hidden {
+	display:none;
+}
+
+.pgs-library-modal .elementor-template-library-template-remote .elementor-template-library-template-preview {
+	display: none;
+}

@@ -1,0 +1,5004 @@
+# Translation of CarDealer in Romanian
+# This file is distributed under the same license as the CarDealer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Dealer 4.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cardealer-dev\n"
+"POT-Creation-Date: 2023-04-20 13:08:02+00:00\n"
+"PO-Revision-Date: 2023-04-20 18:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: Potenza Global Solutions http://www.potenzaglobalsolutions."
+"com/\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n:1,2;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+
+#: 404.php:129 404.php:133 404.php:137
+msgid "404"
+msgstr "404"
+
+#: 404.php:24
+msgid "404! Page Not Found!"
+msgstr "404! Pagina nu a fost gasita!"
+
+#: 404.php:60
+msgid "Ooopps..."
+msgstr "Ooopps ..."
+
+#: 404.php:61
+msgid "The Page you were looking for, couldn't be found."
+msgstr "Pagina pe care o căutați nu a putut fi găsită."
+
+#. translators: 1: URL
+#: 404.php:65
+msgid ""
+"Can't find what you looking for? Take a moment and do a search below or "
+"start from our <a class='link' href='%s'>Home Page</a>"
+msgstr ""
+
+#: comments.php:86
+msgid "Comments are closed"
+msgstr "Comentariile sunt închise"
+
+#: comments.php:94
+msgid "Name"
+msgstr "Nume"
+
+#: comments.php:95
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:59
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:56
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:88
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:61
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:93
+#: template-parts/cars/single-car/forms/make_an_offer.php:66
+#: template-parts/cars/single-car/forms/request_info.php:63
+#: template-parts/cars/single-car/forms/request_info.php:95
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:69
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:101
+msgid "Email"
+msgstr "E-mail"
+
+#: comments.php:96
+msgid "Website"
+msgstr "Site-ul web"
+
+#: comments.php:97
+msgid "Comment"
+msgstr "Cometariu"
+
+#: comments.php:120
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Salvează-mi numele, adresa de e-mail și site-ul web în acest browser pentru "
+"data viitoare când comentez."
+
+#: footer-custom.php:23 footer-custom.php:25 footer-custom.php:36
+#: footer-custom.php:38 footer.php:43 footer.php:45 footer.php:56 footer.php:58
+msgid "Top"
+msgstr "Top"
+
+#: footer-custom.php:23 footer-custom.php:25 footer-custom.php:36
+#: footer-custom.php:38 footer.php:43 footer.php:45 footer.php:56 footer.php:58
+msgid "Back to top"
+msgstr "Inapoi sus"
+
+#: functions.php:44
+msgid "Potenza"
+msgstr ""
+
+#: functions.php:48
+msgid "PGS Forum"
+msgstr ""
+
+#: functions.php:52
+#: includes/admin/theme-panel/cardealer-panel-functions.php:182
+#: includes/admin/theme-panel/cardealer-panel.php:21
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:467
+msgid "Support"
+msgstr ""
+
+#: functions.php:56
+msgid "Submit Ticket"
+msgstr "Trimiteți biletul"
+
+#: functions.php:60
+msgid "Themeforest"
+msgstr ""
+
+#: functions.php:64 includes/admin/theme-panel/templates/support.php:41
+msgid "Documentation"
+msgstr ""
+
+#: functions.php:68
+msgid "Google API Settings"
+msgstr ""
+
+#: functions.php:72
+msgid "Attributes Guide"
+msgstr ""
+
+#: functions.php:183
+msgid "Header"
+msgstr ""
+
+#: functions.php:191 includes/sidebars.php:108
+msgid "Footer"
+msgstr "Subsol"
+
+#. translators: %s: Error message
+#: includes/admin/class-cardealer-theme-activation.php:74
+#: includes/admin/class-cardealer-theme-activation.php:193
+msgid ""
+"There was an error processing your request, please try again later. Error: %s"
+msgstr ""
+
+#: includes/admin/class-cardealer-theme-activation.php:142
+msgid "Purchase code removed."
+msgstr ""
+
+#: includes/admin/class-cardealer-theme-activation.php:147
+msgid "Please enter purchase code."
+msgstr ""
+
+#: includes/admin/class-cardealer-theme-activation.php:158
+msgid "Please enter a valid purchase code."
+msgstr ""
+
+#: includes/admin/class-cardealer-theme-activation.php:168
+msgid "Purchase code already activated on this website."
+msgstr ""
+
+#: includes/admin/class-cardealer-theme-activation.php:230
+msgid "Unable to verify security check. Please try to reload the page."
+msgstr ""
+
+#. translators: %s: Theme name
+#: includes/admin/theme-panel/cardealer-panel-functions.php:155
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2233
+msgid "Welcome to %s"
+msgstr ""
+
+#. translators: %s: Theme name
+#: includes/admin/theme-panel/cardealer-panel-functions.php:168
+msgid "Version %s"
+msgstr ""
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:173
+msgid ""
+"<strong>Car Dealer</strong> is now active and ready to use! <strong>Car "
+"Dealer</strong> is an elegant, clean, beautiful and best responsive "
+"WordPress theme. <strong>Car Dealer</strong> contains many usefull features "
+"and functionalities. And, it requires some plugins to be pre-installed to "
+"enable all inbuilt features and functionalities."
+msgstr ""
+"<strong> Dealerul auto </strong> este acum activ și gata de utilizare! "
+"<strong> Dealer auto </strong> este o temă WordPress elegantă, curată, "
+"frumoasă și cu cea mai bună receptivitate. <strong> Dealer auto </strong> "
+"conține multe funcții și funcționalități utile. Și, este necesar ca unele "
+"pluginuri să fie preinstalate pentru a permite toate caracteristicile și "
+"funcționalitățile încorporate."
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:183
+#: includes/admin/theme-panel/cardealer-panel.php:22
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:456
+msgid "Plugins"
+msgstr "Pluginuri"
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:184
+#: includes/admin/theme-panel/cardealer-panel.php:23
+msgid "Install Demos"
+msgstr "Instalați demonstrații"
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:185
+#: includes/admin/theme-panel/cardealer-panel.php:24
+msgid "Theme Options"
+msgstr "Opțiuni temă"
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:186
+#: includes/admin/theme-panel/cardealer-panel.php:25
+msgid "System Status"
+msgstr "Starea sistemului"
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:187
+#: includes/admin/theme-panel/cardealer-panel.php:26
+msgid "Ratings"
+msgstr ""
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:188
+#: includes/admin/theme-panel/cardealer-panel.php:27
+msgid "Third Party Testing"
+msgstr ""
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:189
+#: includes/admin/theme-panel/cardealer-panel.php:28
+msgid "More Features"
+msgstr ""
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:257
+#: includes/admin/theme-panel/cardealer-panel-functions.php:311
+msgid "Something went wrong."
+msgstr "Ceva n-a mers bine."
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:261
+#: includes/admin/theme-panel/cardealer-panel-functions.php:315
+#: includes/cars_functions.php:4765
+msgid "Unable to verify security nonce. Please try again."
+msgstr ""
+
+#: includes/admin/theme-panel/cardealer-panel-functions.php:322
+msgid "PDF generated successfully."
+msgstr "PDF generat cu succes."
+
+#. translators: exception message
+#: includes/admin/theme-panel/cardealer-panel-functions.php:330
+msgid "Something went wrong. Caught exception: %s"
+msgstr "Ceva n-a mers bine. Excepție prinsă:% s"
+
+#: includes/admin/theme-panel/cardealer-panel.php:18
+msgid "Car Dealer"
+msgstr "Dealer auto"
+
+#: includes/admin/theme-panel/templates/more-features.php:20
+msgid "Frontend Submission - Pricing Packages Plan (with Subscriptio Plugin)"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:22
+msgid ""
+"The <strong>Pricing Packages Plan</strong> feature allows frontend users "
+"(registered with the site) to purchase plans to upload vehicles and images "
+"more than the permitted limit."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:23
+msgid ""
+"By default, the <strong>Cardealer - Frontend Submission</strong> plugin "
+"allows dealers to upload cars and images up to a specific limit (which site "
+"admin can manage in theme options). To upload more vehicles and images, "
+"frontend users need to purchase a package from the Pricing Packages Plan."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:24
+msgid ""
+"To manage plans, you need to install <strong>Subscriptio</strong> and "
+"<strong>WooCommerce</strong> plugin. Subscriptio plugin is a WooCommerce "
+"extension that allows you to manage plans/packages."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:25
+msgid "If you want to use this feature then please:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:29
+msgid ""
+"Enable Subscriptio and WooCommerce plugins in the theme plugin installer"
+msgstr ""
+
+#. translators: %1$s: dcoument url
+#: includes/admin/theme-panel/templates/more-features.php:36
+msgid ""
+"Then, go to <strong>Appearance > Install Plugins</strong>, to install "
+"<strong>Subscriptio</strong> and <strong>WooCommerce</strong> plugins. After "
+"installing Subscriptio and WooCommerce, refer to this <a href=\"%1$s\" "
+"target=\"_blank\">documentation</a> for information about manage packages."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/more-features.php:57
+msgid "Other Features"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/ratings.php:17
+msgid ""
+"Please don't forget to rate Car Dealer and leave a nice review, it means a "
+"lot to us and our theme."
+msgstr ""
+
+#. translators: %s: url
+#: includes/admin/theme-panel/templates/ratings.php:23
+msgid ""
+"Simply login into your ThemeForest account, go to the <a target=\"_blank\" "
+"href=\"%1$s\">Downloads section </a>  and click 5 stars next to the Car "
+"Dealer WordPress theme as shown in the screenshot below:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:27
+msgid ""
+"Car Dealer comes with 6 months of free support for every license you "
+"purchase. Support can be extended through subscriptions via ThemeForest."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:34
+msgid "Ticket System"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:35
+msgid ""
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:36
+msgid "Submit a ticket"
+msgstr ""
+
+#. translators: %s: theme name
+#: includes/admin/theme-panel/templates/support.php:43
+msgid ""
+"Our online documentation is a useful resource for learning every aspect and "
+"feature of %s."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:44
+msgid "Learn more"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:50
+msgid "Video Tutorials"
+msgstr ""
+
+#. translators: %s: theme name
+#: includes/admin/theme-panel/templates/support.php:52
+msgid ""
+"We recommend you watch video tutorials before you start the theme "
+"customization. Our video tutorials can teach you the different aspects of "
+"using %s."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/support.php:53
+msgid "Watch Videos"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:19
+msgid "WordPress Environment"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:24
+msgid "Home URL:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:25
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:29
+msgid "Site URL:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:30
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:34
+msgid "WP Version:"
+msgstr "Versiunea WP:"
+
+#: includes/admin/theme-panel/templates/system_status.php:35
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:39
+msgid "WP Multisite:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:40
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:44
+msgid "WP Memory Limit:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:45
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#. Translators: %1$s: Memory limit, , %2$s: Recommended Memory, %3$s: Docs
+#. link.
+#: includes/admin/theme-panel/templates/system_status.php:55
+msgid "%1$s - We recommend setting memory to at least %2$s See: %3$s"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:58
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:68
+msgid "WP Debug Mode:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:69
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:79
+msgid "Language:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:80
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:89
+msgid "Server Environment"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:94
+msgid "Server Info:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:95
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:99
+msgid "PHP Version:"
+msgstr "Versiunea PHP:"
+
+#: includes/admin/theme-panel/templates/system_status.php:100
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#. translators: %1$s: PHP version
+#: includes/admin/theme-panel/templates/system_status.php:107
+msgid "%1$s - We recommend PHP Version at least 7.4"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:117
+msgid "PHP Max Input Time:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:118
+msgid ""
+"This sets the maximum time in seconds a script is allowed to parse input "
+"data, like POST, GET and file uploads."
+msgstr ""
+
+#. translators: %1$s: Max input time, %2$s: Required Max input time
+#: includes/admin/theme-panel/templates/system_status.php:127
+msgid "%1$s - We recommend setting upload maximum input time to at least %2$s."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:134
+#: includes/admin/theme-panel/templates/system_status.php:164
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:137
+#: includes/admin/theme-panel/templates/system_status.php:167
+msgid "%s Seconds"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:146
+msgid "PHP Max Execution Time:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:147
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#. translators: %1$s: Time Limit
+#: includes/admin/theme-panel/templates/system_status.php:156
+msgid ""
+"%1$s - We recommend setting max execution time to at least %2$s.<br>See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing max "
+"execution to PHP</a>"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:176
+msgid "PHP Max Input Vars:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:177
+#: includes/admin/theme-panel/templates/system_status.php:214
+#: includes/admin/theme-panel/templates/system_status.php:242
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#. translators: %1$s: Required Input Vars
+#: includes/admin/theme-panel/templates/system_status.php:186
+msgid ""
+"%1$s - Recommended Value: %2$s.<br/>Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:199
+msgid "SUHOSIN Installed:"
+msgstr "SUHOSIN instalat:"
+
+#: includes/admin/theme-panel/templates/system_status.php:202
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.\n"
+"\t\t\tIf enabled on your server, Suhosin may need to be configured to "
+"increase its data submission limits."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:213
+msgid "Suhosin Post Max Vars:"
+msgstr ""
+
+#. translators: %1$s: Max input vars
+#. translators: %1$s: Required Input Vars
+#: includes/admin/theme-panel/templates/system_status.php:233
+#: includes/admin/theme-panel/templates/system_status.php:263
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:241
+msgid "Suhosin Request Max Vars:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:271
+msgid "Suhosin Post Max Value Length:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:272
+msgid ""
+"Defines the maximum length of a variable that is registered through a POST "
+"request."
+msgstr ""
+
+#. translators: %1$s: Max Value Lenth
+#: includes/admin/theme-panel/templates/system_status.php:280
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
+"prohibit the Theme Options data from being saved to your database. See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Suhosin "
+"Configuration Info</a>."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:290
+msgid "ZipArchive:"
+msgstr "ZipArchive:"
+
+#: includes/admin/theme-panel/templates/system_status.php:291
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:295
+msgid "MySQL Version:"
+msgstr "Versiunea MySQL:"
+
+#: includes/admin/theme-panel/templates/system_status.php:296
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:305
+msgid "Max Upload Size:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:306
+msgid ""
+"The largest file size that can be uploaded to your WordPress installation."
+msgstr ""
+
+#. translators: %1$s: Upload Max Filesize
+#: includes/admin/theme-panel/templates/system_status.php:318
+msgid ""
+"%1$s - We recommend setting upload maximum file size to at least %2$s."
+"<br>See: <a href=\"%3$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Increasing max upload size in WordPress.</a>"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:331
+msgid "Post Max Size:"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:332
+msgid "Maximum size of POST data that PHP will accept."
+msgstr ""
+
+#. translators: 1%s: max upload size, 2%s: url
+#: includes/admin/theme-panel/templates/system_status.php:346
+msgid ""
+"%1$s - We recommend setting post max size size to at least %2$s.<br>See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing post "
+"max size in WordPress.</a>"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/system_status.php:364
+msgid "Active Plugins"
+msgstr "Plugin-uri active"
+
+#: includes/admin/theme-panel/templates/system_status.php:386
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:57
+msgid "Please Enter Purchase Code"
+msgstr ""
+
+#. translators: %s: Theme name, %1$s  Theme name
+#: includes/admin/theme-panel/templates/theme_token.php:61
+msgid ""
+"Thank you for installing %1$s theme! Please provide the purchase code of the "
+"%1$s theme to be able to install demos and get updates of the theme."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:73
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:80
+msgid "Purchase code ( e.g. 9svb13fa-10aa-2267-883a-9201a94cf9b5 )"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:81
+msgid "Check"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:87
+msgid "Instructions For Find Purchase Code"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:91
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:937
+msgid "Log into your Envato Market account."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:95
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:938
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/theme_token.php:99
+msgid "Click 'Downloads' from the drop down menu."
+msgstr ""
+
+#. translators: \': for single quotes
+#: includes/admin/theme-panel/templates/theme_token.php:107
+msgid ""
+"Click 'License certificate & purchase code' (available as PDF or text file). "
+"For more information <a href=\"%1$s\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing-pdf-generator.php:14
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config-vc.php:10
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config.php:12
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config-vc.php:10
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config.php:12
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config-vc.php:10
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config.php:12
+msgid "Vehicle"
+msgstr "Vehicul"
+
+#: includes/admin/theme-panel/templates/third-party-testing-pdf-generator.php:32
+msgid "PDF Template"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing-pdf-generator.php:52
+msgid "Check PDF Generator"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:16
+msgid "Mail"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:19
+msgid "Google Map"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:27
+msgid "VINquery VIN Import"
+msgstr "VINquery VIN Import"
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:34
+msgid "Mailchimp Keys"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:39
+msgid "PDF Generator"
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:82
+msgid "From Mail"
+msgstr ""
+
+#. translators: 1: Email
+#: includes/admin/theme-panel/templates/third-party-testing.php:89
+msgid ""
+"Enter the email you wanted to test. If the email field is empty, it will "
+"send the test mail from <strong>%s</strong>."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:98
+msgid "To Mail"
+msgstr ""
+
+#. translators: 1: Email
+#: includes/admin/theme-panel/templates/third-party-testing.php:105
+msgid ""
+"Enter the email you wanted to test. If the email field is empty, it will "
+"send the test mail to <strong>%s</strong>."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:125
+msgid ""
+"If the map is not loading correctly, please check the Browser console for "
+"the errors/instructions for Google Maps."
+msgstr ""
+
+#. translators: %s: URL
+#: includes/admin/theme-panel/templates/third-party-testing.php:130
+msgid ""
+"<strong>Note: </strong>Make sure you have added the Google Maps API key in "
+"<a href=\"%s\" target=\"_blank\">Theme Options</a>."
+msgstr ""
+
+#. translators: %s: URL
+#: includes/admin/theme-panel/templates/third-party-testing.php:158
+msgid ""
+"<strong>Note: </strong>Make sure you have added the API key for VINQuery VIN "
+"Import in the <a href=\"%s\" target=\"_blank\">Theme Options</a>."
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:172
+#: includes/attributes.php:119
+msgid "VIN Number"
+msgstr "Număr VIN"
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:174
+msgid ""
+"Enter the VIN in the VIN Number you wanted to test. If the VIN Number field "
+"is empty, then the test process will use the default VIN."
+msgstr ""
+
+#. translators: %s: Mail chimp theme option URL
+#: includes/admin/theme-panel/templates/third-party-testing.php:190
+msgid ""
+"<strong>Note:</strong> Make sure you have added the Mailchimp List ID and "
+"Mailchimp API Key in the <a href=\"%s\" target=\"_blank\">Theme Options</a>. "
+"The test process will generate the response based on the Mailchimp List ID "
+"and Mailchimp API Key. "
+msgstr ""
+
+#: includes/admin/theme-panel/templates/third-party-testing.php:203
+msgid "Check Mailchimp"
+msgstr ""
+
+#: includes/admin-notices.php:56
+#, fuzzy
+#| msgid "Car Dealer - Fronted Submission"
+msgid "Car Dealer - Important Plugins Notice"
+msgstr "Dealer de mașini - Prezentare frontală"
+
+#. translators: %1$s: theme plugins url.
+#: includes/admin-notices.php:60
+msgid ""
+"The below plugins needs to be installed, activated, or updated for the \"Car "
+"Dealer\" theme to work correctly. For this, please go to <a "
+"href=\"%1$s\">Appearance -> Install Plugins</a>."
+msgstr ""
+
+#: includes/attributes.php:18
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:159
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:491
+#: template-parts/cars/single-car/forms/financial_form.php:162
+#: template-parts/cars/single-car/forms/financial_form.php:494
+msgid "Year"
+msgstr "An"
+
+#: includes/attributes.php:19
+msgid "Years"
+msgstr "Ani"
+
+#: includes/attributes.php:30
+msgid "Make"
+msgstr ""
+
+#: includes/attributes.php:31
+msgid "Makes"
+msgstr ""
+
+#: includes/attributes.php:40
+msgid "Model"
+msgstr ""
+
+#: includes/attributes.php:41
+msgid "Models"
+msgstr ""
+
+#: includes/attributes.php:47
+msgid "Body Style"
+msgstr ""
+
+#: includes/attributes.php:48
+msgid "Body Styles"
+msgstr ""
+
+#: includes/attributes.php:56
+msgid "Mileage"
+msgstr ""
+
+#: includes/attributes.php:57
+msgid "Mileages"
+msgstr "Kilometri"
+
+#: includes/attributes.php:63
+msgid "Transmission"
+msgstr ""
+
+#: includes/attributes.php:64
+msgid "Transmissions"
+msgstr ""
+
+#: includes/attributes.php:70
+msgid "Condition"
+msgstr ""
+
+#: includes/attributes.php:71
+msgid "Conditions"
+msgstr ""
+
+#: includes/attributes.php:80
+msgid "Drivetrain"
+msgstr ""
+
+#: includes/attributes.php:81
+msgid "Drivetrains"
+msgstr ""
+
+#: includes/attributes.php:87
+msgid "Engine"
+msgstr ""
+
+#: includes/attributes.php:88
+msgid "Engines"
+msgstr ""
+
+#: includes/attributes.php:93
+msgid "Fuel Economy"
+msgstr ""
+
+#: includes/attributes.php:94
+msgid "Fuel Economies"
+msgstr ""
+
+#: includes/attributes.php:100
+msgid "Exterior Color"
+msgstr ""
+
+#: includes/attributes.php:101
+msgid "Exterior Colors"
+msgstr ""
+
+#: includes/attributes.php:107
+msgid "Interior Color"
+msgstr ""
+
+#: includes/attributes.php:108
+msgid "Interior Colors"
+msgstr ""
+
+#: includes/attributes.php:113
+msgid "Stock Number"
+msgstr "Număr stoc"
+
+#: includes/attributes.php:114
+msgid "Stock Numbers"
+msgstr "Numere stoc"
+
+#: includes/attributes.php:120
+msgid "VIN Numbers"
+msgstr "Numere VIN"
+
+#: includes/attributes.php:126
+msgid "Fuel Type"
+msgstr "Tipul combustibilului"
+
+#: includes/attributes.php:127
+msgid "Fuel Types"
+msgstr ""
+
+#: includes/attributes.php:133
+msgid "Trim"
+msgstr ""
+
+#: includes/attributes.php:134
+msgid "Trims"
+msgstr ""
+
+#: includes/attributes.php:139
+msgid "Feature & Option"
+msgstr "Caracteristică și opțiune"
+
+#: includes/attributes.php:140 includes/template-functions.php:226
+msgid "Features & Options"
+msgstr "Caracteristici și opțiuni"
+
+#: includes/base_functions.php:19
+msgid "View the Next Page"
+msgstr ""
+
+#: includes/base_functions.php:34
+msgid "View the Previous Page"
+msgstr ""
+
+#: includes/base_functions.php:49
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"$1\" "
+"target=\"_blank\">TeamWP @Potenza Global Solutions</a></span>."
+msgstr ""
+"<span id=\"footer-thankyou\">Dezvoltat de <a href=\"$1\" "
+"target=\"_blank\">TeamWP @Potenza Global Solutions</a></span> ."
+
+#: includes/base_functions.php:182
+msgid "Testing Mail For Cardealer"
+msgstr ""
+
+#: includes/base_functions.php:183
+msgid "Theme mail is working properly."
+msgstr ""
+
+#. translators: 1: URL
+#: includes/base_functions.php:201
+msgid ""
+"There is an error while sending the email. Here is the <strong>PHPMailer "
+"Debug error:</strong><br><p>%s</p>"
+msgstr ""
+
+#: includes/base_functions.php:213
+msgid "Email sent successfully."
+msgstr "Email-ul a fost trimis cu succes."
+
+#: includes/base_functions.php:217 includes/base_functions.php:308
+#: includes/base_functions.php:406
+msgid "You are not allowed to access this section."
+msgstr ""
+
+#. translators: %s: VINquery URL
+#: includes/base_functions.php:244
+msgid ""
+"The <strong>VINquery API Key</strong> field is empty. Please add "
+"<strong>VINquery API Key</strong> in <a href=\"%s\" target=\"_blank\">Theme "
+"Options</a>."
+msgstr ""
+
+#. translators: %s: documentation URL
+#: includes/base_functions.php:268
+msgid ""
+"Please refer to this <a href=\"%s\" target=\"_blank\">documentation</a> for "
+"more details."
+msgstr ""
+
+#: includes/base_functions.php:282
+msgid "<strong>VINquery VIN Import</strong> is working fine."
+msgstr ""
+
+#: includes/base_functions.php:290
+msgid "Something went wrong. Unable to get request response."
+msgstr "Ceva n-a mers bine. Imposibil de primit răspunsul la cerere."
+
+#: includes/base_functions.php:295
+msgid ""
+"Make sure that the <strong>Car Dealer - VINquery Import</strong> plugin is "
+"activated."
+msgstr ""
+
+#: includes/base_functions.php:303
+msgid "VIN is misssing."
+msgstr ""
+
+#. translators: %s: Theme option URL
+#: includes/base_functions.php:335
+msgid ""
+"There is an error. It seems like the Mailchimp API key or List-ID is empty, "
+"please add the value in <a href=\"%s\" target=\"_blank\">Theme Options</a>."
+msgstr ""
+
+#. translators: %s: Error Response
+#: includes/base_functions.php:367
+msgid ""
+"There is an error, Please check the response for more details."
+"<br><strong>Respose error:</strong><p>%s</p>"
+msgstr ""
+
+#: includes/base_functions.php:380
+msgid "Theme Mailchimp API is working perfectly fine."
+msgstr ""
+
+#. translators:  %1$s: Erro status %2$s: Erro detail
+#: includes/base_functions.php:387
+msgid ""
+"There is an error, Please check the response for more details."
+"<br><strong>Respose error:</strong><p>%1$s : %2$s</p>"
+msgstr ""
+
+#: includes/base_functions.php:398
+msgid "Something went wrong, API request not getting proper response."
+msgstr ""
+
+#: includes/base_functions.php:612
+msgid "Read"
+msgstr "Citit"
+
+#: includes/base_functions.php:612
+msgid "Read more &raquo;"
+msgstr "Citeste mai mult &quot;"
+
+#: includes/base_functions.php:738 includes/base_functions.php:739
+msgid "Promocode"
+msgstr "Cod promoțional"
+
+#: includes/base_functions.php:741 includes/init.php:70
+msgid "Go"
+msgstr "Merge"
+
+#: includes/base_functions.php:811 includes/base_functions.php:935
+msgid "Login"
+msgstr "Logare"
+
+#: includes/base_functions.php:812 includes/base_functions.php:936
+msgid "My Account"
+msgstr "Contul meu"
+
+#. translators: 1: Support Panel URL
+#: includes/base_functions.php:1510
+msgid ""
+"Please verify your purchase code from <a href=\"%s\" target=\"_blank\">here</"
+"a>. It seems like your purchase code is not activated on this domain."
+msgstr ""
+
+#: includes/base_functions.php:2201
+#: includes/tgm-plugin-activation/tgm-init.php:87
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: includes/base_functions.php:2206
+msgid "Elementor"
+msgstr ""
+
+#: includes/base_functions.php:2343
+msgid "Posts"
+msgstr ""
+
+#: includes/base_functions.php:2344
+#, fuzzy
+#| msgid "Vehicle"
+msgid "Vehicles"
+msgstr "Vehicul"
+
+#: includes/base_functions.php:2355
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:457
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:247
+#: includes/template-functions.php:1622
+msgid "All"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/elementor.php:9
+#, fuzzy
+#| msgid "Cardealer 50x50"
+msgid "Car Dealer Studio"
+msgstr "Dealer auto 50x50"
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:106
+msgid "PGS Library"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:247
+#, fuzzy
+#| msgid "Add to compare"
+msgid "Add PGS Library Template"
+msgstr "Adaugă pentru a compara"
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:254
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:255
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:256
+msgid "Unable to fetch templates from the server."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:257
+msgid "Unable to sync templates from the server."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:288
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:336
+msgid "Unable to verify security."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:294
+#, fuzzy
+#| msgid "No widgets founds."
+msgid "No templates found."
+msgstr "Nu se găsesc widgeturi."
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:346
+msgid "Template not found."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:357
+msgid "Template data file is invalid."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/class-pgs-library.php:361
+msgid "Template data is broken."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-template-preview.php:11
+#, fuzzy
+#| msgid "Back to top"
+msgid "Back to Library"
+msgstr "Inapoi sus"
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-template-preview.php:19
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-templates.php:21
+msgid "Skip"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-template-preview.php:21
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-template-preview.php:22
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-templates.php:23
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-templates.php:24
+#: includes/template-functions.php:794
+msgid "Close"
+msgstr "Închide"
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/header-template-preview.php:30
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/templates.php:43
+msgid "Insert"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/loader.php:13
+msgid "Loading"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/no-result.php:8
+#, fuzzy
+#| msgid "No Results"
+msgid "No Results Found"
+msgstr "Fara rezultate"
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/no-result.php:9
+msgid ""
+"Please make sure your search is spelled correctly or try a different "
+"combination."
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/sync-error.php:8
+#, fuzzy
+#| msgid "Something went wrong!"
+msgid "Something Went Wrong!"
+msgstr "Ceva n-a mers bine!"
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/templates.php:24
+#, fuzzy
+#| msgid "Search Vehicle"
+msgid "Search Templates:"
+msgstr "Căutare vehicul"
+
+#: includes/cardealer-studio/elementor/pgs-library/editor-templates/templates.php:25
+#: template-parts/content-intro.php:240
+msgid "Search"
+msgstr "Căutare"
+
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config-vc.php:9
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config-vc.php:10
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config.php:5
+#: includes/cardealer-studio/templates/demo-element/config-vc.php:9
+#: includes/cardealer-studio/templates/demo-element/config-vc.php:10
+#: includes/cardealer-studio/templates/demo-element/config.php:5
+#, fuzzy
+#| msgid "Default Elementor"
+msgid "Demo Element"
+msgstr "Elementor implicit"
+
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config.php:9
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config.php:13
+#: includes/cardealer-studio/templates/demo-element/config.php:9
+#: includes/cardealer-studio/templates/demo-element/config.php:13
+msgid "Demo"
+msgstr ""
+
+#: includes/cardealer-studio/elementor/pgs-library/templates/demo-element/config.php:12
+#: includes/cardealer-studio/templates/demo-element/config.php:12
+msgid "Test"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-bg-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-bg-section/config.php:5
+msgid "About Bg Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-bg-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-bg-section/config.php:9
+#: includes/cardealer-studio/templates/about-bg-video-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-bg-video-section/config.php:9
+#: includes/cardealer-studio/templates/about-feature-box/config-vc.php:10
+#: includes/cardealer-studio/templates/about-feature-box/config.php:9
+#: includes/cardealer-studio/templates/about-feature-box-2/config-vc.php:10
+#: includes/cardealer-studio/templates/about-feature-box-2/config.php:9
+#: includes/cardealer-studio/templates/about-feature-box-3/config-vc.php:10
+#: includes/cardealer-studio/templates/about-feature-box-3/config.php:9
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config.php:9
+#: includes/cardealer-studio/templates/about-feature-with-image/config-vc.php:10
+#: includes/cardealer-studio/templates/about-feature-with-image/config.php:9
+#: includes/cardealer-studio/templates/about-full-slider-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-full-slider-section/config.php:9
+#: includes/cardealer-studio/templates/about-overview-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-overview-section/config.php:9
+#: includes/cardealer-studio/templates/about-search-form-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-search-form-section/config.php:9
+#: includes/cardealer-studio/templates/about-slider-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-slider-section/config.php:9
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config-vc.php:10
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config.php:9
+#: includes/cardealer-studio/templates/about-video-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-video-section/config.php:9
+#: includes/cardealer-studio/templates/about-welcome-section/config-vc.php:10
+#: includes/cardealer-studio/templates/about-welcome-section/config.php:9
+msgid "About Us"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-bg-section/config.php:12
+#: includes/cardealer-studio/templates/about-bg-video-section/config.php:12
+#: includes/cardealer-studio/templates/about-feature-box/config.php:12
+#: includes/cardealer-studio/templates/about-feature-box-2/config.php:12
+#: includes/cardealer-studio/templates/about-feature-box-3/config.php:12
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config.php:12
+#: includes/cardealer-studio/templates/about-feature-with-image/config.php:12
+#: includes/cardealer-studio/templates/about-full-slider-section/config.php:12
+#: includes/cardealer-studio/templates/about-overview-section/config.php:12
+#: includes/cardealer-studio/templates/about-search-form-section/config.php:12
+#: includes/cardealer-studio/templates/about-slider-section/config.php:12
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config.php:12
+#: includes/cardealer-studio/templates/about-video-section/config.php:12
+#: includes/cardealer-studio/templates/about-welcome-section/config.php:12
+msgid "about"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-bg-section/config.php:13
+#: includes/cardealer-studio/templates/about-bg-video-section/config.php:13
+#: includes/cardealer-studio/templates/about-feature-box/config.php:13
+#: includes/cardealer-studio/templates/about-feature-box-2/config.php:13
+#: includes/cardealer-studio/templates/about-feature-box-3/config.php:13
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config.php:13
+#: includes/cardealer-studio/templates/about-feature-with-image/config.php:13
+#: includes/cardealer-studio/templates/about-full-slider-section/config.php:13
+#: includes/cardealer-studio/templates/about-overview-section/config.php:13
+#: includes/cardealer-studio/templates/about-search-form-section/config.php:13
+#: includes/cardealer-studio/templates/about-slider-section/config.php:13
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config.php:13
+#: includes/cardealer-studio/templates/about-video-section/config.php:13
+#: includes/cardealer-studio/templates/about-welcome-section/config.php:13
+#: includes/cardealer-studio/templates/blog-01/config.php:13
+#: includes/cardealer-studio/templates/blog-02/config.php:13
+#: includes/cardealer-studio/templates/call-to-action/config.php:13
+#: includes/cardealer-studio/templates/call-to-action-02/config.php:13
+#: includes/cardealer-studio/templates/client-01/config.php:13
+#: includes/cardealer-studio/templates/client-02/config.php:13
+#: includes/cardealer-studio/templates/contact-info/config.php:13
+#: includes/cardealer-studio/templates/contact-info-02/config.php:13
+#: includes/cardealer-studio/templates/counter-01/config.php:13
+#: includes/cardealer-studio/templates/counter-02/config.php:13
+#: includes/cardealer-studio/templates/counter-03/config.php:13
+#: includes/cardealer-studio/templates/counter-04/config.php:13
+#: includes/cardealer-studio/templates/counter-with-icon-box/config.php:13
+#: includes/cardealer-studio/templates/custom-filters/config.php:13
+#: includes/cardealer-studio/templates/custom-filters-02/config.php:13
+#: includes/cardealer-studio/templates/custom-filters-03/config.php:13
+#: includes/cardealer-studio/templates/custom-filters-04/config.php:13
+#: includes/cardealer-studio/templates/custom-filters-05/config.php:13
+#: includes/cardealer-studio/templates/faq-with-bg/config.php:13
+#: includes/cardealer-studio/templates/feature-box/config.php:13
+#: includes/cardealer-studio/templates/feature-box-02/config.php:13
+#: includes/cardealer-studio/templates/feature-box-03/config.php:13
+#: includes/cardealer-studio/templates/feature-box-04/config.php:13
+#: includes/cardealer-studio/templates/form-01/config.php:13
+#: includes/cardealer-studio/templates/form-02/config.php:13
+#: includes/cardealer-studio/templates/form-03/config.php:13
+#: includes/cardealer-studio/templates/form-05/config.php:13
+#: includes/cardealer-studio/templates/multitab/config.php:13
+#: includes/cardealer-studio/templates/multitab-02/config.php:13
+#: includes/cardealer-studio/templates/newsletter/config.php:13
+#: includes/cardealer-studio/templates/opening-hours/config.php:13
+#: includes/cardealer-studio/templates/quick-link/config.php:13
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config.php:13
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config.php:13
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config.php:13
+#: includes/cardealer-studio/templates/services-all-feature-section/config.php:13
+#: includes/cardealer-studio/templates/services-awesome-feature/config.php:13
+#: includes/cardealer-studio/templates/services-feature/config.php:13
+#: includes/cardealer-studio/templates/services-feature-box/config.php:13
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config.php:13
+#: includes/cardealer-studio/templates/services-feature-with-bg/config.php:13
+#: includes/cardealer-studio/templates/services-feature-with-counter/config.php:13
+#: includes/cardealer-studio/templates/services-feature-with-image/config.php:13
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config.php:13
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config.php:13
+#: includes/cardealer-studio/templates/team-01/config.php:13
+#: includes/cardealer-studio/templates/team-02/config.php:13
+#: includes/cardealer-studio/templates/testimonial-01/config.php:13
+#: includes/cardealer-studio/templates/testimonial-02/config.php:13
+#: includes/cardealer-studio/templates/testimonial-03/config.php:13
+#: includes/cardealer-studio/templates/testimonial-04/config.php:13
+#: includes/cardealer-studio/templates/testimonial-05/config.php:13
+#: includes/cardealer-studio/templates/testimonial-06/config.php:13
+#: includes/cardealer-studio/templates/timeline-01/config.php:13
+#: includes/cardealer-studio/templates/vehicle-by-type/config.php:13
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config.php:13
+#: includes/cardealer-studio/templates/vehicles-search/config.php:13
+#: includes/cardealer-studio/templates/video-01/config.php:13
+#: includes/cardealer-studio/templates/video-02/config.php:13
+#: includes/cardealer-studio/templates/video-03/config.php:13
+#: includes/cardealer-studio/templates/video-04/config.php:13
+#, fuzzy
+#| msgid "Feature Box"
+msgid "feature"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-bg-video-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-bg-video-section/config.php:5
+msgid "About Bg Video Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-feature-box/config-vc.php:9
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About With Feature Box"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-box/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About with Feature Box"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-box-2/config-vc.php:9
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About With Feature Box 2"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-box-2/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About with Feature Box 2"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-box-3/config-vc.php:9
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About With Feature Box 3"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-box-3/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About with Feature Box 3"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-feature-with-dealer-section/config.php:5
+msgid "About Feature With Dealer Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-feature-with-image/config-vc.php:9
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About Feature With Image"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-feature-with-image/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "About Feature With Image "
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/about-full-slider-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-full-slider-section/config.php:5
+msgid "About Full Slider Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-overview-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-overview-section/config.php:5
+msgid "About Overview Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-search-form-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-search-form-section/config.php:5
+#, fuzzy
+#| msgid "Slider Revolution"
+msgid "About Search Form Section"
+msgstr "Slider Revolution"
+
+#: includes/cardealer-studio/templates/about-slider-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-slider-section/config.php:5
+#, fuzzy
+#| msgid "Slider Revolution"
+msgid "About Slider Section"
+msgstr "Slider Revolution"
+
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config-vc.php:9
+#: includes/cardealer-studio/templates/about-small-feature-with-image/config.php:5
+msgid "About Small Feature With Image"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-video-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-video-section/config.php:5
+msgid "About Video Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/about-welcome-section/config-vc.php:9
+#: includes/cardealer-studio/templates/about-welcome-section/config.php:5
+msgid "About Welcome Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/blog-01/config-vc.php:9
+#: includes/cardealer-studio/templates/blog-01/config.php:5
+#, fuzzy
+#| msgid "Blog"
+msgid "Blog 01"
+msgstr "Blog"
+
+#: includes/cardealer-studio/templates/blog-01/config-vc.php:10
+#: includes/cardealer-studio/templates/blog-01/config.php:9
+#: includes/cardealer-studio/templates/blog-01/config.php:12
+#: includes/cardealer-studio/templates/blog-02/config-vc.php:10
+#: includes/cardealer-studio/templates/blog-02/config.php:9
+#: includes/cardealer-studio/templates/blog-02/config.php:12
+#: includes/sample-data.php:27 includes/sample-data.php:47
+#: includes/sample-data.php:84 includes/sample-data.php:100
+#: includes/sample-data.php:116 includes/sample-data.php:132
+#: includes/sample-data.php:148 includes/sample-data.php:164
+#: includes/sample-data.php:180 includes/sample-data.php:196
+#: includes/sample-data.php:212 includes/sample-data.php:228
+#: includes/sample-data.php:242 includes/sample-data.php:256
+#: includes/sample-data.php:270 includes/sample-data.php:292
+#: includes/sample-data.php:308 includes/sample-data.php:324
+#: includes/sample-data.php:341 includes/sample-data.php:358
+#: includes/sample-data.php:375 includes/sample-data.php:392
+#: includes/sample-data.php:409 includes/sample-data.php:425
+#: includes/sample-data.php:441 includes/sample-data.php:454
+#: includes/sample-data.php:467 template-parts/content-intro.php:105
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/cardealer-studio/templates/blog-02/config-vc.php:9
+#: includes/cardealer-studio/templates/blog-02/config.php:5
+#, fuzzy
+#| msgid "Blog"
+msgid "Blog 02"
+msgstr "Blog"
+
+#: includes/cardealer-studio/templates/call-to-action/config-vc.php:9
+#: includes/cardealer-studio/templates/call-to-action/config-vc.php:10
+#: includes/cardealer-studio/templates/call-to-action/config.php:5
+#: includes/cardealer-studio/templates/call-to-action/config.php:9
+#: includes/cardealer-studio/templates/call-to-action/config.php:12
+#: includes/cardealer-studio/templates/call-to-action-02/config-vc.php:10
+#: includes/cardealer-studio/templates/call-to-action-02/config.php:9
+#: includes/cardealer-studio/templates/call-to-action-02/config.php:12
+#: includes/sample-data.php:685 includes/sample-data.php:999
+msgid "Call To Action"
+msgstr ""
+
+#: includes/cardealer-studio/templates/call-to-action-02/config-vc.php:9
+#: includes/cardealer-studio/templates/call-to-action-02/config.php:5
+msgid "Call To Action 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/client-01/config-vc.php:9
+#: includes/cardealer-studio/templates/client-01/config-vc.php:10
+#: includes/cardealer-studio/templates/client-01/config.php:5
+#, fuzzy
+#| msgid "Contact 01"
+msgid "Client 01"
+msgstr "Contactează 01"
+
+#: includes/cardealer-studio/templates/client-01/config.php:9
+#: includes/cardealer-studio/templates/client-01/config.php:12
+#: includes/cardealer-studio/templates/client-02/config.php:9
+#: includes/cardealer-studio/templates/client-02/config.php:12
+msgid "Client"
+msgstr ""
+
+#: includes/cardealer-studio/templates/client-02/config-vc.php:9
+#: includes/cardealer-studio/templates/client-02/config-vc.php:10
+#: includes/cardealer-studio/templates/client-02/config.php:5
+#, fuzzy
+#| msgid "Contact 02"
+msgid "Client 02"
+msgstr "Contactează 02"
+
+#: includes/cardealer-studio/templates/contact-info/config-vc.php:9
+#: includes/cardealer-studio/templates/contact-info/config-vc.php:10
+#: includes/cardealer-studio/templates/contact-info/config.php:5
+#: includes/cardealer-studio/templates/contact-info/config.php:9
+#: includes/cardealer-studio/templates/contact-info/config.php:12
+#: includes/cardealer-studio/templates/contact-info-02/config-vc.php:10
+#: includes/cardealer-studio/templates/contact-info-02/config.php:9
+#: includes/cardealer-studio/templates/contact-info-02/config.php:12
+#, fuzzy
+#| msgid "Contact 01"
+msgid "Contact Info"
+msgstr "Contactează 01"
+
+#: includes/cardealer-studio/templates/contact-info-02/config-vc.php:9
+#: includes/cardealer-studio/templates/contact-info-02/config.php:5
+#, fuzzy
+#| msgid "Contact 02"
+msgid "Contact Info 02"
+msgstr "Contactează 02"
+
+#: includes/cardealer-studio/templates/counter-01/config-vc.php:9
+#: includes/cardealer-studio/templates/counter-01/config.php:5
+msgid "Counter 01"
+msgstr ""
+
+#: includes/cardealer-studio/templates/counter-01/config-vc.php:10
+#: includes/cardealer-studio/templates/counter-01/config.php:9
+#: includes/cardealer-studio/templates/counter-01/config.php:12
+#: includes/cardealer-studio/templates/counter-02/config-vc.php:10
+#: includes/cardealer-studio/templates/counter-02/config.php:9
+#: includes/cardealer-studio/templates/counter-02/config.php:12
+#: includes/cardealer-studio/templates/counter-03/config-vc.php:10
+#: includes/cardealer-studio/templates/counter-03/config.php:9
+#: includes/cardealer-studio/templates/counter-03/config.php:12
+#: includes/cardealer-studio/templates/counter-04/config-vc.php:10
+#: includes/cardealer-studio/templates/counter-04/config.php:9
+#: includes/cardealer-studio/templates/counter-04/config.php:12
+#: includes/cardealer-studio/templates/counter-with-icon-box/config-vc.php:10
+#: includes/cardealer-studio/templates/counter-with-icon-box/config.php:9
+#: includes/cardealer-studio/templates/counter-with-icon-box/config.php:12
+#: includes/sample-data.php:636 includes/sample-data.php:950
+msgid "Counter"
+msgstr ""
+
+#: includes/cardealer-studio/templates/counter-02/config-vc.php:9
+#: includes/cardealer-studio/templates/counter-02/config.php:5
+msgid "Counter 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/counter-03/config-vc.php:9
+#: includes/cardealer-studio/templates/counter-03/config.php:5
+msgid "Counter 03"
+msgstr ""
+
+#: includes/cardealer-studio/templates/counter-04/config-vc.php:9
+#: includes/cardealer-studio/templates/counter-04/config.php:5
+msgid "Counter 04"
+msgstr ""
+
+#: includes/cardealer-studio/templates/counter-with-icon-box/config-vc.php:9
+#: includes/cardealer-studio/templates/counter-with-icon-box/config.php:5
+msgid "Counter With Icon Box"
+msgstr ""
+
+#: includes/cardealer-studio/templates/custom-filters/config-vc.php:9
+#: includes/cardealer-studio/templates/custom-filters/config.php:5
+#, fuzzy
+#| msgid "Custom Filters"
+msgid "Custom Filters 01"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/custom-filters/config-vc.php:10
+#: includes/cardealer-studio/templates/custom-filters/config.php:9
+#: includes/cardealer-studio/templates/custom-filters/config.php:12
+#: includes/cardealer-studio/templates/custom-filters-02/config-vc.php:10
+#: includes/cardealer-studio/templates/custom-filters-02/config.php:9
+#: includes/cardealer-studio/templates/custom-filters-02/config.php:12
+#: includes/cardealer-studio/templates/custom-filters-03/config-vc.php:10
+#: includes/cardealer-studio/templates/custom-filters-03/config.php:9
+#: includes/cardealer-studio/templates/custom-filters-03/config.php:12
+#: includes/cardealer-studio/templates/custom-filters-04/config-vc.php:10
+#: includes/cardealer-studio/templates/custom-filters-04/config.php:9
+#: includes/cardealer-studio/templates/custom-filters-04/config.php:12
+#: includes/cardealer-studio/templates/custom-filters-05/config-vc.php:10
+#: includes/cardealer-studio/templates/custom-filters-05/config.php:9
+#: includes/cardealer-studio/templates/custom-filters-05/config.php:12
+#: includes/sample-data.php:783 includes/sample-data.php:1104
+msgid "Custom Filters"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/custom-filters-02/config-vc.php:9
+#: includes/cardealer-studio/templates/custom-filters-02/config.php:5
+#, fuzzy
+#| msgid "Custom Filters"
+msgid "Custom Filters 02"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/custom-filters-03/config-vc.php:9
+#: includes/cardealer-studio/templates/custom-filters-03/config.php:5
+#, fuzzy
+#| msgid "Custom Filters"
+msgid "Custom Filters 03"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/custom-filters-04/config-vc.php:9
+#: includes/cardealer-studio/templates/custom-filters-04/config.php:5
+#, fuzzy
+#| msgid "Custom Filters"
+msgid "Custom Filters 04"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/custom-filters-05/config-vc.php:9
+#: includes/cardealer-studio/templates/custom-filters-05/config.php:5
+#, fuzzy
+#| msgid "Custom Filters"
+msgid "Custom Filters 05"
+msgstr "Filtre personalizate"
+
+#: includes/cardealer-studio/templates/faq-with-bg/config-vc.php:9
+#: includes/cardealer-studio/templates/faq-with-bg/config.php:5
+msgid "Faq With Bg Image"
+msgstr ""
+
+#: includes/cardealer-studio/templates/faq-with-bg/config-vc.php:10
+msgid "faq"
+msgstr ""
+
+#: includes/cardealer-studio/templates/faq-with-bg/config.php:9
+#: includes/cardealer-studio/templates/faq-with-bg/config.php:12
+msgid "Faq"
+msgstr ""
+
+#: includes/cardealer-studio/templates/feature-box/config-vc.php:9
+#: includes/cardealer-studio/templates/feature-box/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Feature Box 01"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/feature-box/config-vc.php:10
+#: includes/cardealer-studio/templates/feature-box/config.php:9
+#: includes/cardealer-studio/templates/feature-box/config.php:12
+#: includes/cardealer-studio/templates/feature-box-02/config-vc.php:10
+#: includes/cardealer-studio/templates/feature-box-02/config.php:9
+#: includes/cardealer-studio/templates/feature-box-02/config.php:12
+#: includes/cardealer-studio/templates/feature-box-03/config-vc.php:10
+#: includes/cardealer-studio/templates/feature-box-03/config.php:9
+#: includes/cardealer-studio/templates/feature-box-03/config.php:12
+#: includes/cardealer-studio/templates/feature-box-04/config-vc.php:10
+#: includes/cardealer-studio/templates/feature-box-04/config.php:9
+#: includes/cardealer-studio/templates/feature-box-04/config.php:12
+#: includes/sample-data.php:664 includes/sample-data.php:978
+msgid "Feature Box"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/feature-box-02/config-vc.php:9
+#: includes/cardealer-studio/templates/feature-box-02/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Feature Box 02"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/feature-box-03/config-vc.php:9
+#: includes/cardealer-studio/templates/feature-box-03/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Feature Box 03"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/feature-box-04/config-vc.php:9
+#: includes/cardealer-studio/templates/feature-box-04/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Feature Box 04"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/form-01/config-vc.php:9
+#: includes/cardealer-studio/templates/form-01/config.php:5
+msgid "Form 01"
+msgstr ""
+
+#: includes/cardealer-studio/templates/form-01/config-vc.php:10
+#: includes/cardealer-studio/templates/form-01/config.php:9
+#: includes/cardealer-studio/templates/form-01/config.php:12
+#: includes/cardealer-studio/templates/form-02/config-vc.php:10
+#: includes/cardealer-studio/templates/form-02/config.php:9
+#: includes/cardealer-studio/templates/form-02/config.php:12
+#: includes/cardealer-studio/templates/form-03/config-vc.php:10
+#: includes/cardealer-studio/templates/form-03/config.php:9
+#: includes/cardealer-studio/templates/form-03/config.php:12
+#: includes/cardealer-studio/templates/form-05/config-vc.php:10
+#: includes/cardealer-studio/templates/form-05/config.php:9
+#: includes/cardealer-studio/templates/form-05/config.php:12
+#: includes/cardealer-studio/templates/timeline-01/config-vc.php:10
+#: includes/cardealer-studio/templates/timeline-01/config.php:9
+#: includes/cardealer-studio/templates/timeline-01/config.php:12
+msgid "Form"
+msgstr ""
+
+#: includes/cardealer-studio/templates/form-02/config-vc.php:9
+#: includes/cardealer-studio/templates/form-02/config.php:5
+msgid "Form 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/form-03/config-vc.php:9
+#: includes/cardealer-studio/templates/form-03/config.php:5
+msgid "Form 03"
+msgstr ""
+
+#: includes/cardealer-studio/templates/form-05/config-vc.php:9
+#: includes/cardealer-studio/templates/form-05/config.php:5
+msgid "Form 05"
+msgstr ""
+
+#: includes/cardealer-studio/templates/multitab/config-vc.php:9
+#: includes/cardealer-studio/templates/multitab/config-vc.php:10
+#: includes/cardealer-studio/templates/multitab/config.php:5
+#: includes/cardealer-studio/templates/multitab/config.php:9
+#: includes/cardealer-studio/templates/multitab/config.php:12
+#: includes/cardealer-studio/templates/multitab-02/config-vc.php:10
+#: includes/cardealer-studio/templates/multitab-02/config.php:9
+#: includes/cardealer-studio/templates/multitab-02/config.php:12
+#: includes/sample-data.php:692 includes/sample-data.php:1006
+msgid "Multitab"
+msgstr ""
+
+#: includes/cardealer-studio/templates/multitab-02/config-vc.php:9
+#: includes/cardealer-studio/templates/multitab-02/config.php:5
+msgid "Multitab 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/newsletter/config-vc.php:9
+#: includes/cardealer-studio/templates/newsletter/config-vc.php:10
+#: includes/cardealer-studio/templates/newsletter/config.php:5
+#: includes/cardealer-studio/templates/newsletter/config.php:9
+#: includes/cardealer-studio/templates/newsletter/config.php:12
+#: includes/sample-data.php:706 includes/sample-data.php:1020
+msgid "Newsletter"
+msgstr ""
+
+#: includes/cardealer-studio/templates/opening-hours/config-vc.php:9
+#: includes/cardealer-studio/templates/opening-hours/config-vc.php:10
+#: includes/cardealer-studio/templates/opening-hours/config.php:5
+#: includes/cardealer-studio/templates/opening-hours/config.php:9
+#: includes/cardealer-studio/templates/opening-hours/config.php:12
+#: includes/sample-data.php:734 includes/sample-data.php:1048
+msgid "Opening Hours"
+msgstr ""
+
+#: includes/cardealer-studio/templates/quick-link/config-vc.php:9
+#: includes/cardealer-studio/templates/quick-link/config-vc.php:10
+#: includes/cardealer-studio/templates/quick-link/config.php:5
+#: includes/cardealer-studio/templates/quick-link/config.php:9
+#: includes/cardealer-studio/templates/quick-link/config.php:12
+#: includes/sample-data.php:678 includes/sample-data.php:992
+msgid "Quick Link"
+msgstr ""
+
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config-vc.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature/config.php:5
+msgid "Recent Vehicle Feature"
+msgstr ""
+
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config-vc.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature-02/config.php:5
+msgid "Recent Vehicle Feature 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config-vc.php:9
+#: includes/cardealer-studio/templates/recent-vehicle-feature-03/config.php:5
+#, fuzzy
+#| msgid "Related Vehicle"
+msgid "Recent Vehicle Grid"
+msgstr "Vehicul asemănător"
+
+#: includes/cardealer-studio/templates/services-all-feature-section/config-vc.php:9
+#: includes/cardealer-studio/templates/services-all-feature-section/config.php:5
+msgid "Services All Feature Section"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-all-feature-section/config-vc.php:10
+#: includes/cardealer-studio/templates/services-all-feature-section/config.php:9
+#: includes/cardealer-studio/templates/services-all-feature-section/config.php:12
+#: includes/cardealer-studio/templates/services-awesome-feature/config-vc.php:10
+#: includes/cardealer-studio/templates/services-awesome-feature/config.php:9
+#: includes/cardealer-studio/templates/services-awesome-feature/config.php:12
+#: includes/cardealer-studio/templates/services-feature/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature/config.php:9
+#: includes/cardealer-studio/templates/services-feature/config.php:12
+#: includes/cardealer-studio/templates/services-feature-box/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-box/config.php:9
+#: includes/cardealer-studio/templates/services-feature-box/config.php:12
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config.php:9
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config.php:12
+#: includes/cardealer-studio/templates/services-feature-with-bg/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-with-bg/config.php:9
+#: includes/cardealer-studio/templates/services-feature-with-bg/config.php:12
+#: includes/cardealer-studio/templates/services-feature-with-counter/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-with-counter/config.php:9
+#: includes/cardealer-studio/templates/services-feature-with-counter/config.php:12
+#: includes/cardealer-studio/templates/services-feature-with-image/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-with-image/config.php:9
+#: includes/cardealer-studio/templates/services-feature-with-image/config.php:12
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config.php:9
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config.php:12
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config-vc.php:10
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config.php:9
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config.php:12
+#, fuzzy
+#| msgid "Service 2"
+msgid "Services"
+msgstr "Serviciul 2"
+
+#: includes/cardealer-studio/templates/services-awesome-feature/config-vc.php:9
+#: includes/cardealer-studio/templates/services-awesome-feature/config.php:5
+msgid "Services Awesome Feature"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature/config.php:5
+#, fuzzy
+#| msgid "Service 2"
+msgid "Services Feature"
+msgstr "Serviciul 2"
+
+#: includes/cardealer-studio/templates/services-feature-box/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-box/config.php:5
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Services Feature Box"
+msgstr "Cutie de caracteristici"
+
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-box-with-questions/config.php:5
+msgid "Services Feature Box With Questions"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature-with-bg/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-with-bg/config.php:5
+msgid "Services Feature With Bg"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature-with-counter/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-with-counter/config.php:5
+msgid "Services Feature With Counter"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature-with-image/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-with-image/config.php:5
+msgid "Services Feature With Image"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-with-left-bg/config.php:5
+msgid "Services Feature With Left Bg"
+msgstr ""
+
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config-vc.php:9
+#: includes/cardealer-studio/templates/services-feature-with-right-bg/config.php:5
+msgid "Services Feature With Right Bg"
+msgstr ""
+
+#: includes/cardealer-studio/templates/team-01/config-vc.php:9
+#: includes/cardealer-studio/templates/team-01/config.php:5
+msgid "Team 01"
+msgstr ""
+
+#: includes/cardealer-studio/templates/team-02/config-vc.php:9
+#: includes/cardealer-studio/templates/team-02/config.php:5
+msgid "Team 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/testimonial-01/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-01/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 01"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-01/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-01/config.php:9
+#: includes/cardealer-studio/templates/testimonial-01/config.php:12
+#: includes/cardealer-studio/templates/testimonial-02/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-02/config.php:9
+#: includes/cardealer-studio/templates/testimonial-02/config.php:12
+#: includes/cardealer-studio/templates/testimonial-03/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-03/config.php:9
+#: includes/cardealer-studio/templates/testimonial-03/config.php:12
+#: includes/cardealer-studio/templates/testimonial-04/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-04/config.php:9
+#: includes/cardealer-studio/templates/testimonial-04/config.php:12
+#: includes/cardealer-studio/templates/testimonial-05/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-05/config.php:9
+#: includes/cardealer-studio/templates/testimonial-05/config.php:12
+#: includes/cardealer-studio/templates/testimonial-06/config-vc.php:10
+#: includes/cardealer-studio/templates/testimonial-06/config.php:9
+#: includes/cardealer-studio/templates/testimonial-06/config.php:12
+#: includes/sample-data.php:608 includes/sample-data.php:922
+msgid "Testimonial"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-02/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-02/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 02"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-03/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-03/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 03"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-04/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-04/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 04"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-05/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-05/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 05"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/testimonial-06/config-vc.php:9
+#: includes/cardealer-studio/templates/testimonial-06/config.php:5
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonial 06"
+msgstr "Mărturie"
+
+#: includes/cardealer-studio/templates/timeline-01/config-vc.php:9
+#: includes/cardealer-studio/templates/timeline-01/config.php:5
+#, fuzzy
+#| msgid "Timeline"
+msgid "Timeline 01"
+msgstr "Cronologie"
+
+#: includes/cardealer-studio/templates/vehicle-by-type/config-vc.php:9
+#: includes/cardealer-studio/templates/vehicle-by-type/config-vc.php:10
+#: includes/cardealer-studio/templates/vehicle-by-type/config.php:5
+#: includes/cardealer-studio/templates/vehicle-by-type/config.php:9
+#: includes/cardealer-studio/templates/vehicle-by-type/config.php:12
+#: includes/sample-data.php:790 includes/sample-data.php:1111
+msgid "Vehicle By Type"
+msgstr "Vehicul după tip"
+
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config-vc.php:9
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config-vc.php:10
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config.php:5
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config.php:9
+#: includes/cardealer-studio/templates/vehicles-conditions-tabs/config.php:12
+#: includes/sample-data.php:804 includes/sample-data.php:1125
+msgid "Vehicles Conditions Tabs"
+msgstr "Filele Condiții vehicule"
+
+#: includes/cardealer-studio/templates/vehicles-search/config-vc.php:9
+#: includes/cardealer-studio/templates/vehicles-search/config-vc.php:10
+#: includes/cardealer-studio/templates/vehicles-search/config.php:5
+#: includes/cardealer-studio/templates/vehicles-search/config.php:9
+#: includes/cardealer-studio/templates/vehicles-search/config.php:12
+#: includes/sample-data.php:797 includes/sample-data.php:1118
+msgid "Vehicles Search"
+msgstr "Căutare vehicule"
+
+#: includes/cardealer-studio/templates/video-01/config-vc.php:9
+#: includes/cardealer-studio/templates/video-01/config.php:5
+msgid "Video 01"
+msgstr ""
+
+#: includes/cardealer-studio/templates/video-01/config-vc.php:10
+#: includes/cardealer-studio/templates/video-01/config.php:9
+#: includes/cardealer-studio/templates/video-01/config.php:12
+#: includes/cardealer-studio/templates/video-02/config-vc.php:10
+#: includes/cardealer-studio/templates/video-02/config.php:9
+#: includes/cardealer-studio/templates/video-02/config.php:12
+#: includes/cardealer-studio/templates/video-03/config-vc.php:10
+#: includes/cardealer-studio/templates/video-03/config.php:9
+#: includes/cardealer-studio/templates/video-03/config.php:12
+#: includes/cardealer-studio/templates/video-04/config-vc.php:10
+#: includes/cardealer-studio/templates/video-04/config.php:9
+#: includes/cardealer-studio/templates/video-04/config.php:12
+#: includes/cars_functions.php:372 includes/sample-data.php:713
+#: includes/sample-data.php:1027
+msgid "Video"
+msgstr ""
+
+#: includes/cardealer-studio/templates/video-02/config-vc.php:9
+#: includes/cardealer-studio/templates/video-02/config.php:5
+msgid "Video 02"
+msgstr ""
+
+#: includes/cardealer-studio/templates/video-03/config-vc.php:9
+#: includes/cardealer-studio/templates/video-03/config.php:5
+msgid "Video 03"
+msgstr ""
+
+#: includes/cardealer-studio/templates/video-04/config-vc.php:9
+#: includes/cardealer-studio/templates/video-04/config.php:5
+msgid "Video 04"
+msgstr ""
+
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:120
+#, fuzzy
+#| msgid "Cardealer 50x50"
+msgid "Cardealer Studio"
+msgstr "Dealer auto 50x50"
+
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:190
+msgid "Misc"
+msgstr ""
+
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:297
+msgid "Preview template"
+msgstr ""
+
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:298
+#, fuzzy
+#| msgid "Add to compare"
+msgid "Add template"
+msgstr "Adaugă pentru a compara"
+
+#: includes/cardealer-studio/vc/class-cardealer-vc-templates-panel-editor.php:621
+#, fuzzy
+#| msgid "Job Title"
+msgid "No title"
+msgstr "Denumirea funcției"
+
+#: includes/cardealer-templates/templates/vehicle-detail-layout-1/config.php:3
+#, fuzzy
+#| msgid "Vehicle Details"
+msgid "Vehicle Detail - Layout 1"
+msgstr "Detalii vehicul"
+
+#: includes/cardealer-templates/templates/vehicle-detail-layout-2/config.php:3
+#, fuzzy
+#| msgid "Vehicle Details"
+msgid "Vehicle Detail - Layout 2"
+msgstr "Detalii vehicul"
+
+#: includes/cardealer-templates/templates/vehicle-detail-layout-3/config.php:3
+#, fuzzy
+#| msgid "Vehicle Details"
+msgid "Vehicle Detail - Layout 3"
+msgstr "Detalii vehicul"
+
+#: includes/cardealer-templates/templates/vehicle-detail-mobile-1/config.php:3
+#, fuzzy
+#| msgid "Vehicle Detail Sidebar"
+msgid "Vehicle Detail - Mobile 1"
+msgstr "Bara laterală a detaliilor vehiculului"
+
+#: includes/cardealer-templates/templates/vehicle-detail-modern-1/config.php:3
+#, fuzzy
+#| msgid "Vehicle Detail Sidebar"
+msgid "Vehicle Detail - Modern 1"
+msgstr "Bara laterală a detaliilor vehiculului"
+
+#: includes/cars_functions.php:112 includes/cars_functions.php:287
+msgid "View"
+msgstr "Vedere"
+
+#: includes/cars_functions.php:174
+#: template-parts/cars/single-car/layout/layout-1.php:51
+#: template-parts/cars/single-car/layout/layout-2.php:51
+#: template-parts/cars/single-car/layout/layout-3.php:53
+#: template-parts/cars/single-car/layout/layout-modern-1.php:46
+#: template-parts/cars/single-car/sections/post-actions.php:15
+msgid "Add to wishlist"
+msgstr ""
+
+#: includes/cars_functions.php:183
+#: template-parts/cars/single-car/layout/layout-1.php:59
+#: template-parts/cars/single-car/layout/layout-2.php:59
+#: template-parts/cars/single-car/layout/layout-3.php:61
+#: template-parts/cars/single-car/layout/layout-modern-1.php:54
+#: template-parts/cars/single-car/sections/post-actions.php:23
+msgid "Added to Wishlist"
+msgstr ""
+
+#: includes/cars_functions.php:187
+msgid "Wishlist"
+msgstr ""
+
+#: includes/cars_functions.php:226 includes/cars_functions.php:327
+msgid "Compare"
+msgstr "Comparaţie"
+
+#: includes/cars_functions.php:248 includes/cars_functions.php:349
+msgid "Gallery"
+msgstr "Galerie"
+
+#: includes/cars_functions.php:287
+msgid "Detail"
+msgstr "Detaliu"
+
+#: includes/cars_functions.php:673
+msgid "Buy Online"
+msgstr ""
+
+#: includes/cars_functions.php:1077
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:77
+#: template-parts/cars/single-car/forms/make_an_offer.php:84
+msgid "Request Price"
+msgstr "Cerere de preț"
+
+#: includes/cars_functions.php:1422
+msgid "SOLD"
+msgstr "VÂNDUT"
+
+#: includes/cars_functions.php:1817
+msgid "Year:"
+msgstr "An:"
+
+#: includes/cars_functions.php:2504 includes/sold_cars_functions.php:262
+msgid "Sort by Name"
+msgstr "Sorteaza dupa nume"
+
+#: includes/cars_functions.php:2505 includes/sold_cars_functions.php:263
+msgid "Sort by Price"
+msgstr "Sortați după preț"
+
+#: includes/cars_functions.php:2506 includes/sold_cars_functions.php:264
+msgid "Sort by Date"
+msgstr "Sortati dupa data"
+
+#: includes/cars_functions.php:2507
+msgid "Sort by Year"
+msgstr "Sortează după An"
+
+#: includes/cars_functions.php:2513 includes/sold_cars_functions.php:270
+msgid "Sort by Default"
+msgstr "Sortează după implicit"
+
+#: includes/cars_functions.php:3221
+msgid "Vehicles Matching"
+msgstr "Compararea vehiculelor"
+
+#: includes/cars_functions.php:3249 includes/template-functions.php:252
+msgid "Location"
+msgstr "Locație"
+
+#: includes/cars_functions.php:3360
+msgid "Reset"
+msgstr "Resetați"
+
+#: includes/cars_functions.php:3646 includes/cars_functions.php:4249
+msgid "Something is wrong; please try again..!"
+msgstr "Ceva este greșit; vă rugăm să încercați din nou..!"
+
+#: includes/cars_functions.php:3662
+msgid "All vehicles loaded..!"
+msgstr ""
+
+#: includes/cars_functions.php:3726
+#: template-parts/cars/archive-layout/default.php:141
+#: template-parts/cars/archive-layout/lazy-load.php:83
+#: template-parts/cars/archive-layout/mobile.php:106 templates/sold-cars.php:60
+msgid "No result were found matching your selection."
+msgstr "Nu s-au găsit rezultate care să corespundă selecției dvs."
+
+#: includes/cars_functions.php:3849
+msgid "Submit"
+msgstr "A depune"
+
+#: includes/cars_functions.php:3850
+msgid "Reset All Filters"
+msgstr "Resetați toate filtrele"
+
+#: includes/cars_functions.php:4072
+msgid "&larr; Prev"
+msgstr "← Prev"
+
+#: includes/cars_functions.php:4073
+msgid "Next &rarr;"
+msgstr "Următorul & rarr;"
+
+#: includes/cars_functions.php:4136
+msgid "Unable to verify security nonce. Please try again later."
+msgstr ""
+
+#: includes/cars_functions.php:4149
+msgid "No search term entered."
+msgstr ""
+
+#: includes/cars_functions.php:4161
+msgid "Wrong search type. Please try again later."
+msgstr ""
+
+#: includes/cars_functions.php:4221 includes/cars_functions.php:4295
+#: includes/cars_functions.php:4304
+msgid "No Results"
+msgstr "Fara rezultate"
+
+#: includes/cars_functions.php:4379
+msgid "Close (Esc)"
+msgstr "Închidere (Esc)"
+
+#: includes/cars_functions.php:4380
+msgid "Toggle fullscreen"
+msgstr "Comutare la ecran complet"
+
+#: includes/cars_functions.php:4381
+msgid "Zoom in/out"
+msgstr "Măriți / micșorați"
+
+#: includes/cars_functions.php:4394
+msgid "Previous (arrow left)"
+msgstr "Înainte (săgeată stânga)"
+
+#: includes/cars_functions.php:4396
+msgid "Next (arrow right)"
+msgstr "Înainte (dreapta pe săgeată)"
+
+#: includes/cars_functions.php:4770
+#: includes/classes/class-cardealer-assets.php:1006
+#: includes/classes/class-cardealer-assets.php:1094
+#: includes/classes/class-cardealer-assets.php:1115
+#: includes/classes/class-cardealer-assets.php:1132
+msgid "Something went wrong!"
+msgstr "Ceva n-a mers bine!"
+
+#: includes/classes/class-cardealer-assets.php:825
+msgid "Unable to load compare."
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1161
+msgid "Please enter a valid number for the Loan Amount (P)."
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1162
+msgid "Please enter a valid number for the Down Payment (P)."
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1163
+msgid "Please enter an Interest Rate (R)."
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1164
+msgid "Please enter the Total Number of Payments (N)."
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1165
+msgid "&#47;mo"
+msgstr ""
+
+#: includes/classes/class-cardealer-assets.php:1199
+msgid "Search Vehicle"
+msgstr "Căutare vehicul"
+
+#: includes/classes/class-pgs-social-share.php:39
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/class-pgs-social-share.php:46
+msgid "Twitter"
+msgstr "Stare de nervozitate"
+
+#: includes/classes/class-pgs-social-share.php:53
+#, fuzzy
+#| msgid "Linkedin"
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/classes/class-pgs-social-share.php:60
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/classes/class-pgs-social-share.php:67
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:74
+msgid "Telegram"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:80
+msgid "Xing"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:86
+msgid "Mastodon"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:92
+msgid "Reddit"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:98
+msgid "Pocket"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:104
+msgid "Skype"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:110
+msgid "Tumblr"
+msgstr ""
+
+#: includes/classes/class-pgs-social-share.php:116
+msgid "Vkontakte"
+msgstr ""
+
+#: includes/comments.php:24
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: includes/comments.php:24
+msgid "(Edit)"
+msgstr "(Editați | ×)"
+
+#: includes/comments.php:44
+msgid "Post author"
+msgstr "Autor postat"
+
+#. translators: 1: date, 2: time
+#: includes/comments.php:50
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/comments.php:60
+msgid "Reply"
+msgstr "Răspuns"
+
+#: includes/comments.php:72
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul dvs. așteaptă să fie moderat."
+
+#. translators: used between list items, there is a space after the comma
+#: includes/comments.php:77 template-parts/entry_meta.php:112
+#: template-parts/search/entry_meta.php:86
+msgid "Edit"
+msgstr "Editați | ×"
+
+#: includes/init.php:68
+msgid "Search for:"
+msgstr "Caută:"
+
+#: includes/init.php:69 includes/menus/menus.php:174
+#: template-parts/header/menu-elements/search-mobile.php:12
+#: template-parts/header/menu-elements/search.php:12
+msgid "Search..."
+msgstr "Căutare..."
+
+#: includes/sample-data.php:24
+msgid "Default"
+msgstr "Mod implicit"
+
+#: includes/sample-data.php:26 includes/sample-data.php:46
+msgid "Home"
+msgstr ""
+
+#: includes/sample-data.php:28 includes/sample-data.php:48
+msgid ""
+"Importing demo content will import Pages, Posts, Testimonials, Teams, FAQs, "
+"Menus, Widgets and Theme Options. Importing sample data will override "
+"current widgets and theme options. It can take some time to complete the "
+"import process."
+msgstr ""
+
+#: includes/sample-data.php:31 includes/sample-data.php:88
+#: includes/sample-data.php:104 includes/sample-data.php:120
+#: includes/sample-data.php:136 includes/sample-data.php:152
+#: includes/sample-data.php:168 includes/sample-data.php:184
+#: includes/sample-data.php:200 includes/sample-data.php:216
+#: includes/sample-data.php:232 includes/sample-data.php:246
+#: includes/sample-data.php:260 includes/sample-data.php:274
+#: includes/sample-data.php:296 includes/sample-data.php:312
+#: includes/sample-data.php:328 includes/sample-data.php:345
+#: includes/sample-data.php:362 includes/sample-data.php:379
+#: includes/sample-data.php:396 includes/sample-data.php:413
+#: includes/sample-data.php:429 includes/sample-data.php:445
+#: includes/sample-data.php:458 includes/sample-data.php:471
+msgid "Main Menu"
+msgstr "Meniu principal"
+
+#: includes/sample-data.php:32 includes/sample-data.php:52
+#: includes/sample-data.php:89 includes/sample-data.php:105
+#: includes/sample-data.php:121 includes/sample-data.php:137
+#: includes/sample-data.php:153 includes/sample-data.php:169
+#: includes/sample-data.php:185 includes/sample-data.php:201
+#: includes/sample-data.php:217 includes/sample-data.php:233
+#: includes/sample-data.php:247 includes/sample-data.php:261
+#: includes/sample-data.php:275 includes/sample-data.php:297
+#: includes/sample-data.php:313 includes/sample-data.php:329
+#: includes/sample-data.php:346 includes/sample-data.php:363
+#: includes/sample-data.php:380 includes/sample-data.php:397
+#: includes/sample-data.php:414 includes/sample-data.php:430
+#: includes/sample-data.php:446 includes/sample-data.php:459
+#: includes/sample-data.php:472
+msgid "Footer Menu"
+msgstr "Meniu subsol"
+
+#: includes/sample-data.php:33
+msgid "Top Bar Menu"
+msgstr ""
+
+#: includes/sample-data.php:44
+msgid "Default Elementor"
+msgstr "Elementor implicit"
+
+#: includes/sample-data.php:51
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: includes/sample-data.php:81 includes/sample-data.php:83
+#: includes/sample-data.php:289 includes/sample-data.php:291
+msgid "Home 2"
+msgstr "Acasă 2"
+
+#: includes/sample-data.php:85 includes/sample-data.php:293
+msgid ""
+"This sample will import Home Page 2 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:97 includes/sample-data.php:99
+#: includes/sample-data.php:305 includes/sample-data.php:307
+msgid "Home 3"
+msgstr "Acasă 3"
+
+#: includes/sample-data.php:101 includes/sample-data.php:309
+msgid ""
+"This sample will import Home Page 3 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:113 includes/sample-data.php:115
+#: includes/sample-data.php:321 includes/sample-data.php:323
+msgid "Home 4"
+msgstr "Acasă 4"
+
+#: includes/sample-data.php:117 includes/sample-data.php:325
+msgid ""
+"This sample will import Home Page 4 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:129 includes/sample-data.php:131
+#: includes/sample-data.php:338 includes/sample-data.php:340
+msgid "Home 5"
+msgstr "Acasă 5"
+
+#: includes/sample-data.php:133 includes/sample-data.php:342
+msgid ""
+"This sample will import Home Page 5 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:145 includes/sample-data.php:147
+#: includes/sample-data.php:355 includes/sample-data.php:357
+msgid "Home 6"
+msgstr "Acasă 6"
+
+#: includes/sample-data.php:149 includes/sample-data.php:359
+msgid ""
+"This sample will import Home Page 6 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:161 includes/sample-data.php:163
+#: includes/sample-data.php:372 includes/sample-data.php:374
+msgid "Home 7"
+msgstr "Acasă 7"
+
+#: includes/sample-data.php:165 includes/sample-data.php:376
+msgid ""
+"This sample will import Home Page 7 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:177 includes/sample-data.php:179
+#: includes/sample-data.php:389 includes/sample-data.php:391
+msgid "Home 8"
+msgstr "Acasă 8"
+
+#: includes/sample-data.php:181 includes/sample-data.php:393
+msgid ""
+"This sample will import Home Page 8 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:193 includes/sample-data.php:195
+#: includes/sample-data.php:406 includes/sample-data.php:408
+msgid "Home 9"
+msgstr "Acasă 9"
+
+#: includes/sample-data.php:197 includes/sample-data.php:410
+msgid ""
+"This sample will import Home Page 9 content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:209 includes/sample-data.php:211
+#: includes/sample-data.php:422 includes/sample-data.php:424
+msgid "Home 10"
+msgstr ""
+
+#: includes/sample-data.php:213 includes/sample-data.php:426
+msgid ""
+"This sample will import Home Page 10 content and set it as the front page. "
+"If the page already exists, then the page won't get imported. If you wanted "
+"to import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:225 includes/sample-data.php:227
+#: includes/sample-data.php:438
+msgid "Home Directory"
+msgstr ""
+
+#: includes/sample-data.php:229 includes/sample-data.php:442
+msgid ""
+"This sample will import Home Page 11 content and set it as the front page. "
+"If the page already exists, then the page won't get imported. If you wanted "
+"to import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:239 includes/sample-data.php:241
+#: includes/sample-data.php:451
+msgid "Car Landing"
+msgstr ""
+
+#: includes/sample-data.php:243 includes/sample-data.php:455
+msgid ""
+"This sample will import Home Page 12 content and set it as the front page. "
+"If the page already exists, then the page won't get imported. If you wanted "
+"to import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:253 includes/sample-data.php:255
+msgid "Home - Inventory"
+msgstr ""
+
+#: includes/sample-data.php:257
+msgid ""
+"This sample will import Home - Inventory content and set it as the front "
+"page. If the page already exists, then the page won't get imported. If you "
+"wanted to import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:267 includes/sample-data.php:269
+#: includes/sample-data.php:464 includes/sample-data.php:466
+#: includes/sample-data.php:507 includes/sample-data.php:821
+msgid "Car Service"
+msgstr "Service auto"
+
+#: includes/sample-data.php:271 includes/sample-data.php:468
+msgid ""
+"This sample will import car service content and set it as the front page. If "
+"the page already exists, then the page won't get imported. If you wanted to "
+"import the page, please rename the page then try again."
+msgstr ""
+
+#: includes/sample-data.php:440
+msgid "Home 11"
+msgstr "Acasă 11"
+
+#: includes/sample-data.php:453
+msgid "Home 12"
+msgstr "Acasă 12"
+
+#: includes/sample-data.php:517 includes/sample-data.php:831
+msgid "About 1"
+msgstr ""
+
+#: includes/sample-data.php:524 includes/sample-data.php:838
+msgid "About 2"
+msgstr ""
+
+#: includes/sample-data.php:531 includes/sample-data.php:845
+msgid "Service 01"
+msgstr "Serviciul 02"
+
+#: includes/sample-data.php:538
+msgid "Service 02"
+msgstr "Serviciul 02"
+
+#: includes/sample-data.php:545 includes/sample-data.php:859
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/sample-data.php:552 includes/sample-data.php:866
+msgid "Page Right Sidebar"
+msgstr "Bara laterală dreaptă a paginii"
+
+#: includes/sample-data.php:559 includes/sample-data.php:873
+msgid "Page Left Sidebar"
+msgstr "Bara laterală din stânga paginii"
+
+#: includes/sample-data.php:566 includes/sample-data.php:880
+msgid "Page Both Sidebar"
+msgstr "Pagina ambele bare laterale"
+
+#: includes/sample-data.php:573 includes/sample-data.php:887
+msgid "Typography"
+msgstr ""
+
+#: includes/sample-data.php:580 includes/sample-data.php:894
+msgid "Terms And Conditions"
+msgstr ""
+
+#: includes/sample-data.php:587 includes/sample-data.php:901
+msgid "Contact 01"
+msgstr "Contactează 01"
+
+#: includes/sample-data.php:594 includes/sample-data.php:908
+msgid "Contact 02"
+msgstr "Contactează 02"
+
+#: includes/sample-data.php:601 includes/sample-data.php:915
+msgid "Carousel Slider"
+msgstr ""
+
+#: includes/sample-data.php:615 includes/sample-data.php:929
+msgid "Buttons"
+msgstr ""
+
+#: includes/sample-data.php:622 includes/sample-data.php:936
+msgid "Columns"
+msgstr ""
+
+#: includes/sample-data.php:629 includes/sample-data.php:943
+msgid "Content Box"
+msgstr ""
+
+#: includes/sample-data.php:643 includes/sample-data.php:957
+msgid "Post Style"
+msgstr "Post Style"
+
+#: includes/sample-data.php:650 includes/sample-data.php:964
+msgid "Lists Style"
+msgstr ""
+
+#: includes/sample-data.php:657 includes/sample-data.php:971
+msgid "Team Style"
+msgstr ""
+
+#: includes/sample-data.php:671 includes/sample-data.php:985
+msgid "Social Icon"
+msgstr ""
+
+#: includes/sample-data.php:699 includes/sample-data.php:1013
+msgid "Timeline"
+msgstr "Cronologie"
+
+#: includes/sample-data.php:720 includes/sample-data.php:1034
+msgid "Clients"
+msgstr ""
+
+#: includes/sample-data.php:727 includes/sample-data.php:1041
+msgid "Image Slider"
+msgstr "Glisor imagine"
+
+#: includes/sample-data.php:741 includes/sample-data.php:1055
+msgid "Video Slider"
+msgstr ""
+
+#: includes/sample-data.php:748 includes/sample-data.php:1062
+msgid "Icon"
+msgstr ""
+
+#: includes/sample-data.php:755 includes/sample-data.php:1069
+msgid "Pricing"
+msgstr "Prețuri"
+
+#: includes/sample-data.php:762 includes/sample-data.php:1076
+msgid "Section Title"
+msgstr "Titlul secțiunii"
+
+#: includes/sample-data.php:769 includes/sample-data.php:1083
+msgid "Vehicles List"
+msgstr "Lista vehiculelor"
+
+#: includes/sample-data.php:776
+msgid "Vertical Multi tab"
+msgstr ""
+
+#: includes/sample-data.php:811 includes/sample-data.php:1132
+msgid "Modal Popup"
+msgstr ""
+
+#: includes/sample-data.php:852
+msgid "Service 2"
+msgstr "Serviciul 2"
+
+#: includes/sample-data.php:1090
+msgid "Vertical Multi Tab"
+msgstr ""
+
+#: includes/sample-data.php:1097
+msgid "Feature Box Slider"
+msgstr "Slider pentru caseta de caracteristici"
+
+#: includes/sidebars.php:23
+msgid "Default Sidebar"
+msgstr "Bara laterală implicită"
+
+#: includes/sidebars.php:25
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+"Widgeturile din această zonă vor fi afișate în toate postările și paginile."
+
+#: includes/sidebars.php:34
+msgid "Left Sidebar"
+msgstr "Bara laterală din stânga"
+
+#: includes/sidebars.php:36
+msgid ""
+"Widgets in this area will be shown on all posts and pages in left sidebar."
+msgstr ""
+"Widgeturile din această zonă vor fi afișate în toate postările și paginile "
+"din bara laterală stângă."
+
+#: includes/sidebars.php:47
+msgid "Vehicles Listing Sidebar"
+msgstr "Bara laterală pentru lista de vehicule"
+
+#: includes/sidebars.php:49
+msgid "Add widgets here to appear on vehicle list page."
+msgstr ""
+"Adăugați widget-uri aici pentru a apărea pe pagina cu lista de autovehicule."
+
+#: includes/sidebars.php:58
+msgid "Vehicle Detail Sidebar"
+msgstr "Bara laterală a detaliilor vehiculului"
+
+#: includes/sidebars.php:60
+msgid "Add widgets here to appear on vehicle details page."
+msgstr ""
+"Adăugați widget-uri aici pentru a apărea pe pagina cu detaliile mașinii."
+
+#: includes/sidebars.php:110
+msgid "Add widgets here to appear in your footer."
+msgstr "Adăugați widget-uri aici pentru a apărea în subsolul dvs."
+
+#: includes/sidebars.php:124
+msgid "Footer Bottom"
+msgstr "Footer Bottom"
+
+#: includes/sidebars.php:126
+msgid "Add widgets here to appear in your bottom footer."
+msgstr "Adăugați widget-uri aici pentru a apărea în subsolul dvs. de jos."
+
+#: includes/sold_cars_functions.php:149
+#: template-parts/cars/archive-sections/price-range-slider.php:9
+#: template-parts/cars/archive-sections/price-range-slider.php:28
+msgid "Price:"
+msgstr "Preț:"
+
+#: includes/template-functions.php:102
+msgid "Description"
+msgstr ""
+
+#: includes/template-functions.php:119
+msgid "Sold"
+msgstr ""
+
+#: includes/template-functions.php:142
+#: template-parts/cars/single-car/layout/layout-1.php:37
+#: template-parts/cars/single-car/layout/layout-2.php:37
+#: template-parts/cars/single-car/layout/layout-3.php:39
+msgid "Vehicle video"
+msgstr "Vehicul video"
+
+#: includes/template-functions.php:218
+msgid "Overview"
+msgstr "Prezentare generală"
+
+#: includes/template-functions.php:234
+msgid "Technical Specification"
+msgstr ""
+
+#: includes/template-functions.php:243
+msgid "General Information"
+msgstr "Informatii generale"
+
+#: includes/template-functions.php:526
+msgid "Gallery - <span>This section will display image gallery.</span>"
+msgstr ""
+
+#: includes/template-functions.php:530
+msgid ""
+"Title/Subtitle - <span>This section will display vehicle title and vehicle "
+"attribute as sub-title.</span>"
+msgstr ""
+
+#: includes/template-functions.php:534
+msgid "Price - <span>This section will display the vehicle price.</span>"
+msgstr ""
+
+#: includes/template-functions.php:538
+msgid ""
+"Short Description - <span>This section will display the short description.</"
+"span>"
+msgstr ""
+
+#: includes/template-functions.php:542
+msgid ""
+"Short Description/Price - <span>This section will display the short "
+"description and vehicle price.</span>"
+msgstr ""
+
+#: includes/template-functions.php:546
+msgid ""
+"Request More Info Button - <span>This section will display the \"Request "
+"More Info\" button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:550
+msgid ""
+"Buy Online Button - <span>This section will display the \"Buy Online\" "
+"button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:554
+msgid "Review Stamp - <span>This section will display review stamp.</span>"
+msgstr ""
+
+#: includes/template-functions.php:558
+msgid ""
+"Description - <span>This section will display vehicle attributes.</span>"
+msgstr ""
+
+#: includes/template-functions.php:562
+msgid "Fuel Economy - <span>This section will display fuel economy."
+msgstr ""
+
+#: includes/template-functions.php:566
+msgid ""
+"Make an Offer Button - <span>This section will display the \"Make an Offer\" "
+"button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:570
+msgid ""
+"Schedule Test Drive Button - <span>This section will display the \"Schedule "
+"Test Drive\" button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:574
+msgid ""
+"Email to a Friend Button - <span>This section will display the \"Email to a "
+"Friend\" button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:578
+msgid ""
+"Financial Form Button - <span>This section will display the \"Financial "
+"Form\" button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:582
+msgid ""
+"Trade-In Appraisal Button - <span>This section will display the \"Trade-In "
+"Appraisal\" button.</span>"
+msgstr ""
+
+#: includes/template-functions.php:586
+msgid ""
+"Post Actions Button - <span>This section will display Add to Compare, PDF "
+"Brochure, Print, and Share buttons.</span>"
+msgstr ""
+
+#: includes/template-functions.php:590
+msgid "Tabs - <span>This section will display all tabs as accordion.</span>"
+msgstr ""
+
+#: includes/template-functions.php:594
+msgid ""
+"Related Vehicles - <span>This section will display  related vehicles.</span>"
+msgstr ""
+
+#: includes/template-functions.php:598
+msgid ""
+"Sidebar Widgets - <span>This section will display sidebar widgets.</span>"
+msgstr ""
+
+#: includes/template-functions.php:843 includes/template-functions.php:844
+#: includes/template-functions.php:899 includes/template-functions.php:902
+msgid "Request More Info"
+msgstr "Cereți mai multe informații"
+
+#: includes/template-functions.php:848 includes/template-functions.php:849
+#: includes/template-functions.php:906 includes/template-functions.php:909
+msgid "Make an Offer"
+msgstr "Face o ofertă"
+
+#: includes/template-functions.php:853 includes/template-functions.php:854
+#: includes/template-functions.php:913 includes/template-functions.php:916
+msgid "Schedule Test Drive"
+msgstr "Programați test Drive"
+
+#: includes/template-functions.php:858 includes/template-functions.php:859
+#: includes/template-functions.php:920 includes/template-functions.php:923
+msgid "Email to a Friend"
+msgstr "Trimite un e-mail unui prieten"
+
+#: includes/template-functions.php:863 includes/template-functions.php:864
+#: includes/template-functions.php:927 includes/template-functions.php:930
+msgid "Financial Form"
+msgstr "Formularul financiar"
+
+#: includes/template-functions.php:868 includes/template-functions.php:869
+#: includes/template-functions.php:934 includes/template-functions.php:937
+msgid "Trade-In Appraisal"
+msgstr ""
+
+#: includes/template-functions.php:873
+#, fuzzy
+#| msgid "Request Price"
+msgid "Request Price Form"
+msgstr "Cerere de preț"
+
+#: includes/template-functions.php:941
+#: template-parts/cars/single-car/forms/pdf_brochure.php:28
+msgid "PDF Brochure"
+msgstr "PDF broșură"
+
+#: includes/template-functions.php:948
+#: template-parts/cars/single-car/forms/print_form.php:16
+msgid "Print"
+msgstr "Imprimare"
+
+#: includes/template-functions.php:1344
+#, fuzzy
+#| msgid "Feature & Option"
+msgid "Featured Listing"
+msgstr "Caracteristică și opțiune"
+
+#: includes/template-functions.php:1399 includes/template-functions.php:1471
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Featured"
+msgstr "Cutie de caracteristici"
+
+#: includes/template-functions.php:1470
+msgid "Filter By Featured"
+msgstr ""
+
+#: includes/template-functions.php:1472
+#, fuzzy
+#| msgid "Feature Box"
+msgid "Non-featured"
+msgstr "Cutie de caracteristici"
+
+#: includes/template_tags.php:41
+msgid "Previous Post"
+msgstr "Postul anterior"
+
+#: includes/template_tags.php:75
+msgid "Next Post"
+msgstr "Următorul mesaj"
+
+#. translators: Copyright
+#: includes/template_tags.php:165
+msgid ""
+"Copyright &copy; <span class=\"copy_year\">%1$s</span>, <a href=\"%2$s\" "
+"title=\"%3$s\">%4$s</a> All Rights Reserved."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Instalați pluginurile necesare"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Instalați pluginurile"
+
+#. translators: %s: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Ceva a mers prost în pluginul API."
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:342
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:348
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:354
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:360
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:366
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: plugin name(s).
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Începeți instalarea pluginului"
+msgstr[1] "Începeți să instalați pluginuri"
+msgstr[2] "Începeți să instalați pluginuri"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Începeți actualizarea pluginului"
+msgstr[1] "Începeți actualizarea pluginurilor"
+msgstr[2] "Începeți actualizarea pluginurilor"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Începeți activarea pluginului"
+msgstr[1] "Începeți activarea pluginurilor"
+msgstr[2] "Începeți activarea pluginurilor"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Reveniți la Instalatorul de pluginuri necesare"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:393
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:919
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2667
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3704
+msgid "Return to the Dashboard"
+msgstr "Reveniți la tabloul de bord"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:394
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3302
+msgid "Plugin activated successfully."
+msgstr "Plugin-ul a fost activat cu succes."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:395
+msgid "The following plugin(s) was activated successfully:"
+msgstr "Următoarele plugin-uri au fost activate cu succes:"
+
+#. translators: 1: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Respingeți această notificare"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Există una sau mai multe pluginuri necesare sau recomandate pentru "
+"instalare, actualizare sau activare."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Contactați administratorul acestui site pentru ajutor."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:610
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Acest plugin trebuie actualizat pentru a fi compatibil cu tema."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:611
+msgid "Update Required"
+msgstr "Actualizare necesara"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1028
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Pachetul plug-in de la distanță nu conține un dosar cu melc dorit și "
+"redenumirea nu a funcționat."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1028
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1038
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Te rugăm să contactezi furnizorul plugin-ului și să-i ceri să-și împacheteze "
+"plugin-ul în conformitate cu ghidul WordPress."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1038
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Pachetul plug-in de la distanță conține mai mult de un fișier, dar fișierele "
+"nu sunt ambalate într-un dosar."
+
+#. translators: %s: version number
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2098
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2407
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1118
+msgid "Required"
+msgstr "Necesar"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2410
+msgid "Recommended"
+msgstr "Recomandat"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2426
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2429
+msgid "External Source"
+msgstr "Sursă externă"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2432
+msgid "Pre-Packaged"
+msgstr "Pre-ambalate"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2449
+msgid "Not Installed"
+msgstr "Nu este instalat"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2453
+msgid "Installed But Not Activated"
+msgstr "Instalat dar nu activat"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2455
+msgid "Active"
+msgstr "Activ"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2461
+msgid "Required Update not Available"
+msgstr "Actualizarea necesară nu este disponibilă"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2464
+msgid "Requires Update"
+msgstr "Necesită actualizare"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2467
+msgid "Update recommended"
+msgstr "Actualizare recomandată"
+
+#. translators: 1: number of plugins.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2526
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2530
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: number of plugins.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2534
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2624
+msgid "Installed version:"
+msgstr "Versiune instalată:"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2632
+msgid "Minimum required version:"
+msgstr "Versiunea minimă necesară:"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2644
+msgid "Available version:"
+msgstr "Versiune disponibilă:"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2667
+msgid "No plugins to install, update or activate."
+msgstr "Nu există pluginuri pentru instalare, actualizare sau activare."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2681
+msgid "Plugin"
+msgstr "Conecteaza"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2682
+msgid "Source"
+msgstr "Sursă"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2683
+msgid "Type"
+msgstr "Tip"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2687
+msgid "Version"
+msgstr "Versiune"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2688
+msgid "Status"
+msgstr "Stare"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2737
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2742
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2748
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2820
+msgid "Upgrade message from the plugin author:"
+msgstr "Actualizați mesajul de la autorul pluginului:"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2853
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1193
+msgid "Install"
+msgstr "Instalare"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2859
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1198
+msgid "Update"
+msgstr "Actualizați"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2862
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:437
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:958
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1191
+msgid "Activate"
+msgstr "Activati"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2893
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Nu au fost selectate pluginuri pentru a fi instalate. Nicio actiune luata."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2895
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Nu au fost selectate pluginuri pentru a fi actualizate. Nicio actiune luata."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2938
+msgid "No plugins are available to be installed at this time."
+msgstr "Nu sunt disponibile pluginuri care să fie instalate în acest moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2940
+msgid "No plugins are available to be updated at this time."
+msgstr "Nu sunt disponibile pluginuri care să fie actualizate în acest moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3048
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Nu au fost selectate pluginuri pentru a fi activate. Nicio actiune luata."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3077
+msgid "No plugins are available to be activated at this time."
+msgstr "Nu sunt disponibile pluginuri pentru a fi activate în acest moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3095
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Următorul plugin a fost activat cu succes:"
+msgstr[1] "Următoarele pluginuri au fost activate cu succes:"
+msgstr[2] "Următoarele pluginuri au fost activate cu succes:"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3301
+msgid "Plugin activation failed."
+msgstr "Activarea pluginurilor a eșuat."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3615
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3620
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3622
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3626
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Procesul de instalare și activare începe. Acest proces poate dura un timp pe "
+"unele gazde, deci vă rugăm să aveți răbdare."
+
+#. translators: 1: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3628
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3629
+msgid "All installations and activations have been completed."
+msgstr "Toate instalările și activările au fost finalizate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3631
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3634
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Procesul de instalare începe. Acest proces poate dura un timp pe unele "
+"gazde, deci vă rugăm să aveți răbdare."
+
+#. translators: 1: plugin name.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3636
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3637
+msgid "All installations have been completed."
+msgstr "Toate instalațiile au fost finalizate."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3639
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3644
+msgid "Show Details"
+msgstr "Arata detaliile"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3644
+msgid "Hide Details"
+msgstr "Ascunde detaliile"
+
+#: includes/tgm-plugin-activation/tgm-init.php:26
+msgid "Car Dealer - Helper Library"
+msgstr "Dealer de automobile - Biblioteca Helper"
+
+#: includes/tgm-plugin-activation/tgm-init.php:37
+msgid "Slider Revolution"
+msgstr "Slider Revolution"
+
+#: includes/tgm-plugin-activation/tgm-init.php:48
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: includes/tgm-plugin-activation/tgm-init.php:55
+msgid "Advanced Custom Fields PRO"
+msgstr "Câmpuri personalizate avansate PRO"
+
+#: includes/tgm-plugin-activation/tgm-init.php:66
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: includes/tgm-plugin-activation/tgm-init.php:73
+msgid "Contact Form 7"
+msgstr "Formular de contact 7"
+
+#: includes/tgm-plugin-activation/tgm-init.php:102
+msgid "Elementor Website Builder"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:122
+msgid "Car Dealer - Fronted Submission"
+msgstr "Dealer de mașini - Prezentare frontală"
+
+#: includes/tgm-plugin-activation/tgm-init.php:134
+msgid "Max Mega Menu"
+msgstr "Meniul Max Mega"
+
+#: includes/tgm-plugin-activation/tgm-init.php:144
+msgid "MailChimp for WordPress"
+msgstr "MailChimp pentru WordPress"
+
+#: includes/tgm-plugin-activation/tgm-init.php:154
+msgid "Envato Market"
+msgstr "Piața Envato"
+
+#: includes/tgm-plugin-activation/tgm-init.php:169
+msgid "Subscriptio"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:184
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/tgm-plugin-activation/tgm-init.php:407
+msgid "Install Required/Recommended Plugins"
+msgstr "Instalați pluginurile necesare / recomandate"
+
+#: includes/tgm-plugin-activation/tgm-init.php:445
+msgid ""
+"Note: These plugins are for adding extra features to the site. Before "
+"installing any plugin from the below list, make sure you actually needed it. "
+"Installing any plugin that is not required will add extra load to the site "
+"performance."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-dtbwp-envato-theme-setup-wizard.php:110
+msgid "Upgrade"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-dtbwp-envato-theme-setup-wizard.php:111
+msgid "Upgrade Content and Settings"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-dtbwp-envato-theme-setup-wizard.php:112
+msgid "Pending."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-dtbwp-envato-theme-setup-wizard.php:113
+msgid "Installing Updates."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-dtbwp-envato-theme-setup-wizard.php:114
+msgid "Success."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:393
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:394
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:404
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:405
+msgid "Setup Wizard"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:430
+msgid "Introduction"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:443
+msgid "Child Theme"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:449
+msgid "Page Builder"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:462
+msgid "Content"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:472
+msgid "Ready!"
+msgstr "Gata!"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:488
+msgid "Default Page Builder"
+msgstr "Generator de pagini implicit"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:490
+msgid "Please choose a default page builder from the list below."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:512
+msgid "Important note:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:513
+msgid ""
+"Please note that the sample data import process, on the Theme Options's "
+"Sample Data page or the Theme Setup Wizard, will import sample-data only for "
+"the page-builder plugin selected above."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:514
+msgid ""
+"Also, the above two, or other page-builder plugins, work differently to "
+"store data/content. And, the imported sample-data for one page-builder "
+"plugin will not work for another."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:518
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:963
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1159
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1493
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1881
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2052
+msgid "Continue"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:519
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1494
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1873
+msgid "Skip this step"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:578
+msgid "...verifying"
+msgstr ""
+
+#. translators: %1$s Theme Name, %2$s Setup Wizard Step
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:653
+msgid "%1$s &rsaquo; Theme Setup Wizard - %2$s"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:689
+msgid "Return to the WordPress Dashboard"
+msgstr "Reveniți la tabloul de bord WordPress"
+
+#. Translators: %s is the theme author link.
+#. translators: %s: Name of Theme Developer.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:700
+#: includes/theme-setup-wizard/wizard.php:140
+msgid "&copy; Created by %s"
+msgstr ""
+
+#. translators: %s Post Type
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:781
+msgid "Post type %s not found."
+msgstr ""
+
+#. translators: %s Post ID
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:784
+msgid "Looking for post id %s"
+msgstr ""
+
+#. translators: %s Theme Name
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:801
+msgid "Welcome to the steps for setting the %s theme."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:804
+msgid ""
+"It seems that you have already been through the setup medium. Below are some "
+"choices:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:808
+msgid "Run Setup Wizard Again"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:813
+msgid "Cancel"
+msgstr "Anulare"
+
+#. translators: %s Theme Name
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:821
+msgid "Welcome to %s Setup Wizard"
+msgstr ""
+
+#. translators: %s Theme Name
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:827
+msgid "Thank you for choosing %s theme."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:830
+msgid ""
+"This setup wizard will help you to refresh and configure your website with a "
+"new layout. You will have Child Theme, Content, and Plugins installed in "
+"5-10 minutes (depending on your server configuration). "
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:831
+msgid ""
+"No time right now? If you do not want to go through the wizard, you can "
+"skip, and get back to WordPress dashboard. Come back any time to continue!"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:833
+msgid "Let's Go!"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:834
+msgid "Not right now"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:881
+msgid ""
+"Options have been reset. Please go to Appearance > Customize in the "
+"WordPress backend."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:895
+msgid "Activate Theme"
+msgstr "Activați Tema"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:913
+msgid "Purchase code successfully verified."
+msgstr "Codul de achiziție a fost verificat cu succes."
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:917
+msgid "Enter purchase code to activate your theme."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:933
+msgid "Purchase code ( e.g. 9g2b13fa-10aa-2267-883a-9201a94cf9b5 )"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:935
+msgid "Instructions to find the Purchase Code"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:939
+msgid "Click 'Downloads' from the drop-down menu."
+msgstr ""
+
+#. Translators: %s is the ThemeForest Item Support Policy link.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:945
+msgid ""
+"Click 'License certificate & purchase code' (available as PDF or text file). "
+"Click <a href=\"%s\" target=\"_blank\">here</a> for more information."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1081
+msgid "Default Plugins"
+msgstr "Pluginuri implicite"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1112
+msgid ""
+"The following plugins can be installed for some supplemented features to "
+"your website:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1127
+msgid "Needed for this version"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1133
+msgid "Optional"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1144
+msgid "Please activate theme using Purchase Code to display plugins list."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1150
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1156
+msgid ""
+"Please, note that every external plugin can affect your website loading "
+"speed. You can add and remove plugins later on from within WordPress."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1192
+msgid "Activation required"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1194
+msgid "Installation required"
+msgstr "Instalare necesară"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1195
+msgid "Update and Activate"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1196
+msgid "Update and Activation required"
+msgstr "Actualizare și activare necesare"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1197
+msgid "Update required"
+msgstr "Actualizare necesara"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1211
+msgid "View details"
+msgstr "Vezi detalii"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1270
+msgid "No Slug Found"
+msgstr "Nu a fost găsit niciun limac"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1293
+msgid "Activating Plugin"
+msgstr "Activarea pluginului"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1308
+msgid "Updating Plugin"
+msgstr "Se actualizează pluginul"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1323
+msgid "Installing Plugin"
+msgstr "Instalarea pluginului"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1336
+msgid "Success"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1370
+msgid "Default Content"
+msgstr "Conținut implicit"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1372
+msgid ""
+"Select the most suitable option from the below mentioned list of variants to "
+"complete the default content for your website. Also, choose the appropriate "
+"pages to be imported from the list. The WordPress dashboard handles this "
+"content once you import them."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1377
+msgid ""
+"One, or more, required plugins (listed below) not installed or activated. "
+"Some features may not work correctly, i.e., Sample Data import."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1394
+msgid "Please acivate theme using Purchase Code to display sample data list."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1463
+msgid "Installed"
+msgstr "Instalat"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1476
+msgid "Live Preview"
+msgstr ""
+
+#. translators: %s Theme Name
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1843
+msgid "Setup %s Child Theme (Optional)"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1847
+msgid ""
+"If you want any alterations or changes done on the source code, please use a "
+"child theme. Your source code will remain unaffected and meanwhile, your "
+"parent theme will get all the updates. The changes in the HTML/CSS/PHP code "
+"must be refrained. Use the form below to create and activate the Child Theme."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1851
+msgid ""
+"If you don't want to use the child theme, please click on 'Skip this step'"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1865
+msgid "Child Theme Title"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1870
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#. translators: %1$s Child Theme Name, %2$s Child Theme Path
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:1967
+msgid ""
+"Child theme [%1$s] created and activated! Newly created child theme is "
+"located at below path."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2009
+msgid "Help and Support"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2010
+msgid ""
+"This theme is entitled to assist for 6 months item support from the date of "
+"purchase (you can definitely lengthen the time). With respect to this "
+"license, the theme can be used on one website. To use on another site, "
+"please buy an additional license."
+msgstr ""
+
+#. Translators: %s is the theme support link.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2015
+msgid ""
+"You can get the item support from <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">Potenza Support Center</a> and that is comprised of:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2024
+msgid "Item Support comprises of:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2026
+msgid "In detail explanation of the technical elements of the product"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2027
+msgid "Help if there is any error or concern."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2028
+msgid "Extensive support for 3rd party plugins (bundled)."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2032
+msgid "Item Support <strong>DOES NOT</strong> comprise of:"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2034
+msgid "Customization services"
+msgstr "Servicii de personalizare"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2035
+msgid "Installation services"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2036
+msgid "Assistance for non-bundled 3rd party plugins."
+msgstr ""
+
+#. Translators: %s is the ThemeForest Item Support Policy link.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2046
+msgid ""
+"ThemeForest <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Item Support "
+"Policy</a> can be used to gather extra details about the item support."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2068
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2070
+msgid ""
+"Praises to you, your website is ready now. The required themes have been "
+"turned on to enhance the functionality of your site. You can modify the "
+"content and make required changes, if important by logging into the "
+"WordPress Dashboard."
+msgstr ""
+
+#. Translators: %s is the Themeforest downloads link.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2075
+msgid ""
+"Please encourage us by <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener\">dropping 5-star</a>."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2085
+msgid "Next Steps"
+msgstr "Pasii urmatori"
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2087
+msgid "Follow PotenzaGlobalSolutions on ThemeForest"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2088
+msgid "View your new website!"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2094
+msgid "More Resources"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2096
+msgid "Read the Theme Documentation"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2097
+msgid "Learn how to use WordPress"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2098
+msgid "Leave an Item Rating"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2099
+msgid "Get Help and Support"
+msgstr ""
+
+#. Translators: %1$s Theme name, %2$s Theme name.
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2242
+msgid ""
+"You're almost there. %1$s contains many useful features and functionalities. "
+"For this, some settings are to be done, to enable all features and "
+"functionalities. And, %2$s Setup Wizard might be of a great help to you for "
+"same."
+msgstr ""
+"Ești aproape acolo. %1$s conține multe caracteristici și funcționalități "
+"utile. Pentru aceasta, trebuie făcute unele setări, pentru a activa toate "
+"caracteristicile și funcționalitățile. Și, expertul de configurare %2$s vă "
+"poate fi de mare ajutor pentru același lucru."
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2248
+msgid "Run the Setup Wizard"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2248
+msgid "Skip setup"
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2268
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/theme-setup-wizard/envato_setup/class-envato-theme-setup-wizard.php:2272
+msgid "You don&#8217;t have permission to do this."
+msgstr ""
+
+#. translators: %1$s: Theme developers URL %2$s: Name of Theme Developer
+#: includes/theme-setup-wizard/wizard.php:145
+msgid "Potenza Global Solutions"
+msgstr ""
+
+#: includes/theme_support.php:54
+msgid "Primary menu"
+msgstr "Meniu principal"
+
+#: includes/theme_support.php:55
+msgid "Footer menu"
+msgstr "Meniul subsol"
+
+#: includes/theme_support.php:56
+msgid "Topbar menu"
+msgstr "Meniul din bara de sus"
+
+#: includes/theme_support.php:86
+msgid "Cardealer Blog Thumb"
+msgstr ""
+
+#: includes/theme_support.php:93
+msgid "Cardealer Homepage Thumb"
+msgstr ""
+
+#: includes/theme_support.php:100
+msgid "Cardealer Team Thumb"
+msgstr ""
+
+#: includes/theme_support.php:107
+msgid "Cardealer Testimonials Thumb"
+msgstr "Mărturii ale dealerului auto Thumb"
+
+#: includes/theme_support.php:114
+msgid "Cardealer 50x50"
+msgstr "Dealer auto 50x50"
+
+#: includes/theme_support.php:121
+msgid "Cardealer Post Nav"
+msgstr ""
+
+#: includes/theme_support.php:128
+msgid "Car Thumbnail"
+msgstr ""
+
+#: includes/theme_support.php:135
+msgid "Car Catalog Image"
+msgstr ""
+
+#: includes/theme_support.php:142
+msgid "Car Single Slider"
+msgstr ""
+
+#: includes/theme_support.php:149
+msgid "Car Tabs Image"
+msgstr ""
+
+#: includes/welcome-content.php:9
+msgid "Congratulations! Theme activated successfully."
+msgstr "Felicitări! Tema a fost activată cu succes."
+
+#: includes/welcome-content.php:10
+msgid ""
+"<strong>Car Dealer</strong> is an elegant, clean, beautiful and best "
+"responsive WordPress theme."
+msgstr ""
+"<strong>Dealer auto</strong> este o temă elegantă, curată, frumoasă și "
+"responsabilă WordPress."
+
+#: includes/welcome-content.php:12
+msgid ""
+"<strong>Car Dealer</strong> contains many usefull features and "
+"functionalities. And, it requires some plugins to be pre-installed to enable "
+"all inbuilt features and functionalities."
+msgstr ""
+"<strong>Dealerul auto</strong> conține multe caracteristici utile și "
+"funcționalități. Și, este necesar ca unele pluginuri să fie pre-instalate "
+"pentru a permite toate caracteristicile și funcționalitățile încorporate."
+
+#: search.php:42
+msgid "Nothing Found"
+msgstr "Nimic gasit"
+
+#: search.php:46
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Ne pare rău, dar nimic nu corespunde criteriilor dvs. de căutare. Încercați "
+"din nou cu câteva cuvinte cheie diferite."
+
+#. translators: 1: URL
+#: sidebar-left.php:20
+msgid ""
+"No widgets added in left sidebar.<br>Click <a href=\"%s\">here</a> to add "
+"widgets."
+msgstr ""
+"Nu sunt adăugate widget-uri în bara laterală stângă. <br> Faceți clic <a "
+"href=\"%s\">aici</a> pentru a adăuga widget-uri."
+
+#: sidebar-left.php:35 sidebar.php:35
+msgid "No widgets founds."
+msgstr "Nu se găsesc widgeturi."
+
+#. translators: 1: URL
+#: sidebar.php:20
+msgid ""
+"No widgets added in default sidebar.<br>Click <a href=\"%s\">here</a> to add "
+"widgets."
+msgstr ""
+"Nu au fost adăugate widget-uri în bara laterală implicită. <br> Faceți clic "
+"<a href=\"%s\">aici</a> pentru a adăuga widget-uri."
+
+#: single-teams.php:116
+msgid "Powerful Skills"
+msgstr "Abilități puternice"
+
+#: single-teams.php:154
+msgid "Areas of Expertise"
+msgstr "Domenii de expertiza"
+
+#: template-parts/blog/classic/content-audio.php:44
+#: template-parts/blog/classic/content-gallery.php:105
+#: template-parts/blog/classic/content-image.php:51
+#: template-parts/blog/classic/content-quote.php:70
+#: template-parts/blog/classic/content-video.php:147
+#: template-parts/blog/classic/content.php:44
+#: template-parts/content-page.php:30 template-parts/search/content.php:25
+msgid "Pages"
+msgstr "Pagini"
+
+#. translators: 1: Author Name
+#. translators: 1: Post Author
+#. translators: 1: Author Name
+#: template-parts/blog-extra/author-info.php:23
+#: template-parts/entry_meta.php:63 template-parts/search/entry_meta.php:46
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/blog-extra/author-info.php:27
+msgid "Posted by:"
+msgstr "Postat de:"
+
+#: template-parts/blog-extra/author-info.php:46
+msgid "Follow on"
+msgstr "Urmați"
+
+#: template-parts/blog-extra/related-posts.php:33
+msgid "Related Posts"
+msgstr "Postări asemănatoare"
+
+#: template-parts/cars/archive-layout/default.php:72
+#: template-parts/cars/archive-layout/mobile.php:60
+msgid "Show sidebar"
+msgstr ""
+
+#: template-parts/cars/archive-layout/dummy-inventory.php:38
+msgid "Listing Skeleton"
+msgstr ""
+
+#: template-parts/cars/archive-layout/lazy-load.php:47
+msgid "Cars Filters"
+msgstr "Filtre auto"
+
+#: template-parts/cars/archive-sections/price-range-slider.php:20
+#: template-parts/cars/archive-sections/price-range-slider.php:31
+#: templates/sold-cars.php:26
+msgid "Filter"
+msgstr "Filtru"
+
+#: template-parts/cars/layout/list-view.php:57
+msgid "Location:"
+msgstr "Locație:"
+
+#: template-parts/cars/layout/list-view.php:103
+msgid "Details"
+msgstr "Detalii"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:47
+#: template-parts/cars/single-car/forms/email_to_friend.php:53
+msgid "Friend's Name"
+msgstr "Numele prietenului"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:53
+#: template-parts/cars/single-car/forms/email_to_friend.php:59
+msgid "Friend's Email"
+msgstr "Email-ul prietenilor"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:59
+#: template-parts/cars/single-car/forms/email_to_friend.php:65
+msgid "Your Name"
+msgstr "Numele dumneavoastră"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:65
+#: template-parts/cars/single-car/forms/email_to_friend.php:71
+msgid "Your Email"
+msgstr "Email-ul tau"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:71
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:71
+#: template-parts/cars/single-car/forms/email_to_friend.php:77
+#: template-parts/cars/single-car/forms/make_an_offer.php:78
+msgid "Message"
+msgstr "Mesaj"
+
+#: template-parts/cars/single-car/button-contents/form-email-to-friend.php:90
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:113
+#: template-parts/cars/single-car/forms/email_to_friend.php:96
+#: template-parts/cars/single-car/forms/make_an_offer.php:120
+msgid "Send"
+msgstr "Trimite"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:55
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:387
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:47
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:44
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:49
+#: template-parts/cars/single-car/forms/financial_form.php:58
+#: template-parts/cars/single-car/forms/financial_form.php:390
+#: template-parts/cars/single-car/forms/make_an_offer.php:54
+#: template-parts/cars/single-car/forms/request_info.php:51
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:57
+msgid "First Name"
+msgstr "Nume"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:61
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:393
+#: template-parts/cars/single-car/forms/financial_form.php:64
+#: template-parts/cars/single-car/forms/financial_form.php:396
+msgid "Middle Initial"
+msgstr "Inițială de mijloc"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:67
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:399
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:53
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:50
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:55
+#: template-parts/cars/single-car/forms/financial_form.php:70
+#: template-parts/cars/single-car/forms/financial_form.php:402
+#: template-parts/cars/single-car/forms/make_an_offer.php:60
+#: template-parts/cars/single-car/forms/request_info.php:57
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:63
+msgid "Last Name"
+msgstr "Numele de familie"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:73
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:411
+#: template-parts/cars/single-car/forms/financial_form.php:76
+#: template-parts/cars/single-car/forms/financial_form.php:414
+msgid "Street Address"
+msgstr "Adresa străzii"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:79
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:417
+#: template-parts/cars/single-car/forms/financial_form.php:82
+#: template-parts/cars/single-car/forms/financial_form.php:420
+msgid "City"
+msgstr "Oraș"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:85
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:423
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:74
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:79
+#: template-parts/cars/single-car/forms/financial_form.php:88
+#: template-parts/cars/single-car/forms/financial_form.php:426
+#: template-parts/cars/single-car/forms/request_info.php:81
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:87
+msgid "State"
+msgstr "Stat"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:91
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:429
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:80
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:85
+#: template-parts/cars/single-car/forms/financial_form.php:94
+#: template-parts/cars/single-car/forms/financial_form.php:432
+#: template-parts/cars/single-car/forms/request_info.php:87
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:93
+msgid "Zip"
+msgstr "Zip"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:97
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:435
+#: template-parts/cars/single-car/forms/financial_form.php:100
+#: template-parts/cars/single-car/forms/financial_form.php:438
+msgid "Preferred Email Address"
+msgstr "Adresă de e-mail preferată"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:103
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:441
+#: template-parts/cars/single-car/forms/financial_form.php:106
+#: template-parts/cars/single-car/forms/financial_form.php:444
+msgid "Daytime Phone Number"
+msgstr "Numărul de telefon pe timp de noapte"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:109
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:447
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:62
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:67
+#: template-parts/cars/single-car/forms/financial_form.php:112
+#: template-parts/cars/single-car/forms/financial_form.php:450
+#: template-parts/cars/single-car/forms/request_info.php:69
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:75
+msgid "Mobile"
+msgstr "Mobil"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:126
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:458
+#: template-parts/cars/single-car/forms/financial_form.php:129
+#: template-parts/cars/single-car/forms/financial_form.php:461
+msgid "Date of Birth"
+msgstr "Data de nastere"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:131
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:463
+#: template-parts/cars/single-car/forms/financial_form.php:134
+#: template-parts/cars/single-car/forms/financial_form.php:466
+msgid "Month"
+msgstr "Lună"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:145
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:477
+#: template-parts/cars/single-car/forms/financial_form.php:148
+#: template-parts/cars/single-car/forms/financial_form.php:480
+msgid "Day"
+msgstr "Zi"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:176
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:507
+#: template-parts/cars/single-car/forms/financial_form.php:179
+#: template-parts/cars/single-car/forms/financial_form.php:510
+msgid "Social Security Number (SSN)"
+msgstr "Numărul de securitate socială (SSN)"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:182
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:513
+#: template-parts/cars/single-car/forms/financial_form.php:185
+#: template-parts/cars/single-car/forms/financial_form.php:516
+msgid "Employer Name"
+msgstr "Numele angajatorului"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:188
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:519
+#: template-parts/cars/single-car/forms/financial_form.php:191
+#: template-parts/cars/single-car/forms/financial_form.php:522
+msgid "Employer Phone"
+msgstr "Telefonul angajatorului"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:194
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:525
+#: template-parts/cars/single-car/forms/financial_form.php:197
+#: template-parts/cars/single-car/forms/financial_form.php:528
+msgid "Job Title"
+msgstr "Denumirea funcției"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:206
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:537
+#: template-parts/cars/single-car/forms/financial_form.php:209
+#: template-parts/cars/single-car/forms/financial_form.php:540
+msgid "Living Arrangements"
+msgstr "Aranjamentele de viață"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:209
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:540
+#: template-parts/cars/single-car/forms/financial_form.php:212
+#: template-parts/cars/single-car/forms/financial_form.php:543
+msgid "Select One"
+msgstr "Alege unul"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:210
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:541
+#: template-parts/cars/single-car/forms/financial_form.php:213
+#: template-parts/cars/single-car/forms/financial_form.php:544
+msgid "Rent"
+msgstr "Chirie"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:211
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:542
+#: template-parts/cars/single-car/forms/financial_form.php:214
+#: template-parts/cars/single-car/forms/financial_form.php:545
+msgid "Own"
+msgstr "Proprie"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:212
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:543
+#: template-parts/cars/single-car/forms/financial_form.php:215
+#: template-parts/cars/single-car/forms/financial_form.php:546
+msgid "Live With Parents"
+msgstr "Vii cu părinții"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:219
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:550
+#: template-parts/cars/single-car/forms/financial_form.php:222
+#: template-parts/cars/single-car/forms/financial_form.php:553
+msgid "Monthly Rent/Mortgage Payment"
+msgstr "Plata lunară de chirie / ipotecă"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:225
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:556
+#: template-parts/cars/single-car/forms/financial_form.php:228
+#: template-parts/cars/single-car/forms/financial_form.php:559
+msgid "Length of Time at Current Address"
+msgstr "Durata timpului la adresa curentă"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:230
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:285
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:561
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:616
+#: template-parts/cars/single-car/forms/financial_form.php:233
+#: template-parts/cars/single-car/forms/financial_form.php:288
+#: template-parts/cars/single-car/forms/financial_form.php:564
+#: template-parts/cars/single-car/forms/financial_form.php:619
+msgid "Year(s)"
+msgstr "Ani)"
+
+#. translators: %s: Number of years
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:235
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:240
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:290
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:295
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:566
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:571
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:621
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:626
+#: template-parts/cars/single-car/forms/financial_form.php:238
+#: template-parts/cars/single-car/forms/financial_form.php:243
+#: template-parts/cars/single-car/forms/financial_form.php:293
+#: template-parts/cars/single-car/forms/financial_form.php:298
+#: template-parts/cars/single-car/forms/financial_form.php:569
+#: template-parts/cars/single-car/forms/financial_form.php:574
+#: template-parts/cars/single-car/forms/financial_form.php:624
+#: template-parts/cars/single-car/forms/financial_form.php:629
+msgid "%s Year"
+msgid_plural "%s Years"
+msgstr[0] "%s an"
+msgstr[1] "%s Ani"
+msgstr[2] "%s Ani"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:254
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:309
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:585
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:640
+#: template-parts/cars/single-car/forms/financial_form.php:257
+#: template-parts/cars/single-car/forms/financial_form.php:312
+#: template-parts/cars/single-car/forms/financial_form.php:588
+#: template-parts/cars/single-car/forms/financial_form.php:643
+msgid "Month(s)"
+msgstr "Luni)"
+
+#. translators: %s: Number of months
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:259
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:264
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:314
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:319
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:590
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:595
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:645
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:650
+#: template-parts/cars/single-car/forms/financial_form.php:262
+#: template-parts/cars/single-car/forms/financial_form.php:267
+#: template-parts/cars/single-car/forms/financial_form.php:317
+#: template-parts/cars/single-car/forms/financial_form.php:322
+#: template-parts/cars/single-car/forms/financial_form.php:593
+#: template-parts/cars/single-car/forms/financial_form.php:598
+#: template-parts/cars/single-car/forms/financial_form.php:648
+#: template-parts/cars/single-car/forms/financial_form.php:653
+msgid "%s Month"
+msgid_plural "%s Months"
+msgstr[0] "%s Lună"
+msgstr[1] "%s Luni"
+msgstr[2] "%s Luni"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:280
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:611
+#: template-parts/cars/single-car/forms/financial_form.php:283
+#: template-parts/cars/single-car/forms/financial_form.php:614
+msgid "Length of Employment"
+msgstr "Durata angajarii"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:335
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:666
+#: template-parts/cars/single-car/forms/financial_form.php:338
+#: template-parts/cars/single-car/forms/financial_form.php:669
+msgid "Annual Income"
+msgstr "Venit anual"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:341
+#: template-parts/cars/single-car/forms/financial_form.php:344
+msgid "Joint Application"
+msgstr "Cererea comună"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:358
+#: template-parts/cars/single-car/forms/financial_form.php:361
+msgid "Applicant Additional Income Information"
+msgstr "Solicitant Informații suplimentare privind venitul"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:359
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:677
+#: template-parts/cars/single-car/forms/financial_form.php:362
+#: template-parts/cars/single-car/forms/financial_form.php:680
+msgid ""
+"Complete \"Other Income\" and \"Source of Other Income\" only if you want "
+"this income considered for repayment. Enter monthly amount. Alimony, child "
+"support or separate maintenance income need not be revealed if you do not "
+"wish to have it considered as a basis for repaying this obligation."
+msgstr ""
+"Completați &quot;Alte venituri&quot; și &quot;Sursa altor venituri&quot; "
+"numai dacă doriți ca aceste venituri să fie luate în considerare pentru "
+"rambursare. Introduceți suma lunară. Alimentația, sprijinul pentru copii sau "
+"venitul separat de întreținere nu trebuie dezvăluit dacă nu doriți ca acesta "
+"să fie considerat ca bază pentru rambursarea acestei obligații."
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:364
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:682
+#: template-parts/cars/single-car/forms/financial_form.php:367
+#: template-parts/cars/single-car/forms/financial_form.php:685
+msgid "Other Income Amount (Monthly)"
+msgstr "Suma altor venituri (lunar)"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:368
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:686
+#: template-parts/cars/single-car/forms/financial_form.php:371
+#: template-parts/cars/single-car/forms/financial_form.php:689
+msgid "Other Income (Source)"
+msgstr "Alte venituri (sursă)"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:374
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:692
+#: template-parts/cars/single-car/forms/financial_form.php:377
+#: template-parts/cars/single-car/forms/financial_form.php:695
+msgid ""
+"Please include any additional information or options that you would like"
+msgstr ""
+"Vă rugăm să includeți orice informații sau opțiuni suplimentare pe care le-"
+"ați dori"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:382
+#: template-parts/cars/single-car/forms/financial_form.php:385
+msgid "Joint Applicant Personal Information"
+msgstr "Informații personale ale solicitantului comun"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:405
+#: template-parts/cars/single-car/forms/financial_form.php:408
+msgid "Relationship to Applicant"
+msgstr "Relatia cu solicitantul"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:676
+#: template-parts/cars/single-car/forms/financial_form.php:679
+msgid "Joint Applicant Additional Income Information"
+msgstr "Solicitantul comun Informații suplimentare privind venitul"
+
+#. translators: $s: label
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:702
+#: template-parts/cars/single-car/forms/financial_form.php:705
+msgid ""
+"By clicking on \"%s\", I acknowledge and declare that I have read and agree "
+"with the Application Disclosure above. I certify that I have provided "
+"complete and true information in this application."
+msgstr ""
+"Făcând clic pe „% s”, recunosc și declar că am citit și sunt de acord cu "
+"dezvăluirea cererii de mai sus. Certific că am furnizat informații complete "
+"și adevărate în această cerere."
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:703
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:741
+#: template-parts/cars/single-car/forms/financial_form.php:706
+#: template-parts/cars/single-car/forms/financial_form.php:744
+msgid "Submit Credit Application"
+msgstr "Trimiteți cererea de credit"
+
+#: template-parts/cars/single-car/button-contents/form-financial-form.php:719
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:91
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:113
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:133
+#: template-parts/cars/single-car/forms/financial_form.php:722
+#: template-parts/cars/single-car/forms/make_an_offer.php:98
+#: template-parts/cars/single-car/forms/request_info.php:120
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:141
+msgid ""
+"You agree with the storage and handling of your personal and contact data by "
+"this website."
+msgstr ""
+"Sunteți de acord cu stocarea și manipularea datelor dvs. personale și de "
+"contact prin intermediul acestui site web."
+
+#: template-parts/cars/single-car/button-contents/form-make-an-offer.php:65
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:91
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:96
+#: template-parts/cars/single-car/forms/make_an_offer.php:72
+#: template-parts/cars/single-car/forms/request_info.php:98
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:104
+msgid "Phone"
+msgstr "Telefon"
+
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:68
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:73
+#: template-parts/cars/single-car/forms/request_info.php:75
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:81
+msgid "Address"
+msgstr "Adresa"
+
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:86
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:91
+#: template-parts/cars/single-car/forms/request_info.php:93
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:99
+msgid "Preferred Contact"
+msgstr "Contact preferat"
+
+#: template-parts/cars/single-car/button-contents/form-request-more-info.php:135
+#: template-parts/cars/single-car/forms/request_info.php:142
+msgid "Request a Service"
+msgstr "Solicitați un serviciu"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:102
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:110
+msgid "Test Drive?"
+msgstr "Test Drive?"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:104
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:112
+msgid "Yes"
+msgstr "Da"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:107
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:115
+msgid "No"
+msgstr "Nu"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:113
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:121
+msgid "Date"
+msgstr "Data"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:119
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:127
+msgid "Time"
+msgstr "Timp"
+
+#: template-parts/cars/single-car/button-contents/form-schedule-test-drive.php:155
+#: template-parts/cars/single-car/forms/schedule_test_drive.php:163
+msgid "Request Test Drive"
+msgstr "Solicitați unitate de testare"
+
+#: template-parts/cars/single-car/layout/layout-1.php:44
+#: template-parts/cars/single-car/layout/layout-2.php:44
+#: template-parts/cars/single-car/layout/layout-3.php:46
+#: template-parts/cars/single-car/layout/layout-modern-1.php:39
+#: template-parts/cars/single-car/sections/post-actions.php:9
+msgid "Add to compare"
+msgstr "Adaugă pentru a compara"
+
+#: template-parts/cars/single-car/related.php:69
+msgid "Related Vehicle"
+msgstr "Vehicul asemănător"
+
+#: template-parts/cars/single-car/share.php:19
+#: template-parts/cars/single-car/share.php:115
+#, fuzzy
+#| msgid "Share :"
+msgid "Share This"
+msgstr "Acțiune :"
+
+#: template-parts/cars/single-car/tabs/tab-location.php:50
+msgid "Loading..."
+msgstr ""
+
+#. translators: 1: Author Name
+#: template-parts/content-archive_header.php:35
+msgid "About %s"
+msgstr ""
+
+#: template-parts/content-intro.php:92
+msgid "Vehicle Details"
+msgstr "Detalii vehicul"
+
+#: template-parts/content-intro.php:167
+msgid "%1$s: %2$s"
+msgstr ""
+
+#. translators: %1$s: Taxonomy singular name %2$s: Term name
+#: template-parts/content-intro.php:184
+msgid "Daily Archives"
+msgstr "Arhive zilnice"
+
+#. translators: 1: Post Date
+#: template-parts/content-intro.php:186
+msgid "Date: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:188
+msgid "Monthly Archives"
+msgstr "Arhive lunare"
+
+#. translators: 1: Post Date Month
+#: template-parts/content-intro.php:190
+msgid "Month: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:192
+msgid "Yearly Archives"
+msgstr "Arhivele anuale"
+
+#. translators: 1: Post Date Year
+#: template-parts/content-intro.php:194
+msgid "Year: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:196
+msgid "Category Archives"
+msgstr "Arhive de categorii"
+
+#. translators: 1: Category Title
+#: template-parts/content-intro.php:198
+msgid "Category Name: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:200
+msgid "Tag Archives"
+msgstr "Tag Archives"
+
+#. translators: 1: Tag Name
+#: template-parts/content-intro.php:202
+msgid "Tag Name: %s"
+msgstr ""
+
+#: template-parts/content-intro.php:204
+msgid "Author Archives"
+msgstr "Arhivele autorului"
+
+#. translators: 1: Author Name
+#: template-parts/content-intro.php:208
+msgid "Archives"
+msgstr "Arhive"
+
+#: template-parts/content-intro.php:243
+msgid "404 error"
+msgstr "404 eroare"
+
+#. translators: 1: Post Title
+#: template-parts/content-page.php:18
+#: template-parts/promocode/content-promocode.php:17
+msgid "Continue reading <span class=\"screen-reader-text\">\"%s\"</span>"
+msgstr ""
+
+#: template-parts/entry_footer.php:18
+msgid "Tags"
+msgstr "Etichete"
+
+#: template-parts/entry_footer.php:24
+msgid "Read More"
+msgstr "Citeste mai mult"
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/entry_meta.php:94 template-parts/search/entry_meta.php:54
+msgid "No comments"
+msgstr "Fara comentarii"
+
+#: template-parts/entry_meta.php:95 template-parts/search/entry_meta.php:54
+msgid "1 Comment"
+msgstr "1 Comentariu"
+
+#: template-parts/entry_meta.php:96 template-parts/search/entry_meta.php:54
+msgid "% Comments"
+msgstr "% Comentarii"
+
+#: template-parts/maintenance/maintenance.php:24
+msgid "Coming Soon"
+msgstr "In curand"
+
+#: template-parts/maintenance/maintenance.php:25
+msgid ""
+"We are currently working on a website and won't take long. Don't forget to "
+"check out our Social updates."
+msgstr ""
+"Lucrăm în prezent pe un site web și nu va dura mult timp. Nu uitați să "
+"verificați actualizările noastre sociale."
+
+#: template-parts/maintenance/maintenance.php:30
+msgid "Site is Under Maintenance"
+msgstr "Site-ul este sub întreținere"
+
+#: template-parts/maintenance/maintenance.php:31
+msgid "This Site is Currently Under Maintenance. We will be back shortly"
+msgstr "Acest site este în prezent sub întreținere. Vom reveni în curând"
+
+#: template-parts/maintenance/maintenance.php:70
+msgid "days"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:73
+msgid "hours"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:76
+msgid "minutes"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:79
+msgid "seconds"
+msgstr ""
+
+#: template-parts/maintenance/maintenance.php:90
+msgid "comingsoon"
+msgstr "in curand"
+
+#: templates/cardealer-front-submission.php:30 templates/faq.php:83
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: templates/testimonials.php:163
+msgid "No Testimonials Found."
+msgstr "Nu s-au găsit mărturii."
+
+#: woocommerce/single-product/related.php:61
+msgid "Related Products"
+msgstr "Produse asemanatoare"
+
+#. Template Name of the plugin/theme
+msgid "CarDealer Elementor Full width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "Car Dealer - Fronted Submission"
+msgid "CarDealer Front Submission"
+msgstr "Dealer de mașini - Prezentare frontală"
+
+#. Template Name of the plugin/theme
+msgid "Page Without Header and Footer"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "FAQ"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Visual Composer Compatible"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "Promocode"
+msgid "Promo Code"
+msgstr "Cod promoțional"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "Related Vehicle"
+msgid "Sold Vehicles"
+msgstr "Vehicul asemănător"
+
+#. Template Name of the plugin/theme
+msgid "Team"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#, fuzzy
+#| msgid "Testimonial"
+msgid "Testimonials"
+msgstr "Mărturie"
+
+#: 404.php:163 search.php:49
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Căutare..."
+
+#: 404.php:163 search.php:49
+msgctxt "label"
+msgid "Search for:"
+msgstr "Caută:"
+
+#: 404.php:166 search.php:50
+msgctxt "submit button"
+msgid "Search"
+msgstr "Căutare"
+
+#. translators: 1: title.
+#: comments.php:34
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %s: author name
+#: includes/admin/theme-panel/templates/system_status.php:410
+msgctxt "by author"
+msgid "by %s"
+msgstr ""
+
+#: includes/cardealer-studio/templates/team-01/config-vc.php:10
+#: includes/cardealer-studio/templates/team-01/config.php:9
+#: includes/cardealer-studio/templates/team-01/config.php:12
+#: includes/cardealer-studio/templates/team-02/config-vc.php:10
+#: includes/cardealer-studio/templates/team-02/config.php:9
+#: includes/cardealer-studio/templates/team-02/config.php:12
+msgctxt "cardealre-studio"
+msgid "Team"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Open+Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: includes/classes/class-cardealer-assets.php:1715
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "pe"
+
+#. translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own
+#. language.
+#: includes/classes/class-cardealer-assets.php:1719
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "pe"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1231
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3091
+#, fuzzy
+#| msgctxt "plugin A *and* plugin B"
+#| msgid "and"
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "și"
+
+#. translators: 1: install status, 2: update status
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2476
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2522
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2616
+#, fuzzy
+#| msgctxt "as in: \"version nr unknown\""
+#| msgid "unknown"
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "necunoscut"
+
+#: template-parts/content-intro.php:190
+#, fuzzy
+#| msgctxt "monthly archives date format"
+#| msgid "F Y"
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: template-parts/content-intro.php:194
+#, fuzzy
+#| msgctxt "yearly archives date format"
+#| msgid "Y"
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#~ msgid "Notify Me"
+#~ msgstr "Anunta-ma"
+
+#~ msgid "Dribbble"
+#~ msgstr "Dribbble"
+
+#~ msgid "Vimeo"
+#~ msgstr "Vimeo"
+
+#~ msgid "Behance"
+#~ msgstr "Behance"
+
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Medium"
+#~ msgstr "Mediu"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#, fuzzy
+#~| msgctxt " font: on or off"
+#~| msgid "on"
+#~ msgid "on"
+#~ msgstr "pe"
+
+#~ msgid "Car Dealer - PDF Generator"
+#~ msgstr "Dealer auto - Generator PDF"
+
+#~ msgid "Car Dealer - VinQuery Import"
+#~ msgstr "Dealer auto - Import VinQuery"
+
+#~ msgid "Make An Offer"
+#~ msgstr "Face o ofertă"
