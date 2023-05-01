@@ -2756,7 +2756,7 @@ if ( ! function_exists( 'cardealer_cars_get_catalog_ordering_args' ) ) {
 					break;
 				case 'sale_price':
 					$orderby = 'meta_value_num';
-					$wp_query->set( 'meta_key', 'final_price' );
+					$wp_query->set( 'meta_key', 'sale_price' );
 					$wp_query->set( 'type', 'NUMERIC' );
 					break;
 				case 'year':
@@ -4777,7 +4777,7 @@ if ( ! function_exists( 'cd_sell_car_online' ) ) {
 					$price_arr = cardealer_get_car_price_array( $vehicle_id );
 					if ( ! empty( $price_arr ) ) {
 
-						$final_price = $price_arr['regular_price'];
+						$final_price = $price_arr['sale_price'];
 						if ( 0 < $price_arr['sale_price'] ) {
 							$final_price = $price_arr['sale_price'];
 						}
