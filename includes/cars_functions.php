@@ -1148,9 +1148,13 @@ if ( ! function_exists( 'cardealer_car_price_html' ) ) {
 					}
 				}
 
-				if ( $sale_price > 0 ) {
+				if ( $sale_price > 0 && $sale_price <= 200000 ) {
 					$sale_price  = ( isset( $seperator ) && 1 === (int) $seperator ) ? number_format( $sale_price, $decimal_places, $decimal_separator_symbol, $seperator_symbol ) : get_post_meta( $car_id, 'sale_price', true );
 					$price_html .= ( 1 === (int) $symbol_position || 3 === (int) $symbol_position ) ? '<bdi class="new-price"><span class="' . esc_attr( $currency_class ).'">' . $currency_symbol . '</span>' . $space . esc_html( $sale_price ) . '</bdi>' : '<bdi class="new-price"> ' . esc_html( $sale_price ) . '<span class="' . esc_attr( $currency_class ).'">' . $space . $currency_symbol . '</span></bdi>';
+				}
+				//if the price is higher than 200000, contact our sales for detail 
+				elseif($sale_price>=200000) {
+					$price_html .= ( 1 === (int) $symbol_position || 3 === (int) $symbol_position ) ? '<bdi class="new-price"><span class="' . esc_attr( $currency_class ).'">' . '' . '</span>' . $space . 'Contact Our Sales' . '</bdi>' : '<bdi class="new-price"> ' . 'Contact Our Sales' . '<span class="' . esc_attr( $currency_class ).'">' . $space . $currency_symbol . '</span></bdi>';
 				}
 
 				if ( $is_single ) {
@@ -1271,6 +1275,8 @@ if ( ! function_exists( 'cardealer_get_car_price' ) ) {
 			$price_html .= '<span class="new-price"> ' . esc_html( $currency_symbol . $sale_price ) . '</span>';
 		} elseif ( 0 === $sale_price || empty( $sale_price ) && $regular_price > 0 ) {
 			$price_html .= '<span class="new-price"> ' . esc_html( $currency_symbol . $regular_price ) . '</span>';
+		} elseif ( $sale_price > 200000 ){
+			$price_html .= '<span class="new-price"> ' . esc_html( 'Contact Our Sales' ) . '</span>';
 		} else {
 			$price_html .= '<span class="new-price"> ' . esc_html( $currency_symbol ) . '0.00</span>';
 		}
@@ -1297,6 +1303,13 @@ if ( ! function_exists( 'cardealer_get_car_price_array' ) ) {
 		$regular_price   = (int) $regular_price;
 		$sale_price      = get_post_meta( $car_id, 'sale_price', true );
 		$sale_price      = (int) $sale_price;
+		if($sale_price > 200000){
+			$price_arr = array(
+				'currency_symbol' => $currency_symbol,
+				'regular_price'   => 0,
+				'sale_price'      => 'Contact Our Sales',
+			);
+		}
 		if ( $regular_price > 0 && $sale_price > 0 ) {
 			$price_arr = array(
 				'currency_symbol' => $currency_symbol,
@@ -1887,7 +1900,7 @@ if ( ! function_exists( 'cardealer_get_car_filtered_price' ) ) {
 		$tbprefix      = $wpdb->prefix;
 		$sql           = 'SELECT ';
 		$sql          .= ' min( FLOOR( price_meta.meta_value ) ) as min_price,';
-		$sql          .= ' max( CEILING( price_meta.meta_value ) ) as max_price';
+		$sql          .= ' 150000 as max_price';
 		$sql          .= ' FROM ' . $tbprefix . 'posts';
 
 		$sql .= ' LEFT JOIN ' . $tbprefix . 'postmeta as price_meta ON ' . $tbprefix . 'posts.ID = price_meta.post_id';
