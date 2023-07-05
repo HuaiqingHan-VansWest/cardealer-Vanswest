@@ -148,6 +148,13 @@ function cardealer_image_sizes() {
 			'crop'      => true,
 			'size_name' => esc_html__( 'Car Tabs Image', 'cardealer' ),
 		),
+		'vy_image_size'         => array(
+			'name'      => 'cardealer-blog-thumb',
+			'width'     => 1024,
+			'height'    => 768,
+			'crop'      => false,
+			'size_name' => esc_html__( 'vy_image_size', 'cardealer' ),
+		),
 	);
 
 	return apply_filters( 'cardealer_image_sizes', $image_sizes );
